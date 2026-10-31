@@ -1,0 +1,501 @@
+Order_ID,Date,Product,Product_Model,Category,Region,City,Units_Sold,Unit_Price,Discount_Percent,Revenue,Current_Stock,Customer_Type,Sales_Channel,Payment_Method,Customer_Age,Salesperson,Order_Status
+ORD0001,2025-01-16,Mobile,iPhone 16,Smartphones,KA,Mysore,4,75000,5,285000.0,99,Individual,Dealer,Net Banking,23,Arjun,Completed
+ORD0002,2025-10-29,Mobile,Samsung Galaxy S25,Smartphones,TS,Hyderabad,9,70000,5,598500.0,96,Student,Dealer,Net Banking,44,Sneha,Completed
+ORD0003,2025-07-03,Smartwatch,Apple Watch,Wearables,TS,Karimnagar,6,45000,5,256500.0,24,Individual,Retail Store,UPI,23,Arjun,Completed
+ORD0004,2025-04-09,Keyboard,Dell Keyboard,Accessories,AP,Rajahmundry,9,2200,0,19800.0,53,Individual,Dealer,Debit Card,58,Divya,Cancelled
+ORD0005,2025-07-09,Mobile,iPhone 16,Smartphones,TS,Nizamabad,2,75000,20,120000.0,34,Individual,Retail Store,Debit Card,47,Divya,Completed
+ORD0006,2025-05-19,Keyboard,HP Wireless Keyboard,Accessories,KA,Bangalore,10,2500,15,21250.0,26,Student,Dealer,Credit Card,28,Meena,Completed
+ORD0007,2025-12-02,Headphones,JBL Tune,Audio,AP,Vijayawada,14,8000,0,112000.0,45,Business,Retail Store,UPI,31,Divya,Completed
+ORD0008,2025-07-24,Mouse,ASUS TUF Mouse,Accessories,TN,Coimbatore,5,1800,5,8550.0,36,Student,Dealer,Net Banking,34,Arjun,Cancelled
+ORD0009,2025-07-15,Keyboard,HP Wireless Keyboard,Accessories,TS,Karimnagar,2,2500,20,4000.0,11,Individual,Online,Credit Card,45,Priya,Completed
+ORD0010,2025-08-21,Mouse,Dell WM126,Accessories,AP,Guntur,11,1100,10,10890.0,39,Student,Retail Store,UPI,36,Arjun,Completed
+ORD0011,2025-03-24,Laptop,MacBook Air,Computers,TS,Hyderabad,14,95000,15,1130500.0,43,Student,Dealer,Net Banking,30,Rahul,Completed
+ORD0012,2025-09-06,Laptop,Lenovo IdeaPad,Computers,KA,Hubli,1,58000,0,58000.0,51,Business,Online,UPI,33,Priya,Completed
+ORD0013,2025-10-04,Mobile,Xiaomi 15,Smartphones,TS,Warangal,11,45000,10,445500.0,75,Individual,Retail Store,Net Banking,56,Arjun,Completed
+ORD0014,2025-10-29,Headphones,JBL Tune,Audio,TN,Madurai,8,8000,10,57600.0,62,Individual,Online,Credit Card,22,Divya,Completed
+ORD0015,2025-05-02,Headphones,AirPods Pro,Audio,AP,Guntur,12,25000,15,255000.0,12,Individual,Online,UPI,39,Priya,Cancelled
+ORD0016,2025-02-19,Smartwatch,OnePlus Watch,Wearables,TS,Warangal,12,18000,10,194400.0,78,Business,Online,Cash,44,Sneha,Completed
+ORD0017,2025-02-25,Monitor,Samsung Odyssey,Displays,TN,Salem,8,30000,20,192000.0,98,Individual,Dealer,UPI,21,Arjun,Completed
+ORD0018,2025-02-20,Headphones,AirPods Pro,Audio,TS,Karimnagar,3,25000,10,67500.0,28,Business,Retail Store,Credit Card,22,Meena,Cancelled
+ORD0019,2025-01-31,Laptop,Lenovo IdeaPad,Computers,AP,Guntur,15,58000,20,696000.0,35,Individual,Retail Store,Cash,48,Sneha,Completed
+ORD0020,2025-04-08,Tablet,Lenovo Tab,Tablets,AP,Rajahmundry,5,30000,20,120000.0,63,Business,Retail Store,Net Banking,60,Meena,Completed
+ORD0021,2025-09-18,Smartwatch,Galaxy Watch,Wearables,AP,Guntur,12,30000,5,342000.0,12,Individual,Dealer,Cash,50,Rahul,Completed
+ORD0022,2025-02-11,Mobile,Samsung Galaxy S25,Smartphones,AP,Guntur,11,70000,20,616000.0,35,Business,Online,Net Banking,33,Anil,Cancelled
+ORD0023,2025-06-11,Monitor,Samsung Odyssey,Displays,KA,Mysore,11,30000,15,280500.0,45,Individual,Retail Store,Cash,26,Kiran,Completed
+ORD0024,2025-07-09,Mobile,iPhone 16,Smartphones,TN,Chennai,2,75000,10,135000.0,32,Student,Retail Store,Credit Card,40,Priya,Completed
+ORD0025,2025-05-16,Smartwatch,Galaxy Watch,Wearables,TN,Madurai,10,30000,20,240000.0,88,Student,Online,Net Banking,37,Priya,Completed
+ORD0026,2025-09-08,Mobile,iPhone 16,Smartphones,TS,Nizamabad,5,75000,10,337500.0,31,Student,Retail Store,Credit Card,58,Kiran,Cancelled
+ORD0027,2025-08-15,Smartwatch,Apple Watch,Wearables,AP,Rajahmundry,14,45000,5,598500.0,10,Individual,Retail Store,Credit Card,58,Kiran,Completed
+ORD0028,2025-03-07,Monitor,Dell 24 Monitor,Displays,AP,Guntur,15,15000,15,191250.0,24,Student,Online,Debit Card,55,Rahul,Completed
+ORD0029,2025-03-21,Laptop,MacBook Air,Computers,KA,Bangalore,15,95000,5,1353750.0,31,Student,Online,UPI,40,Arjun,Cancelled
+ORD0030,2025-07-15,Headphones,AirPods Pro,Audio,TS,Karimnagar,1,25000,5,23750.0,99,Business,Retail Store,Credit Card,35,Rahul,Completed
+ORD0031,2025-06-18,Laptop,Dell Inspiron,Computers,TS,Warangal,14,60000,10,756000.0,49,Business,Online,Credit Card,19,Sneha,Completed
+ORD0032,2025-04-02,Smartwatch,Apple Watch,Wearables,KA,Mangalore,11,45000,10,445500.0,56,Student,Dealer,Debit Card,19,Priya,Completed
+ORD0033,2025-04-08,Smartwatch,Apple Watch,Wearables,AP,Rajahmundry,6,45000,15,229500.0,45,Business,Dealer,Net Banking,25,Arjun,Cancelled
+ORD0034,2025-12-07,Smartwatch,Apple Watch,Wearables,TN,Chennai,9,45000,20,324000.0,73,Student,Dealer,Credit Card,41,Arjun,Completed
+ORD0035,2025-08-04,Keyboard,Dell Keyboard,Accessories,AP,Visakhapatnam,9,2200,5,18810.0,90,Business,Retail Store,Cash,36,Rahul,Completed
+ORD0036,2025-08-15,Monitor,LG UltraGear,Displays,KA,Hubli,9,25000,20,180000.0,5,Business,Retail Store,Credit Card,45,Divya,Completed
+ORD0037,2025-12-11,Mouse,HP Wireless Mouse,Accessories,TN,Coimbatore,11,1200,0,13200.0,41,Student,Dealer,Net Banking,39,Priya,Completed
+ORD0038,2025-04-10,Smartwatch,Galaxy Watch,Wearables,TS,Warangal,1,30000,0,30000.0,36,Business,Dealer,UPI,47,Arjun,Cancelled
+ORD0039,2025-08-26,Monitor,ASUS TUF,Displays,TN,Coimbatore,3,28000,15,71400.0,93,Individual,Online,Cash,32,Rahul,Cancelled
+ORD0040,2025-11-10,Laptop,Lenovo IdeaPad,Computers,TS,Hyderabad,8,58000,5,440800.0,64,Student,Dealer,Net Banking,56,Divya,Completed
+ORD0041,2025-08-14,Monitor,ASUS TUF,Displays,TS,Karimnagar,8,28000,5,212800.0,36,Student,Retail Store,Net Banking,49,Sneha,Completed
+ORD0042,2025-12-28,Mobile,OnePlus 13,Smartphones,TS,Nizamabad,6,60000,5,342000.0,74,Individual,Online,Credit Card,32,Arjun,Completed
+ORD0043,2025-12-23,Headphones,Sony WH-1000XM5,Audio,TN,Salem,6,30000,10,162000.0,64,Business,Online,Credit Card,44,Arjun,Cancelled
+ORD0044,2025-04-23,Laptop,Lenovo IdeaPad,Computers,TN,Salem,1,58000,5,55100.0,43,Business,Retail Store,Net Banking,52,Sneha,Completed
+ORD0045,2025-10-01,Smartwatch,OnePlus Watch,Wearables,TN,Chennai,7,18000,5,119700.0,90,Student,Retail Store,Credit Card,47,Rahul,Cancelled
+ORD0046,2025-04-19,Laptop,Dell Inspiron,Computers,AP,Guntur,11,60000,10,594000.0,22,Business,Online,UPI,34,Arjun,Completed
+ORD0047,2025-04-25,Mouse,Dell WM126,Accessories,KA,Hubli,5,1100,20,4400.0,58,Business,Online,Cash,19,Anil,Completed
+ORD0048,2025-10-16,Mobile,iPhone 16,Smartphones,AP,Vijayawada,4,75000,20,240000.0,7,Student,Online,Credit Card,26,Meena,Completed
+ORD0049,2025-10-24,Headphones,Bose QC,Audio,KA,Mangalore,3,28000,10,75600.0,82,Student,Dealer,UPI,28,Kiran,Completed
+ORD0050,2025-03-03,Laptop,MacBook Air,Computers,TN,Salem,12,95000,5,1083000.0,14,Student,Dealer,Credit Card,24,Kiran,Cancelled
+ORD0051,2025-07-05,Laptop,MacBook Air,Computers,TN,Madurai,2,95000,10,171000.0,87,Business,Online,Cash,49,Priya,Completed
+ORD0052,2025-10-31,Mouse,HP Wireless Mouse,Accessories,TN,Coimbatore,12,1200,10,12960.0,88,Business,Dealer,Net Banking,48,Meena,Completed
+ORD0053,2025-01-15,Smartwatch,Garmin,Wearables,TS,Hyderabad,5,35000,10,157500.0,36,Business,Dealer,Net Banking,60,Arjun,Completed
+ORD0054,2025-04-08,Mouse,Dell WM126,Accessories,TS,Karimnagar,4,1100,5,4180.0,38,Business,Retail Store,Net Banking,35,Anil,Cancelled
+ORD0055,2025-05-31,Mobile,Samsung Galaxy S25,Smartphones,TN,Salem,9,70000,20,504000.0,35,Student,Retail Store,Cash,46,Anil,Completed
+ORD0056,2025-06-19,Headphones,Bose QC,Audio,TS,Nizamabad,11,28000,10,277200.0,52,Business,Dealer,Net Banking,40,Arjun,Cancelled
+ORD0057,2025-04-21,Keyboard,ASUS Keyboard,Accessories,KA,Mangalore,5,3000,5,14250.0,20,Student,Online,Debit Card,25,Rahul,Completed
+ORD0058,2025-03-06,Mouse,Dell WM126,Accessories,KA,Bangalore,14,1100,5,14630.0,42,Individual,Retail Store,Credit Card,37,Anil,Cancelled
+ORD0059,2025-09-03,Smartwatch,Apple Watch,Wearables,AP,Visakhapatnam,12,45000,5,513000.0,86,Business,Online,UPI,54,Kiran,Completed
+ORD0060,2025-11-19,Mouse,Dell WM126,Accessories,TS,Hyderabad,5,1100,20,4400.0,66,Individual,Online,Cash,49,Priya,Cancelled
+ORD0061,2025-07-14,Laptop,HP Pavilion,Computers,TS,Nizamabad,2,65000,5,123500.0,20,Student,Retail Store,Net Banking,56,Sneha,Cancelled
+ORD0062,2025-12-05,Mouse,ASUS TUF Mouse,Accessories,KA,Hubli,5,1800,10,8100.0,84,Individual,Dealer,UPI,31,Sneha,Completed
+ORD0063,2025-01-17,Mobile,Samsung Galaxy S25,Smartphones,TS,Warangal,9,70000,0,630000.0,25,Individual,Retail Store,Cash,56,Meena,Completed
+ORD0064,2025-02-28,Headphones,JBL Tune,Audio,KA,Hubli,2,8000,15,13600.0,34,Business,Dealer,Net Banking,60,Sneha,Completed
+ORD0065,2025-08-28,Headphones,AirPods Pro,Audio,KA,Mysore,2,25000,0,50000.0,26,Business,Dealer,Net Banking,36,Meena,Completed
+ORD0066,2025-02-16,Smartwatch,OnePlus Watch,Wearables,KA,Hubli,8,18000,0,144000.0,81,Individual,Retail Store,Debit Card,56,Kiran,Completed
+ORD0067,2025-08-12,Headphones,Sony WH-1000XM5,Audio,KA,Bangalore,13,30000,20,312000.0,27,Business,Dealer,Cash,35,Rahul,Cancelled
+ORD0068,2025-05-28,Mouse,Logitech M331,Accessories,TN,Madurai,7,1500,5,9975.0,46,Student,Online,Credit Card,39,Arjun,Completed
+ORD0069,2025-01-28,Monitor,Dell 24 Monitor,Displays,TN,Chennai,6,15000,5,85500.0,46,Individual,Retail Store,Net Banking,18,Meena,Completed
+ORD0070,2025-03-04,Headphones,JBL Tune,Audio,TN,Salem,13,8000,0,104000.0,31,Business,Dealer,Credit Card,36,Meena,Completed
+ORD0071,2025-03-02,Laptop,Lenovo IdeaPad,Computers,TS,Warangal,5,58000,10,261000.0,6,Student,Retail Store,UPI,32,Priya,Completed
+ORD0072,2025-04-08,Tablet,Lenovo Tab,Tablets,KA,Mangalore,7,30000,20,168000.0,66,Business,Online,Cash,53,Rahul,Completed
+ORD0073,2025-08-17,Tablet,iPad Air,Tablets,KA,Hubli,6,60000,20,288000.0,69,Business,Online,Debit Card,37,Meena,Completed
+ORD0074,2025-01-23,Mouse,Dell WM126,Accessories,KA,Hubli,8,1100,5,8360.0,29,Student,Online,Net Banking,42,Sneha,Completed
+ORD0075,2025-08-14,Keyboard,ASUS Keyboard,Accessories,TN,Salem,11,3000,20,26400.0,88,Individual,Retail Store,UPI,26,Divya,Completed
+ORD0076,2025-11-16,Mobile,Xiaomi 15,Smartphones,TN,Chennai,12,45000,5,513000.0,57,Student,Online,UPI,48,Kiran,Completed
+ORD0077,2025-11-20,Monitor,Dell 24 Monitor,Displays,KA,Hubli,6,15000,15,76500.0,96,Business,Dealer,UPI,57,Priya,Completed
+ORD0078,2025-01-24,Smartwatch,Galaxy Watch,Wearables,AP,Rajahmundry,2,30000,20,48000.0,86,Student,Online,Cash,28,Kiran,Completed
+ORD0079,2025-03-31,Keyboard,Logitech K380,Accessories,KA,Mangalore,6,3500,10,18900.0,23,Individual,Dealer,Cash,54,Rahul,Completed
+ORD0080,2025-08-27,Mobile,Xiaomi 15,Smartphones,TN,Coimbatore,8,45000,10,324000.0,23,Individual,Retail Store,Debit Card,47,Kiran,Completed
+ORD0081,2025-07-16,Smartwatch,Galaxy Watch,Wearables,AP,Rajahmundry,6,30000,10,162000.0,43,Student,Retail Store,Debit Card,47,Kiran,Completed
+ORD0082,2025-01-05,Mouse,Logitech M331,Accessories,TS,Karimnagar,10,1500,5,14250.0,78,Business,Dealer,Debit Card,19,Arjun,Completed
+ORD0083,2025-05-09,Laptop,Lenovo IdeaPad,Computers,TN,Madurai,13,58000,20,603200.0,34,Student,Retail Store,Credit Card,58,Sneha,Cancelled
+ORD0084,2025-08-01,Tablet,iPad Air,Tablets,AP,Visakhapatnam,13,60000,10,702000.0,9,Student,Retail Store,Credit Card,23,Kiran,Completed
+ORD0085,2025-08-28,Tablet,Galaxy Tab,Tablets,TS,Nizamabad,9,45000,10,364500.0,39,Individual,Retail Store,Cash,36,Divya,Completed
+ORD0086,2025-03-05,Mobile,Samsung Galaxy S25,Smartphones,TS,Karimnagar,14,70000,20,784000.0,76,Business,Online,Cash,18,Kiran,Cancelled
+ORD0087,2025-10-15,Mouse,Dell WM126,Accessories,KA,Hubli,14,1100,15,13090.0,52,Individual,Dealer,Credit Card,48,Anil,Cancelled
+ORD0088,2025-06-05,Keyboard,HP Wireless Keyboard,Accessories,AP,Rajahmundry,15,2500,15,31875.0,43,Student,Retail Store,UPI,26,Anil,Completed
+ORD0089,2025-03-21,Mouse,Logitech M331,Accessories,AP,Vijayawada,15,1500,10,20250.0,22,Business,Retail Store,Debit Card,60,Arjun,Cancelled
+ORD0090,2025-02-20,Monitor,Dell 24 Monitor,Displays,TN,Salem,5,15000,0,75000.0,93,Business,Online,Cash,46,Sneha,Completed
+ORD0091,2025-06-20,Keyboard,Dell Keyboard,Accessories,AP,Rajahmundry,5,2200,5,10450.0,20,Business,Online,Credit Card,59,Anil,Completed
+ORD0092,2025-11-02,Headphones,AirPods Pro,Audio,TS,Hyderabad,14,25000,20,280000.0,75,Individual,Dealer,Credit Card,32,Divya,Completed
+ORD0093,2025-05-02,Laptop,MacBook Air,Computers,TS,Warangal,9,95000,5,812250.0,27,Individual,Dealer,UPI,26,Anil,Completed
+ORD0094,2025-07-05,Keyboard,Logitech K380,Accessories,TS,Nizamabad,1,3500,5,3325.0,99,Business,Dealer,UPI,22,Meena,Completed
+ORD0095,2025-09-03,Mobile,Google Pixel 9,Smartphones,TS,Hyderabad,12,65000,20,624000.0,89,Student,Retail Store,Cash,59,Anil,Completed
+ORD0096,2025-05-21,Monitor,ASUS TUF,Displays,AP,Rajahmundry,12,28000,10,302400.0,14,Individual,Retail Store,Net Banking,27,Priya,Completed
+ORD0097,2025-08-20,Keyboard,ASUS Keyboard,Accessories,KA,Hubli,9,3000,10,24300.0,60,Individual,Dealer,UPI,59,Sneha,Completed
+ORD0098,2025-03-20,Headphones,Bose QC,Audio,KA,Hubli,7,28000,10,176400.0,98,Individual,Retail Store,Cash,38,Kiran,Completed
+ORD0099,2025-10-15,Mouse,Logitech M331,Accessories,AP,Guntur,2,1500,10,2700.0,17,Student,Dealer,Debit Card,26,Anil,Cancelled
+ORD0100,2025-02-23,Keyboard,Logitech K380,Accessories,TN,Madurai,14,3500,15,41650.0,59,Student,Online,Debit Card,56,Kiran,Completed
+ORD0101,2025-10-15,Headphones,AirPods Pro,Audio,TN,Coimbatore,14,25000,0,350000.0,49,Student,Retail Store,UPI,35,Sneha,Completed
+ORD0102,2025-10-17,Laptop,Lenovo IdeaPad,Computers,KA,Bangalore,3,58000,5,165300.0,94,Business,Retail Store,Debit Card,18,Rahul,Completed
+ORD0103,2025-07-09,Monitor,Dell 24 Monitor,Displays,TS,Hyderabad,2,15000,15,25500.0,72,Individual,Retail Store,Cash,47,Divya,Completed
+ORD0104,2025-09-06,Smartwatch,Garmin,Wearables,AP,Guntur,3,35000,5,99750.0,84,Individual,Dealer,UPI,35,Meena,Completed
+ORD0105,2025-12-08,Mouse,ASUS TUF Mouse,Accessories,KA,Mysore,13,1800,10,21060.0,19,Business,Retail Store,UPI,36,Meena,Cancelled
+ORD0106,2025-06-17,Smartwatch,Apple Watch,Wearables,TS,Karimnagar,10,45000,0,450000.0,5,Individual,Retail Store,Credit Card,26,Kiran,Completed
+ORD0107,2025-07-23,Mobile,iPhone 16,Smartphones,TN,Salem,3,75000,5,213750.0,53,Student,Dealer,Credit Card,50,Divya,Completed
+ORD0108,2025-02-28,Laptop,Dell Inspiron,Computers,AP,Rajahmundry,15,60000,0,900000.0,45,Student,Retail Store,Net Banking,43,Arjun,Completed
+ORD0109,2025-08-12,Monitor,Dell 24 Monitor,Displays,KA,Mysore,13,15000,10,175500.0,63,Student,Retail Store,UPI,45,Priya,Completed
+ORD0110,2025-09-19,Monitor,Dell 24 Monitor,Displays,TN,Madurai,12,15000,5,171000.0,33,Business,Online,UPI,50,Priya,Cancelled
+ORD0111,2025-04-01,Headphones,JBL Tune,Audio,KA,Mysore,4,8000,0,32000.0,23,Business,Online,Credit Card,56,Rahul,Completed
+ORD0112,2025-05-21,Mouse,ASUS TUF Mouse,Accessories,TN,Madurai,14,1800,15,21420.0,45,Individual,Retail Store,UPI,48,Meena,Completed
+ORD0113,2025-11-01,Laptop,MacBook Air,Computers,AP,Visakhapatnam,8,95000,10,684000.0,9,Individual,Retail Store,Debit Card,22,Priya,Cancelled
+ORD0114,2025-03-19,Monitor,ASUS TUF,Displays,AP,Rajahmundry,15,28000,20,336000.0,78,Student,Online,Debit Card,56,Meena,Cancelled
+ORD0115,2025-09-26,Laptop,Dell Inspiron,Computers,AP,Visakhapatnam,12,60000,0,720000.0,69,Student,Online,UPI,33,Meena,Completed
+ORD0116,2025-06-18,Tablet,OnePlus Pad,Tablets,KA,Mangalore,7,40000,10,252000.0,48,Student,Dealer,UPI,58,Divya,Completed
+ORD0117,2025-06-08,Mobile,Xiaomi 15,Smartphones,TN,Madurai,5,45000,15,191250.0,89,Student,Online,Debit Card,23,Rahul,Completed
+ORD0118,2025-07-05,Monitor,LG UltraGear,Displays,AP,Visakhapatnam,9,25000,10,202500.0,87,Business,Online,Net Banking,23,Arjun,Cancelled
+ORD0119,2025-02-21,Laptop,MacBook Air,Computers,KA,Mysore,4,95000,5,361000.0,67,Individual,Online,Credit Card,27,Priya,Completed
+ORD0120,2025-07-06,Laptop,MacBook Air,Computers,TS,Karimnagar,3,95000,5,270750.0,28,Student,Dealer,Credit Card,46,Anil,Completed
+ORD0121,2025-05-25,Headphones,Bose QC,Audio,KA,Hubli,4,28000,10,100800.0,35,Business,Retail Store,Credit Card,41,Meena,Completed
+ORD0122,2025-03-05,Monitor,ASUS TUF,Displays,TS,Warangal,13,28000,10,327600.0,22,Business,Online,Cash,41,Priya,Cancelled
+ORD0123,2025-08-01,Smartwatch,Apple Watch,Wearables,TS,Nizamabad,8,45000,10,324000.0,23,Business,Online,Credit Card,46,Divya,Completed
+ORD0124,2025-03-12,Laptop,Dell Inspiron,Computers,KA,Mysore,7,60000,0,420000.0,52,Individual,Online,Debit Card,24,Divya,Completed
+ORD0125,2025-04-21,Laptop,MacBook Air,Computers,TN,Coimbatore,13,95000,15,1049750.0,65,Business,Dealer,UPI,23,Anil,Completed
+ORD0126,2025-02-26,Tablet,Lenovo Tab,Tablets,AP,Visakhapatnam,4,30000,5,114000.0,20,Individual,Online,Cash,58,Meena,Completed
+ORD0127,2025-12-07,Mouse,Logitech M331,Accessories,TS,Warangal,5,1500,10,6750.0,5,Student,Retail Store,Credit Card,54,Arjun,Completed
+ORD0128,2025-11-22,Mobile,Xiaomi 15,Smartphones,KA,Bangalore,9,45000,10,364500.0,69,Student,Dealer,UPI,42,Meena,Completed
+ORD0129,2025-01-23,Monitor,Samsung Odyssey,Displays,KA,Bangalore,6,30000,20,144000.0,13,Business,Online,UPI,55,Divya,Completed
+ORD0130,2025-04-14,Keyboard,Dell Keyboard,Accessories,TS,Karimnagar,12,2200,10,23760.0,85,Individual,Online,UPI,47,Anil,Completed
+ORD0131,2025-05-27,Laptop,HP Pavilion,Computers,AP,Visakhapatnam,15,65000,5,926250.0,70,Business,Dealer,Cash,34,Anil,Completed
+ORD0132,2025-09-12,Keyboard,Logitech K380,Accessories,KA,Mangalore,2,3500,20,5600.0,52,Business,Retail Store,Cash,42,Divya,Completed
+ORD0133,2025-02-22,Mouse,Dell WM126,Accessories,KA,Bangalore,12,1100,10,11880.0,15,Business,Dealer,Credit Card,52,Kiran,Completed
+ORD0134,2025-06-30,Mobile,OnePlus 13,Smartphones,KA,Mangalore,8,60000,10,432000.0,96,Business,Online,Cash,40,Meena,Completed
+ORD0135,2025-12-14,Monitor,Samsung Odyssey,Displays,AP,Guntur,11,30000,15,280500.0,56,Business,Dealer,Credit Card,19,Rahul,Cancelled
+ORD0136,2025-03-20,Mouse,Logitech M331,Accessories,TS,Hyderabad,4,1500,20,4800.0,87,Business,Retail Store,Cash,54,Anil,Cancelled
+ORD0137,2025-05-08,Mouse,Dell WM126,Accessories,KA,Hubli,13,1100,0,14300.0,78,Individual,Dealer,Debit Card,43,Divya,Completed
+ORD0138,2025-05-27,Mobile,iPhone 16,Smartphones,TS,Karimnagar,9,75000,10,607500.0,76,Individual,Retail Store,Debit Card,46,Sneha,Cancelled
+ORD0139,2025-12-30,Mouse,HP Wireless Mouse,Accessories,AP,Vijayawada,14,1200,0,16800.0,62,Individual,Dealer,Cash,23,Divya,Completed
+ORD0140,2025-04-13,Mobile,Xiaomi 15,Smartphones,KA,Mangalore,14,45000,5,598500.0,96,Student,Dealer,Credit Card,41,Sneha,Completed
+ORD0141,2025-06-08,Tablet,Galaxy Tab,Tablets,TN,Chennai,6,45000,10,243000.0,78,Business,Retail Store,Net Banking,26,Priya,Completed
+ORD0142,2025-06-26,Monitor,ASUS TUF,Displays,TN,Salem,14,28000,10,352800.0,14,Individual,Retail Store,UPI,46,Meena,Cancelled
+ORD0143,2025-06-15,Tablet,Galaxy Tab,Tablets,TS,Karimnagar,9,45000,20,324000.0,12,Individual,Dealer,Credit Card,37,Rahul,Completed
+ORD0144,2025-10-01,Headphones,JBL Tune,Audio,KA,Bangalore,5,8000,5,38000.0,86,Student,Retail Store,Credit Card,58,Kiran,Cancelled
+ORD0145,2025-02-11,Mobile,Xiaomi 15,Smartphones,TS,Warangal,3,45000,15,114750.0,84,Student,Dealer,Debit Card,54,Anil,Completed
+ORD0146,2025-09-05,Laptop,Lenovo IdeaPad,Computers,KA,Mysore,13,58000,10,678600.0,58,Student,Dealer,UPI,49,Kiran,Completed
+ORD0147,2025-06-24,Headphones,Bose QC,Audio,KA,Hubli,2,28000,15,47600.0,12,Individual,Retail Store,Cash,48,Meena,Completed
+ORD0148,2025-03-04,Tablet,OnePlus Pad,Tablets,KA,Mangalore,7,40000,5,266000.0,52,Student,Dealer,UPI,38,Sneha,Completed
+ORD0149,2025-10-23,Smartwatch,OnePlus Watch,Wearables,TS,Warangal,2,18000,0,36000.0,42,Business,Dealer,Cash,33,Rahul,Completed
+ORD0150,2025-08-23,Keyboard,HP Wireless Keyboard,Accessories,TS,Karimnagar,9,2500,10,20250.0,68,Business,Retail Store,UPI,23,Arjun,Cancelled
+ORD0151,2025-08-09,Headphones,AirPods Pro,Audio,KA,Bangalore,1,25000,5,23750.0,68,Student,Dealer,Cash,36,Anil,Completed
+ORD0152,2025-05-28,Tablet,OnePlus Pad,Tablets,KA,Hubli,6,40000,0,240000.0,56,Individual,Dealer,Net Banking,30,Divya,Cancelled
+ORD0153,2025-06-23,Mobile,Google Pixel 9,Smartphones,TN,Madurai,14,65000,10,819000.0,92,Student,Online,Credit Card,24,Arjun,Completed
+ORD0154,2025-11-07,Keyboard,HP Wireless Keyboard,Accessories,TS,Karimnagar,9,2500,0,22500.0,10,Individual,Online,Debit Card,48,Meena,Completed
+ORD0155,2025-06-03,Tablet,OnePlus Pad,Tablets,KA,Mysore,7,40000,10,252000.0,99,Business,Dealer,Debit Card,50,Meena,Cancelled
+ORD0156,2025-12-02,Mouse,Logitech M331,Accessories,KA,Mangalore,11,1500,0,16500.0,58,Student,Retail Store,UPI,56,Meena,Completed
+ORD0157,2025-12-25,Headphones,Sony WH-1000XM5,Audio,TN,Coimbatore,9,30000,15,229500.0,97,Student,Retail Store,Credit Card,33,Anil,Cancelled
+ORD0158,2025-12-28,Mobile,Samsung Galaxy S25,Smartphones,AP,Rajahmundry,6,70000,10,378000.0,24,Business,Dealer,Credit Card,44,Meena,Completed
+ORD0159,2025-11-09,Tablet,Galaxy Tab,Tablets,KA,Hubli,9,45000,10,364500.0,45,Individual,Retail Store,Net Banking,39,Divya,Completed
+ORD0160,2025-06-28,Mouse,HP Wireless Mouse,Accessories,TS,Nizamabad,9,1200,5,10260.0,33,Business,Retail Store,Credit Card,49,Divya,Completed
+ORD0161,2025-08-15,Smartwatch,Garmin,Wearables,AP,Rajahmundry,15,35000,10,472500.0,49,Individual,Retail Store,UPI,36,Priya,Completed
+ORD0162,2025-10-28,Smartwatch,OnePlus Watch,Wearables,TS,Warangal,14,18000,10,226800.0,39,Student,Dealer,Debit Card,26,Priya,Cancelled
+ORD0163,2025-01-03,Headphones,AirPods Pro,Audio,AP,Vijayawada,11,25000,5,261250.0,11,Individual,Retail Store,Debit Card,48,Priya,Completed
+ORD0164,2025-01-20,Tablet,Lenovo Tab,Tablets,TN,Salem,11,30000,5,313500.0,41,Business,Retail Store,UPI,23,Sneha,Cancelled
+ORD0165,2025-10-18,Tablet,Lenovo Tab,Tablets,TS,Hyderabad,14,30000,10,378000.0,68,Individual,Dealer,Debit Card,20,Anil,Completed
+ORD0166,2025-02-27,Mobile,OnePlus 13,Smartphones,KA,Hubli,11,60000,10,594000.0,72,Business,Online,Net Banking,47,Kiran,Completed
+ORD0167,2025-11-09,Keyboard,HP Wireless Keyboard,Accessories,TN,Madurai,12,2500,5,28500.0,6,Student,Retail Store,Debit Card,54,Sneha,Completed
+ORD0168,2025-05-14,Monitor,ASUS TUF,Displays,KA,Bangalore,7,28000,15,166600.0,17,Individual,Online,Cash,38,Sneha,Completed
+ORD0169,2025-02-01,Monitor,LG UltraGear,Displays,TN,Madurai,6,25000,5,142500.0,79,Student,Dealer,UPI,34,Divya,Completed
+ORD0170,2025-11-11,Mobile,Google Pixel 9,Smartphones,KA,Mysore,7,65000,15,386750.0,69,Student,Retail Store,UPI,58,Kiran,Completed
+ORD0171,2025-12-07,Headphones,AirPods Pro,Audio,TS,Karimnagar,3,25000,10,67500.0,100,Student,Retail Store,Cash,53,Meena,Cancelled
+ORD0172,2025-10-02,Headphones,AirPods Pro,Audio,AP,Rajahmundry,9,25000,15,191250.0,51,Individual,Dealer,UPI,21,Sneha,Cancelled
+ORD0173,2025-08-21,Tablet,Galaxy Tab,Tablets,KA,Hubli,2,45000,15,76500.0,31,Student,Dealer,Cash,23,Meena,Completed
+ORD0174,2025-04-22,Tablet,Lenovo Tab,Tablets,TN,Chennai,9,30000,10,243000.0,91,Business,Dealer,UPI,43,Kiran,Completed
+ORD0175,2025-04-03,Mobile,iPhone 16,Smartphones,TN,Madurai,12,75000,0,900000.0,74,Individual,Online,Cash,20,Kiran,Completed
+ORD0176,2025-04-02,Tablet,Lenovo Tab,Tablets,KA,Hubli,8,30000,20,192000.0,53,Business,Online,Net Banking,26,Divya,Completed
+ORD0177,2025-05-07,Monitor,LG UltraGear,Displays,TS,Hyderabad,13,25000,0,325000.0,43,Business,Dealer,Net Banking,45,Arjun,Completed
+ORD0178,2025-04-16,Mouse,Dell WM126,Accessories,TS,Nizamabad,4,1100,15,3740.0,19,Individual,Dealer,Cash,57,Anil,Completed
+ORD0179,2025-10-04,Mobile,iPhone 16,Smartphones,AP,Rajahmundry,10,75000,15,637500.0,95,Individual,Online,UPI,43,Meena,Completed
+ORD0180,2025-06-04,Headphones,Sony WH-1000XM5,Audio,TS,Nizamabad,4,30000,20,96000.0,98,Student,Retail Store,Net Banking,56,Divya,Completed
+ORD0181,2025-09-11,Tablet,Galaxy Tab,Tablets,TN,Madurai,5,45000,0,225000.0,76,Student,Dealer,Credit Card,58,Arjun,Cancelled
+ORD0182,2025-04-26,Laptop,MacBook Air,Computers,TN,Madurai,12,95000,10,1026000.0,57,Individual,Retail Store,Cash,29,Meena,Completed
+ORD0183,2025-04-15,Smartwatch,Galaxy Watch,Wearables,TN,Chennai,9,30000,10,243000.0,58,Student,Dealer,Credit Card,42,Sneha,Completed
+ORD0184,2025-04-07,Keyboard,Logitech K380,Accessories,TN,Madurai,2,3500,10,6300.0,97,Individual,Online,Debit Card,42,Anil,Completed
+ORD0185,2025-12-27,Headphones,Bose QC,Audio,TS,Nizamabad,5,28000,0,140000.0,32,Individual,Dealer,UPI,48,Sneha,Cancelled
+ORD0186,2025-09-20,Headphones,Bose QC,Audio,TS,Nizamabad,13,28000,5,345800.0,53,Business,Dealer,Debit Card,37,Kiran,Completed
+ORD0187,2025-04-24,Mouse,ASUS TUF Mouse,Accessories,AP,Rajahmundry,13,1800,20,18720.0,45,Individual,Retail Store,Debit Card,44,Anil,Cancelled
+ORD0188,2025-10-09,Tablet,iPad Air,Tablets,KA,Hubli,5,60000,5,285000.0,30,Business,Online,Cash,54,Sneha,Completed
+ORD0189,2025-10-05,Keyboard,Dell Keyboard,Accessories,TN,Salem,8,2200,5,16720.0,98,Business,Online,Credit Card,52,Meena,Completed
+ORD0190,2025-12-29,Laptop,Lenovo IdeaPad,Computers,AP,Guntur,14,58000,15,690200.0,11,Individual,Retail Store,Credit Card,58,Sneha,Completed
+ORD0191,2025-01-04,Tablet,iPad Air,Tablets,TS,Karimnagar,6,60000,0,360000.0,84,Student,Dealer,Net Banking,48,Meena,Completed
+ORD0192,2025-09-26,Monitor,Dell 24 Monitor,Displays,AP,Visakhapatnam,9,15000,5,128250.0,7,Student,Dealer,Cash,29,Priya,Completed
+ORD0193,2025-05-05,Tablet,Galaxy Tab,Tablets,TS,Nizamabad,14,45000,5,598500.0,39,Business,Online,Debit Card,43,Meena,Cancelled
+ORD0194,2025-02-12,Headphones,JBL Tune,Audio,AP,Guntur,2,8000,10,14400.0,53,Business,Dealer,Cash,21,Anil,Completed
+ORD0195,2025-02-08,Mouse,ASUS TUF Mouse,Accessories,KA,Bangalore,15,1800,10,24300.0,10,Individual,Online,Net Banking,48,Kiran,Completed
+ORD0196,2025-10-16,Smartwatch,Apple Watch,Wearables,TS,Nizamabad,1,45000,5,42750.0,80,Individual,Dealer,Cash,22,Kiran,Completed
+ORD0197,2025-02-20,Headphones,Bose QC,Audio,KA,Hubli,13,28000,15,309400.0,22,Student,Dealer,UPI,50,Divya,Completed
+ORD0198,2025-09-09,Monitor,LG UltraGear,Displays,AP,Visakhapatnam,10,25000,20,200000.0,83,Student,Retail Store,Debit Card,19,Kiran,Completed
+ORD0199,2025-02-07,Headphones,JBL Tune,Audio,TN,Salem,3,8000,15,20400.0,79,Student,Retail Store,UPI,57,Kiran,Completed
+ORD0200,2025-02-16,Mobile,OnePlus 13,Smartphones,TS,Karimnagar,12,60000,20,576000.0,86,Individual,Dealer,Cash,38,Divya,Completed
+ORD0201,2025-10-12,Laptop,MacBook Air,Computers,TN,Madurai,13,95000,5,1173250.0,18,Individual,Online,Credit Card,45,Meena,Cancelled
+ORD0202,2025-07-31,Monitor,Dell 24 Monitor,Displays,AP,Guntur,6,15000,10,81000.0,16,Student,Dealer,Debit Card,42,Anil,Completed
+ORD0203,2025-02-02,Monitor,Dell 24 Monitor,Displays,TS,Warangal,11,15000,10,148500.0,26,Individual,Retail Store,Debit Card,35,Meena,Completed
+ORD0204,2025-11-12,Tablet,Lenovo Tab,Tablets,KA,Hubli,5,30000,10,135000.0,14,Business,Retail Store,Credit Card,58,Meena,Cancelled
+ORD0205,2025-08-09,Headphones,Bose QC,Audio,AP,Vijayawada,5,28000,0,140000.0,55,Business,Dealer,Cash,39,Meena,Completed
+ORD0206,2025-05-05,Tablet,OnePlus Pad,Tablets,KA,Mysore,8,40000,5,304000.0,27,Business,Retail Store,Debit Card,58,Meena,Cancelled
+ORD0207,2025-12-29,Keyboard,ASUS Keyboard,Accessories,KA,Hubli,6,3000,0,18000.0,77,Individual,Dealer,Net Banking,29,Anil,Completed
+ORD0208,2025-05-10,Headphones,Bose QC,Audio,KA,Bangalore,14,28000,20,313600.0,57,Student,Retail Store,Credit Card,58,Kiran,Completed
+ORD0209,2025-01-19,Tablet,Lenovo Tab,Tablets,TN,Chennai,8,30000,10,216000.0,66,Student,Retail Store,Net Banking,50,Arjun,Cancelled
+ORD0210,2025-08-09,Keyboard,Logitech K380,Accessories,AP,Vijayawada,11,3500,15,32725.0,50,Individual,Dealer,Net Banking,20,Arjun,Completed
+ORD0211,2025-07-11,Mobile,iPhone 16,Smartphones,AP,Visakhapatnam,4,75000,10,270000.0,100,Student,Dealer,Net Banking,54,Sneha,Completed
+ORD0212,2025-06-09,Monitor,ASUS TUF,Displays,TS,Nizamabad,1,28000,10,25200.0,18,Business,Retail Store,UPI,25,Rahul,Completed
+ORD0213,2025-01-23,Keyboard,ASUS Keyboard,Accessories,TS,Karimnagar,6,3000,10,16200.0,17,Business,Dealer,Cash,38,Priya,Completed
+ORD0214,2025-10-14,Mobile,iPhone 16,Smartphones,KA,Bangalore,11,75000,20,660000.0,26,Student,Online,Net Banking,29,Rahul,Completed
+ORD0215,2025-04-12,Monitor,ASUS TUF,Displays,TS,Karimnagar,11,28000,5,292600.0,28,Student,Dealer,Cash,43,Anil,Cancelled
+ORD0216,2025-04-06,Mouse,ASUS TUF Mouse,Accessories,TN,Chennai,12,1800,5,20520.0,31,Business,Dealer,UPI,54,Priya,Cancelled
+ORD0217,2025-07-20,Keyboard,Dell Keyboard,Accessories,TS,Karimnagar,2,2200,5,4180.0,90,Business,Dealer,Debit Card,56,Arjun,Cancelled
+ORD0218,2025-06-10,Mobile,OnePlus 13,Smartphones,KA,Hubli,10,60000,5,570000.0,91,Student,Retail Store,Net Banking,55,Priya,Completed
+ORD0219,2025-07-16,Mobile,Samsung Galaxy S25,Smartphones,KA,Bangalore,3,70000,5,199500.0,93,Individual,Dealer,Cash,44,Rahul,Cancelled
+ORD0220,2025-01-28,Monitor,LG UltraGear,Displays,TN,Coimbatore,9,25000,5,213750.0,67,Business,Online,Credit Card,38,Meena,Cancelled
+ORD0221,2025-12-30,Keyboard,Logitech K380,Accessories,TN,Coimbatore,4,3500,20,11200.0,54,Student,Dealer,Cash,44,Meena,Completed
+ORD0222,2025-08-23,Mouse,ASUS TUF Mouse,Accessories,TS,Hyderabad,10,1800,0,18000.0,33,Business,Online,Debit Card,32,Kiran,Completed
+ORD0223,2025-02-22,Mouse,Logitech M331,Accessories,AP,Visakhapatnam,13,1500,10,17550.0,51,Student,Online,Cash,52,Sneha,Completed
+ORD0224,2025-11-20,Headphones,JBL Tune,Audio,AP,Rajahmundry,5,8000,5,38000.0,16,Business,Online,Credit Card,31,Divya,Cancelled
+ORD0225,2025-12-27,Monitor,LG UltraGear,Displays,TS,Warangal,14,25000,5,332500.0,12,Student,Retail Store,Net Banking,35,Rahul,Completed
+ORD0226,2025-12-31,Smartwatch,Garmin,Wearables,KA,Bangalore,3,35000,20,84000.0,57,Individual,Retail Store,Credit Card,26,Sneha,Completed
+ORD0227,2025-11-21,Keyboard,HP Wireless Keyboard,Accessories,TN,Salem,3,2500,10,6750.0,85,Business,Dealer,Cash,42,Meena,Completed
+ORD0228,2025-10-01,Mobile,Google Pixel 9,Smartphones,KA,Mangalore,8,65000,10,468000.0,46,Student,Online,UPI,47,Divya,Completed
+ORD0229,2025-09-06,Monitor,LG UltraGear,Displays,TN,Coimbatore,8,25000,5,190000.0,46,Business,Retail Store,Net Banking,54,Rahul,Cancelled
+ORD0230,2025-08-08,Keyboard,Logitech K380,Accessories,AP,Guntur,11,3500,20,30800.0,63,Individual,Online,Credit Card,46,Meena,Completed
+ORD0231,2025-01-27,Headphones,AirPods Pro,Audio,KA,Mysore,14,25000,5,332500.0,16,Student,Retail Store,Debit Card,23,Divya,Completed
+ORD0232,2025-10-31,Monitor,Samsung Odyssey,Displays,TS,Karimnagar,11,30000,0,330000.0,95,Individual,Online,Credit Card,48,Priya,Completed
+ORD0233,2025-07-16,Headphones,Bose QC,Audio,AP,Guntur,12,28000,5,319200.0,20,Business,Dealer,Credit Card,48,Priya,Completed
+ORD0234,2025-11-29,Mobile,iPhone 16,Smartphones,AP,Visakhapatnam,6,75000,5,427500.0,22,Business,Online,Credit Card,22,Anil,Cancelled
+ORD0235,2025-03-13,Tablet,Lenovo Tab,Tablets,KA,Mysore,11,30000,15,280500.0,24,Business,Dealer,Cash,31,Priya,Completed
+ORD0236,2025-12-04,Mobile,Xiaomi 15,Smartphones,TN,Madurai,7,45000,5,299250.0,22,Individual,Retail Store,UPI,33,Kiran,Completed
+ORD0237,2025-11-23,Smartwatch,Galaxy Watch,Wearables,TS,Karimnagar,5,30000,15,127500.0,11,Individual,Retail Store,Cash,25,Sneha,Completed
+ORD0238,2025-02-07,Mobile,Xiaomi 15,Smartphones,AP,Visakhapatnam,15,45000,5,641250.0,21,Business,Dealer,Cash,41,Rahul,Completed
+ORD0239,2025-12-26,Laptop,Lenovo IdeaPad,Computers,AP,Guntur,5,58000,5,275500.0,10,Individual,Retail Store,Net Banking,36,Arjun,Completed
+ORD0240,2025-10-28,Monitor,Dell 24 Monitor,Displays,TS,Nizamabad,2,15000,5,28500.0,15,Student,Online,Credit Card,52,Divya,Completed
+ORD0241,2025-12-08,Mobile,OnePlus 13,Smartphones,TN,Coimbatore,1,60000,5,57000.0,16,Business,Online,Cash,57,Anil,Completed
+ORD0242,2025-07-10,Tablet,iPad Air,Tablets,AP,Vijayawada,12,60000,0,720000.0,25,Business,Retail Store,Net Banking,51,Kiran,Completed
+ORD0243,2025-08-22,Tablet,OnePlus Pad,Tablets,AP,Guntur,6,40000,20,192000.0,59,Business,Dealer,UPI,34,Priya,Completed
+ORD0244,2025-01-07,Keyboard,Logitech K380,Accessories,TN,Coimbatore,6,3500,5,19950.0,37,Individual,Dealer,UPI,32,Anil,Completed
+ORD0245,2025-08-02,Headphones,Sony WH-1000XM5,Audio,TN,Madurai,7,30000,5,199500.0,27,Individual,Dealer,Cash,32,Divya,Completed
+ORD0246,2025-02-05,Keyboard,Dell Keyboard,Accessories,AP,Visakhapatnam,2,2200,10,3960.0,91,Individual,Online,Credit Card,51,Anil,Completed
+ORD0247,2025-05-05,Mouse,Dell WM126,Accessories,KA,Mangalore,2,1100,10,1980.0,63,Individual,Retail Store,Credit Card,36,Kiran,Cancelled
+ORD0248,2025-06-27,Mouse,Dell WM126,Accessories,TN,Coimbatore,12,1100,10,11880.0,36,Individual,Online,Cash,19,Sneha,Cancelled
+ORD0249,2025-09-09,Laptop,MacBook Air,Computers,AP,Rajahmundry,14,95000,15,1130500.0,98,Business,Online,Credit Card,51,Sneha,Completed
+ORD0250,2025-02-18,Laptop,HP Pavilion,Computers,KA,Bangalore,1,65000,5,61750.0,71,Business,Dealer,Debit Card,47,Priya,Cancelled
+ORD0251,2025-06-12,Tablet,Lenovo Tab,Tablets,AP,Guntur,7,30000,15,178500.0,21,Individual,Retail Store,Debit Card,38,Arjun,Completed
+ORD0252,2025-06-10,Mouse,Dell WM126,Accessories,TS,Hyderabad,4,1100,5,4180.0,79,Individual,Online,UPI,28,Meena,Completed
+ORD0253,2025-01-21,Monitor,Dell 24 Monitor,Displays,KA,Mysore,8,15000,5,114000.0,64,Business,Online,UPI,28,Kiran,Cancelled
+ORD0254,2025-01-16,Headphones,JBL Tune,Audio,TS,Hyderabad,12,8000,5,91200.0,50,Business,Dealer,UPI,37,Kiran,Completed
+ORD0255,2025-07-25,Monitor,ASUS TUF,Displays,TS,Hyderabad,8,28000,0,224000.0,22,Individual,Online,UPI,32,Rahul,Completed
+ORD0256,2025-01-22,Keyboard,Logitech K380,Accessories,KA,Bangalore,1,3500,0,3500.0,30,Student,Retail Store,Credit Card,23,Divya,Completed
+ORD0257,2025-04-20,Mouse,Logitech M331,Accessories,TS,Karimnagar,14,1500,15,17850.0,55,Business,Online,Cash,45,Rahul,Completed
+ORD0258,2025-07-30,Tablet,OnePlus Pad,Tablets,KA,Hubli,15,40000,5,570000.0,9,Student,Dealer,Net Banking,33,Kiran,Completed
+ORD0259,2025-07-03,Mouse,Logitech M331,Accessories,AP,Visakhapatnam,7,1500,5,9975.0,58,Individual,Dealer,Net Banking,33,Anil,Completed
+ORD0260,2025-01-30,Mouse,ASUS TUF Mouse,Accessories,KA,Mangalore,7,1800,5,11970.0,28,Individual,Retail Store,Net Banking,32,Anil,Completed
+ORD0261,2025-07-18,Mouse,Dell WM126,Accessories,TS,Warangal,2,1100,5,2090.0,89,Individual,Retail Store,Net Banking,21,Sneha,Cancelled
+ORD0262,2025-10-16,Keyboard,HP Wireless Keyboard,Accessories,TS,Warangal,10,2500,5,23750.0,99,Student,Retail Store,Net Banking,19,Divya,Cancelled
+ORD0263,2025-09-27,Tablet,Galaxy Tab,Tablets,TN,Madurai,3,45000,10,121500.0,9,Individual,Online,Credit Card,56,Sneha,Completed
+ORD0264,2025-10-28,Mouse,Logitech M331,Accessories,KA,Mysore,13,1500,5,18525.0,48,Student,Online,Debit Card,21,Anil,Completed
+ORD0265,2025-03-11,Tablet,iPad Air,Tablets,KA,Bangalore,6,60000,15,306000.0,89,Business,Dealer,UPI,39,Kiran,Completed
+ORD0266,2025-06-07,Tablet,Lenovo Tab,Tablets,TN,Madurai,3,30000,15,76500.0,76,Student,Dealer,Debit Card,32,Rahul,Completed
+ORD0267,2025-04-24,Smartwatch,Galaxy Watch,Wearables,TS,Hyderabad,12,30000,10,324000.0,55,Student,Online,Credit Card,56,Divya,Cancelled
+ORD0268,2025-08-17,Mobile,Google Pixel 9,Smartphones,TS,Nizamabad,12,65000,0,780000.0,35,Business,Retail Store,Credit Card,58,Priya,Completed
+ORD0269,2025-08-03,Laptop,MacBook Air,Computers,TS,Warangal,12,95000,0,1140000.0,49,Business,Online,UPI,21,Arjun,Completed
+ORD0270,2025-08-20,Tablet,Lenovo Tab,Tablets,TN,Salem,6,30000,10,162000.0,53,Individual,Retail Store,Net Banking,59,Sneha,Completed
+ORD0271,2025-10-08,Mobile,iPhone 16,Smartphones,KA,Bangalore,6,75000,5,427500.0,18,Individual,Retail Store,Credit Card,42,Rahul,Completed
+ORD0272,2025-04-16,Mobile,OnePlus 13,Smartphones,TN,Chennai,7,60000,15,357000.0,26,Student,Retail Store,Credit Card,21,Priya,Completed
+ORD0273,2025-01-28,Headphones,Bose QC,Audio,KA,Mangalore,5,28000,5,133000.0,17,Individual,Retail Store,Net Banking,53,Meena,Completed
+ORD0274,2025-04-16,Keyboard,Logitech K380,Accessories,TN,Chennai,5,3500,20,14000.0,89,Student,Dealer,Cash,30,Priya,Completed
+ORD0275,2025-11-25,Tablet,OnePlus Pad,Tablets,AP,Rajahmundry,14,40000,0,560000.0,44,Business,Retail Store,Cash,60,Kiran,Completed
+ORD0276,2025-05-18,Monitor,LG UltraGear,Displays,KA,Hubli,6,25000,5,142500.0,62,Individual,Retail Store,Cash,47,Kiran,Completed
+ORD0277,2025-09-25,Laptop,HP Pavilion,Computers,AP,Guntur,11,65000,5,679250.0,74,Business,Dealer,Credit Card,53,Anil,Completed
+ORD0278,2025-08-18,Monitor,ASUS TUF,Displays,TS,Karimnagar,5,28000,0,140000.0,55,Student,Online,Net Banking,54,Rahul,Completed
+ORD0279,2025-05-13,Tablet,Galaxy Tab,Tablets,TS,Warangal,3,45000,0,135000.0,59,Individual,Dealer,Cash,30,Rahul,Cancelled
+ORD0280,2025-10-28,Keyboard,Logitech K380,Accessories,AP,Rajahmundry,9,3500,10,28350.0,75,Business,Retail Store,Net Banking,47,Anil,Cancelled
+ORD0281,2025-10-02,Monitor,Dell 24 Monitor,Displays,TN,Coimbatore,3,15000,10,40500.0,80,Student,Online,UPI,54,Priya,Completed
+ORD0282,2025-03-15,Keyboard,ASUS Keyboard,Accessories,KA,Hubli,11,3000,10,29700.0,78,Student,Retail Store,UPI,29,Kiran,Completed
+ORD0283,2025-06-05,Monitor,Dell 24 Monitor,Displays,TN,Madurai,12,15000,5,171000.0,11,Student,Retail Store,Debit Card,41,Anil,Completed
+ORD0284,2025-11-06,Smartwatch,Garmin,Wearables,TN,Chennai,14,35000,5,465500.0,22,Business,Dealer,Cash,38,Kiran,Completed
+ORD0285,2025-03-23,Mobile,Samsung Galaxy S25,Smartphones,TN,Coimbatore,15,70000,20,840000.0,57,Student,Retail Store,Net Banking,41,Anil,Cancelled
+ORD0286,2025-05-08,Mobile,OnePlus 13,Smartphones,TN,Coimbatore,13,60000,20,624000.0,72,Student,Online,Credit Card,30,Sneha,Completed
+ORD0287,2025-05-04,Laptop,Dell Inspiron,Computers,AP,Visakhapatnam,12,60000,5,684000.0,40,Business,Retail Store,Net Banking,43,Priya,Completed
+ORD0288,2025-05-26,Keyboard,ASUS Keyboard,Accessories,TN,Coimbatore,14,3000,10,37800.0,80,Student,Retail Store,Debit Card,28,Kiran,Completed
+ORD0289,2025-09-20,Laptop,Dell Inspiron,Computers,AP,Vijayawada,14,60000,10,756000.0,32,Individual,Dealer,Credit Card,31,Kiran,Completed
+ORD0290,2025-08-05,Laptop,ASUS VivoBook,Computers,TN,Coimbatore,11,55000,5,574750.0,81,Individual,Online,Debit Card,56,Kiran,Completed
+ORD0291,2025-09-19,Monitor,Samsung Odyssey,Displays,TN,Madurai,4,30000,10,108000.0,43,Student,Dealer,Net Banking,43,Priya,Completed
+ORD0292,2025-04-07,Keyboard,Dell Keyboard,Accessories,KA,Bangalore,8,2200,0,17600.0,48,Business,Dealer,Debit Card,35,Kiran,Completed
+ORD0293,2025-05-13,Tablet,Galaxy Tab,Tablets,AP,Rajahmundry,11,45000,5,470250.0,92,Individual,Dealer,UPI,59,Meena,Completed
+ORD0294,2025-09-17,Monitor,ASUS TUF,Displays,TN,Chennai,10,28000,15,238000.0,78,Individual,Retail Store,Credit Card,52,Meena,Completed
+ORD0295,2025-04-24,Smartwatch,Galaxy Watch,Wearables,TS,Nizamabad,2,30000,10,54000.0,21,Student,Retail Store,Net Banking,29,Divya,Completed
+ORD0296,2025-01-28,Keyboard,HP Wireless Keyboard,Accessories,KA,Hubli,13,2500,5,30875.0,52,Business,Dealer,Debit Card,47,Priya,Completed
+ORD0297,2025-04-13,Mobile,Google Pixel 9,Smartphones,TS,Hyderabad,14,65000,15,773500.0,53,Student,Retail Store,Cash,21,Rahul,Completed
+ORD0298,2025-11-21,Keyboard,ASUS Keyboard,Accessories,TN,Coimbatore,6,3000,20,14400.0,96,Individual,Online,Cash,39,Rahul,Completed
+ORD0299,2025-08-11,Laptop,ASUS VivoBook,Computers,TN,Madurai,4,55000,20,176000.0,26,Student,Online,Cash,23,Rahul,Cancelled
+ORD0300,2025-04-08,Monitor,ASUS TUF,Displays,TN,Salem,7,28000,0,196000.0,9,Student,Online,Debit Card,18,Divya,Cancelled
+ORD0301,2025-02-03,Laptop,ASUS VivoBook,Computers,TS,Warangal,12,55000,5,627000.0,44,Individual,Online,Cash,50,Kiran,Completed
+ORD0302,2025-07-03,Laptop,MacBook Air,Computers,KA,Hubli,12,95000,10,1026000.0,81,Student,Retail Store,Cash,26,Divya,Completed
+ORD0303,2025-07-07,Headphones,AirPods Pro,Audio,TN,Chennai,4,25000,5,95000.0,98,Individual,Online,UPI,55,Rahul,Completed
+ORD0304,2025-08-16,Laptop,Dell Inspiron,Computers,KA,Bangalore,10,60000,0,600000.0,89,Individual,Dealer,UPI,21,Priya,Completed
+ORD0305,2025-12-06,Monitor,Dell 24 Monitor,Displays,KA,Hubli,12,15000,5,171000.0,31,Student,Dealer,UPI,37,Arjun,Completed
+ORD0306,2025-11-08,Smartwatch,Galaxy Watch,Wearables,TN,Chennai,9,30000,15,229500.0,84,Individual,Retail Store,UPI,24,Meena,Completed
+ORD0307,2025-06-19,Headphones,JBL Tune,Audio,TS,Nizamabad,12,8000,10,86400.0,42,Individual,Online,Net Banking,49,Sneha,Completed
+ORD0308,2025-05-12,Headphones,Sony WH-1000XM5,Audio,AP,Guntur,15,30000,0,450000.0,78,Student,Retail Store,Credit Card,23,Priya,Completed
+ORD0309,2025-03-01,Headphones,Bose QC,Audio,KA,Mangalore,8,28000,0,224000.0,17,Individual,Online,Debit Card,41,Divya,Completed
+ORD0310,2025-07-10,Mobile,iPhone 16,Smartphones,AP,Vijayawada,11,75000,15,701250.0,26,Business,Retail Store,Cash,57,Kiran,Completed
+ORD0311,2025-03-09,Keyboard,HP Wireless Keyboard,Accessories,AP,Rajahmundry,7,2500,10,15750.0,39,Business,Dealer,Cash,44,Rahul,Completed
+ORD0312,2025-11-10,Laptop,HP Pavilion,Computers,AP,Rajahmundry,15,65000,10,877500.0,66,Student,Dealer,Cash,29,Arjun,Completed
+ORD0313,2025-12-27,Laptop,HP Pavilion,Computers,TN,Salem,2,65000,10,117000.0,61,Individual,Online,Debit Card,59,Divya,Completed
+ORD0314,2025-11-26,Headphones,JBL Tune,Audio,AP,Rajahmundry,11,8000,15,74800.0,36,Business,Retail Store,Cash,27,Anil,Completed
+ORD0315,2025-04-25,Tablet,Lenovo Tab,Tablets,TN,Coimbatore,2,30000,20,48000.0,67,Business,Online,Debit Card,35,Anil,Cancelled
+ORD0316,2025-09-12,Monitor,ASUS TUF,Displays,TS,Hyderabad,8,28000,10,201600.0,78,Business,Online,Cash,46,Divya,Completed
+ORD0317,2025-10-15,Laptop,ASUS VivoBook,Computers,TN,Salem,1,55000,10,49500.0,75,Individual,Online,Net Banking,57,Kiran,Cancelled
+ORD0318,2025-08-20,Headphones,Bose QC,Audio,KA,Mangalore,14,28000,0,392000.0,33,Business,Retail Store,Net Banking,57,Meena,Completed
+ORD0319,2025-03-26,Mobile,iPhone 16,Smartphones,TS,Hyderabad,6,75000,5,427500.0,86,Business,Dealer,Net Banking,41,Priya,Completed
+ORD0320,2025-06-23,Mouse,HP Wireless Mouse,Accessories,TN,Chennai,5,1200,10,5400.0,30,Individual,Online,Cash,31,Meena,Completed
+ORD0321,2025-09-29,Mobile,Google Pixel 9,Smartphones,AP,Guntur,13,65000,10,760500.0,63,Student,Dealer,Net Banking,26,Meena,Completed
+ORD0322,2025-12-03,Laptop,Lenovo IdeaPad,Computers,TN,Salem,15,58000,10,783000.0,27,Student,Dealer,Credit Card,26,Priya,Completed
+ORD0323,2025-12-25,Keyboard,ASUS Keyboard,Accessories,TN,Coimbatore,5,3000,10,13500.0,48,Business,Retail Store,Credit Card,26,Arjun,Cancelled
+ORD0324,2025-10-05,Smartwatch,Garmin,Wearables,TS,Warangal,4,35000,10,126000.0,96,Business,Dealer,Debit Card,26,Rahul,Cancelled
+ORD0325,2025-09-25,Keyboard,Logitech K380,Accessories,KA,Hubli,10,3500,10,31500.0,90,Student,Retail Store,Net Banking,36,Arjun,Completed
+ORD0326,2025-02-01,Mobile,iPhone 16,Smartphones,TN,Coimbatore,1,75000,15,63750.0,12,Individual,Retail Store,Credit Card,36,Kiran,Completed
+ORD0327,2025-09-19,Smartwatch,Galaxy Watch,Wearables,AP,Visakhapatnam,14,30000,10,378000.0,18,Student,Dealer,Net Banking,32,Arjun,Completed
+ORD0328,2025-11-14,Smartwatch,Apple Watch,Wearables,TN,Salem,7,45000,20,252000.0,92,Business,Dealer,UPI,18,Kiran,Completed
+ORD0329,2025-09-21,Mouse,HP Wireless Mouse,Accessories,KA,Mysore,13,1200,15,13260.0,29,Business,Retail Store,Credit Card,22,Rahul,Completed
+ORD0330,2025-08-27,Mobile,Google Pixel 9,Smartphones,AP,Rajahmundry,5,65000,10,292500.0,38,Individual,Online,Net Banking,34,Anil,Completed
+ORD0331,2025-12-29,Tablet,iPad Air,Tablets,TS,Nizamabad,10,60000,0,600000.0,85,Student,Dealer,Debit Card,49,Divya,Completed
+ORD0332,2025-04-24,Keyboard,HP Wireless Keyboard,Accessories,TS,Hyderabad,13,2500,10,29250.0,25,Business,Dealer,Net Banking,43,Priya,Completed
+ORD0333,2025-12-09,Headphones,JBL Tune,Audio,KA,Mangalore,5,8000,5,38000.0,84,Student,Retail Store,Net Banking,59,Anil,Completed
+ORD0334,2025-09-22,Keyboard,ASUS Keyboard,Accessories,TS,Warangal,1,3000,15,2550.0,46,Business,Online,Cash,34,Kiran,Completed
+ORD0335,2025-10-01,Keyboard,ASUS Keyboard,Accessories,TN,Chennai,5,3000,15,12750.0,29,Business,Dealer,UPI,24,Rahul,Cancelled
+ORD0336,2025-01-13,Laptop,ASUS VivoBook,Computers,TS,Warangal,14,55000,15,654500.0,59,Individual,Online,Net Banking,45,Priya,Completed
+ORD0337,2025-07-28,Mouse,Dell WM126,Accessories,AP,Guntur,2,1100,0,2200.0,27,Business,Dealer,UPI,54,Sneha,Completed
+ORD0338,2025-01-24,Monitor,ASUS TUF,Displays,TN,Salem,6,28000,0,168000.0,54,Student,Online,Net Banking,18,Priya,Cancelled
+ORD0339,2025-12-05,Mobile,OnePlus 13,Smartphones,AP,Visakhapatnam,13,60000,15,663000.0,43,Student,Online,Debit Card,46,Arjun,Completed
+ORD0340,2025-10-11,Laptop,Dell Inspiron,Computers,TS,Warangal,3,60000,15,153000.0,55,Student,Retail Store,Credit Card,37,Divya,Completed
+ORD0341,2025-04-19,Tablet,iPad Air,Tablets,AP,Guntur,10,60000,10,540000.0,55,Student,Dealer,UPI,37,Sneha,Completed
+ORD0342,2025-08-25,Monitor,LG UltraGear,Displays,TS,Warangal,4,25000,10,90000.0,37,Individual,Online,Credit Card,60,Anil,Cancelled
+ORD0343,2025-02-21,Mobile,OnePlus 13,Smartphones,AP,Visakhapatnam,2,60000,5,114000.0,97,Student,Retail Store,Debit Card,40,Rahul,Completed
+ORD0344,2025-10-18,Smartwatch,Apple Watch,Wearables,TS,Nizamabad,8,45000,10,324000.0,47,Student,Dealer,Debit Card,55,Rahul,Cancelled
+ORD0345,2025-12-14,Keyboard,Dell Keyboard,Accessories,TN,Coimbatore,1,2200,5,2090.0,36,Individual,Dealer,Cash,35,Divya,Completed
+ORD0346,2025-03-13,Keyboard,ASUS Keyboard,Accessories,TN,Salem,6,3000,20,14400.0,44,Business,Dealer,UPI,29,Priya,Completed
+ORD0347,2025-04-19,Headphones,JBL Tune,Audio,AP,Guntur,15,8000,0,120000.0,69,Student,Online,Net Banking,55,Arjun,Cancelled
+ORD0348,2025-08-26,Laptop,Lenovo IdeaPad,Computers,KA,Hubli,11,58000,20,510400.0,24,Business,Retail Store,Credit Card,55,Kiran,Completed
+ORD0349,2025-04-02,Mobile,Google Pixel 9,Smartphones,KA,Bangalore,11,65000,5,679250.0,83,Student,Online,Net Banking,26,Meena,Completed
+ORD0350,2025-12-09,Tablet,Lenovo Tab,Tablets,KA,Bangalore,4,30000,20,96000.0,67,Individual,Online,Debit Card,41,Sneha,Completed
+ORD0351,2025-10-24,Headphones,JBL Tune,Audio,TN,Salem,15,8000,10,108000.0,10,Individual,Dealer,Debit Card,24,Kiran,Completed
+ORD0352,2025-06-26,Tablet,Lenovo Tab,Tablets,TN,Madurai,10,30000,15,255000.0,14,Student,Retail Store,Cash,32,Arjun,Completed
+ORD0353,2025-03-22,Mouse,ASUS TUF Mouse,Accessories,AP,Vijayawada,8,1800,5,13680.0,34,Individual,Dealer,Debit Card,31,Rahul,Completed
+ORD0354,2025-03-24,Keyboard,Logitech K380,Accessories,TS,Karimnagar,13,3500,5,43225.0,97,Individual,Retail Store,Cash,48,Sneha,Cancelled
+ORD0355,2025-03-27,Monitor,Dell 24 Monitor,Displays,TS,Hyderabad,3,15000,10,40500.0,80,Individual,Online,Net Banking,20,Rahul,Completed
+ORD0356,2025-08-30,Smartwatch,Galaxy Watch,Wearables,TN,Chennai,15,30000,15,382500.0,98,Student,Retail Store,UPI,31,Meena,Cancelled
+ORD0357,2025-08-21,Mouse,HP Wireless Mouse,Accessories,TS,Karimnagar,10,1200,5,11400.0,79,Individual,Dealer,Net Banking,34,Rahul,Completed
+ORD0358,2025-02-19,Mobile,Samsung Galaxy S25,Smartphones,TN,Salem,3,70000,0,210000.0,7,Individual,Dealer,Net Banking,44,Rahul,Cancelled
+ORD0359,2025-08-04,Tablet,Lenovo Tab,Tablets,AP,Guntur,2,30000,10,54000.0,89,Individual,Dealer,Net Banking,18,Arjun,Cancelled
+ORD0360,2025-05-11,Keyboard,Logitech K380,Accessories,TN,Coimbatore,13,3500,10,40950.0,53,Business,Dealer,Net Banking,24,Arjun,Completed
+ORD0361,2025-01-04,Mouse,HP Wireless Mouse,Accessories,AP,Visakhapatnam,10,1200,10,10800.0,57,Business,Online,UPI,18,Priya,Cancelled
+ORD0362,2025-08-05,Monitor,LG UltraGear,Displays,KA,Hubli,6,25000,0,150000.0,24,Business,Dealer,Net Banking,34,Kiran,Cancelled
+ORD0363,2025-06-07,Keyboard,Dell Keyboard,Accessories,TN,Coimbatore,7,2200,10,13860.0,76,Business,Online,Debit Card,53,Meena,Completed
+ORD0364,2025-10-09,Keyboard,ASUS Keyboard,Accessories,TS,Hyderabad,12,3000,5,34200.0,62,Student,Online,UPI,31,Arjun,Completed
+ORD0365,2025-04-24,Laptop,HP Pavilion,Computers,TN,Chennai,13,65000,0,845000.0,23,Business,Dealer,Cash,23,Priya,Completed
+ORD0366,2025-11-24,Keyboard,Logitech K380,Accessories,AP,Rajahmundry,15,3500,10,47250.0,83,Student,Dealer,Debit Card,56,Anil,Completed
+ORD0367,2025-03-28,Mouse,ASUS TUF Mouse,Accessories,AP,Vijayawada,14,1800,15,21420.0,71,Business,Online,UPI,56,Sneha,Cancelled
+ORD0368,2025-01-08,Laptop,MacBook Air,Computers,TS,Hyderabad,3,95000,0,285000.0,40,Business,Retail Store,Cash,43,Sneha,Cancelled
+ORD0369,2025-01-03,Mobile,iPhone 16,Smartphones,KA,Mangalore,6,75000,20,360000.0,40,Individual,Dealer,Credit Card,47,Arjun,Cancelled
+ORD0370,2025-10-22,Smartwatch,Galaxy Watch,Wearables,TN,Chennai,9,30000,0,270000.0,69,Business,Retail Store,UPI,50,Kiran,Cancelled
+ORD0371,2025-03-01,Smartwatch,OnePlus Watch,Wearables,TN,Salem,13,18000,5,222300.0,48,Business,Dealer,Cash,55,Anil,Completed
+ORD0372,2025-05-08,Smartwatch,Apple Watch,Wearables,TN,Coimbatore,11,45000,15,420750.0,34,Business,Retail Store,Debit Card,51,Anil,Completed
+ORD0373,2025-12-16,Smartwatch,Apple Watch,Wearables,TN,Madurai,2,45000,10,81000.0,27,Business,Retail Store,Debit Card,31,Kiran,Completed
+ORD0374,2025-02-24,Headphones,Bose QC,Audio,TS,Warangal,12,28000,5,319200.0,38,Individual,Online,Credit Card,33,Divya,Completed
+ORD0375,2025-10-22,Mobile,iPhone 16,Smartphones,TN,Chennai,13,75000,20,780000.0,74,Individual,Retail Store,Debit Card,57,Divya,Completed
+ORD0376,2025-01-17,Smartwatch,OnePlus Watch,Wearables,TS,Nizamabad,7,18000,5,119700.0,78,Individual,Online,Net Banking,45,Meena,Cancelled
+ORD0377,2025-10-25,Keyboard,ASUS Keyboard,Accessories,TS,Karimnagar,2,3000,15,5100.0,71,Business,Retail Store,UPI,18,Sneha,Completed
+ORD0378,2025-04-05,Mobile,OnePlus 13,Smartphones,KA,Mangalore,3,60000,10,162000.0,38,Individual,Retail Store,Cash,57,Divya,Completed
+ORD0379,2025-03-09,Mouse,ASUS TUF Mouse,Accessories,TS,Karimnagar,12,1800,20,17280.0,52,Business,Retail Store,Debit Card,46,Rahul,Cancelled
+ORD0380,2025-08-04,Headphones,Sony WH-1000XM5,Audio,KA,Mysore,9,30000,10,243000.0,53,Individual,Online,Credit Card,48,Anil,Completed
+ORD0381,2025-04-21,Mouse,HP Wireless Mouse,Accessories,KA,Hubli,5,1200,5,5700.0,76,Student,Online,Cash,24,Rahul,Completed
+ORD0382,2025-01-11,Smartwatch,OnePlus Watch,Wearables,AP,Rajahmundry,12,18000,5,205200.0,38,Business,Retail Store,Net Banking,53,Kiran,Completed
+ORD0383,2025-12-11,Monitor,Dell 24 Monitor,Displays,KA,Mysore,10,15000,10,135000.0,88,Student,Dealer,Credit Card,36,Divya,Completed
+ORD0384,2025-11-20,Mouse,ASUS TUF Mouse,Accessories,AP,Rajahmundry,10,1800,5,17100.0,64,Student,Online,Credit Card,58,Divya,Completed
+ORD0385,2025-08-16,Monitor,Dell 24 Monitor,Displays,AP,Vijayawada,6,15000,5,85500.0,45,Business,Dealer,Debit Card,35,Arjun,Completed
+ORD0386,2025-04-18,Keyboard,ASUS Keyboard,Accessories,TN,Coimbatore,3,3000,20,7200.0,7,Individual,Dealer,Credit Card,60,Kiran,Completed
+ORD0387,2025-05-15,Tablet,Lenovo Tab,Tablets,AP,Guntur,2,30000,10,54000.0,75,Individual,Online,Cash,51,Priya,Completed
+ORD0388,2025-01-18,Tablet,iPad Air,Tablets,TN,Madurai,4,60000,5,228000.0,99,Business,Retail Store,Credit Card,26,Rahul,Completed
+ORD0389,2025-11-02,Keyboard,Dell Keyboard,Accessories,TN,Salem,14,2200,10,27720.0,39,Student,Retail Store,Credit Card,52,Rahul,Cancelled
+ORD0390,2025-03-21,Mouse,ASUS TUF Mouse,Accessories,KA,Mangalore,8,1800,10,12960.0,34,Individual,Retail Store,Debit Card,41,Arjun,Completed
+ORD0391,2025-08-09,Smartwatch,Apple Watch,Wearables,AP,Vijayawada,6,45000,5,256500.0,65,Student,Online,Cash,48,Kiran,Completed
+ORD0392,2025-04-23,Smartwatch,Galaxy Watch,Wearables,AP,Visakhapatnam,4,30000,10,108000.0,76,Business,Retail Store,Credit Card,28,Arjun,Completed
+ORD0393,2025-04-07,Smartwatch,Apple Watch,Wearables,TN,Coimbatore,9,45000,20,324000.0,83,Student,Dealer,Debit Card,36,Kiran,Completed
+ORD0394,2025-06-14,Mobile,Samsung Galaxy S25,Smartphones,TS,Nizamabad,2,70000,15,119000.0,63,Student,Retail Store,Debit Card,57,Meena,Completed
+ORD0395,2025-03-19,Laptop,HP Pavilion,Computers,AP,Guntur,3,65000,0,195000.0,41,Business,Online,Cash,18,Sneha,Completed
+ORD0396,2025-01-29,Laptop,Dell Inspiron,Computers,TS,Nizamabad,7,60000,5,399000.0,68,Business,Retail Store,UPI,39,Priya,Completed
+ORD0397,2025-05-07,Smartwatch,OnePlus Watch,Wearables,AP,Rajahmundry,3,18000,5,51300.0,37,Business,Online,UPI,33,Arjun,Completed
+ORD0398,2025-10-09,Laptop,HP Pavilion,Computers,TN,Chennai,9,65000,15,497250.0,31,Business,Retail Store,Debit Card,38,Rahul,Completed
+ORD0399,2025-01-08,Mobile,OnePlus 13,Smartphones,TN,Madurai,4,60000,5,228000.0,11,Student,Online,UPI,33,Arjun,Completed
+ORD0400,2025-02-15,Tablet,OnePlus Pad,Tablets,AP,Rajahmundry,13,40000,5,494000.0,6,Individual,Dealer,Cash,56,Rahul,Completed
+ORD0401,2025-02-24,Headphones,AirPods Pro,Audio,TN,Chennai,11,25000,10,247500.0,48,Student,Online,UPI,40,Rahul,Cancelled
+ORD0402,2025-03-10,Tablet,Lenovo Tab,Tablets,TS,Nizamabad,9,30000,20,216000.0,87,Business,Retail Store,Credit Card,19,Arjun,Completed
+ORD0403,2025-06-28,Smartwatch,Apple Watch,Wearables,TN,Salem,9,45000,5,384750.0,74,Student,Retail Store,Credit Card,54,Rahul,Cancelled
+ORD0404,2025-01-01,Keyboard,ASUS Keyboard,Accessories,KA,Mysore,2,3000,10,5400.0,24,Business,Retail Store,Debit Card,52,Divya,Completed
+ORD0405,2025-09-26,Monitor,LG UltraGear,Displays,AP,Visakhapatnam,13,25000,10,292500.0,35,Business,Dealer,UPI,60,Arjun,Completed
+ORD0406,2025-03-08,Mouse,HP Wireless Mouse,Accessories,KA,Mangalore,7,1200,15,7140.0,46,Individual,Online,Net Banking,60,Priya,Completed
+ORD0407,2025-11-16,Tablet,iPad Air,Tablets,TS,Hyderabad,8,60000,5,456000.0,17,Individual,Dealer,Cash,60,Meena,Cancelled
+ORD0408,2025-07-04,Smartwatch,Apple Watch,Wearables,KA,Mysore,10,45000,15,382500.0,14,Individual,Online,Cash,23,Meena,Completed
+ORD0409,2025-04-29,Monitor,Samsung Odyssey,Displays,AP,Visakhapatnam,9,30000,0,270000.0,98,Individual,Retail Store,UPI,31,Priya,Completed
+ORD0410,2025-07-03,Monitor,LG UltraGear,Displays,TS,Warangal,10,25000,15,212500.0,27,Student,Dealer,Net Banking,44,Priya,Cancelled
+ORD0411,2025-11-04,Mouse,ASUS TUF Mouse,Accessories,AP,Vijayawada,13,1800,5,22230.0,75,Business,Dealer,Debit Card,60,Rahul,Cancelled
+ORD0412,2025-10-07,Mouse,Dell WM126,Accessories,KA,Mangalore,14,1100,5,14630.0,57,Student,Retail Store,Debit Card,56,Sneha,Cancelled
+ORD0413,2025-03-11,Headphones,Bose QC,Audio,KA,Mangalore,8,28000,10,201600.0,55,Individual,Dealer,UPI,36,Anil,Cancelled
+ORD0414,2025-01-20,Smartwatch,Apple Watch,Wearables,KA,Mysore,4,45000,20,144000.0,45,Individual,Dealer,Debit Card,53,Rahul,Completed
+ORD0415,2025-07-24,Mouse,Dell WM126,Accessories,TS,Warangal,5,1100,5,5225.0,79,Individual,Online,Debit Card,37,Priya,Cancelled
+ORD0416,2025-10-23,Headphones,Sony WH-1000XM5,Audio,KA,Hubli,3,30000,10,81000.0,93,Student,Dealer,UPI,56,Kiran,Completed
+ORD0417,2025-01-28,Monitor,Dell 24 Monitor,Displays,AP,Visakhapatnam,6,15000,20,72000.0,60,Business,Online,Credit Card,59,Anil,Completed
+ORD0418,2025-10-22,Smartwatch,Apple Watch,Wearables,KA,Mysore,6,45000,10,243000.0,94,Individual,Online,UPI,43,Meena,Cancelled
+ORD0419,2025-07-24,Mobile,Samsung Galaxy S25,Smartphones,TN,Madurai,13,70000,10,819000.0,23,Individual,Retail Store,UPI,48,Anil,Cancelled
+ORD0420,2025-11-30,Smartwatch,Apple Watch,Wearables,TN,Salem,13,45000,15,497250.0,21,Individual,Retail Store,Net Banking,30,Meena,Completed
+ORD0421,2025-08-05,Headphones,AirPods Pro,Audio,TS,Hyderabad,5,25000,20,100000.0,60,Business,Dealer,Net Banking,23,Priya,Completed
+ORD0422,2025-03-16,Keyboard,Dell Keyboard,Accessories,TS,Nizamabad,6,2200,10,11880.0,88,Individual,Retail Store,Credit Card,40,Meena,Cancelled
+ORD0423,2025-03-17,Mouse,Logitech M331,Accessories,TS,Warangal,11,1500,5,15675.0,24,Student,Online,UPI,21,Sneha,Cancelled
+ORD0424,2025-10-07,Smartwatch,Apple Watch,Wearables,KA,Bangalore,5,45000,10,202500.0,65,Individual,Retail Store,Credit Card,52,Sneha,Completed
+ORD0425,2025-04-13,Smartwatch,OnePlus Watch,Wearables,TS,Hyderabad,7,18000,10,113400.0,89,Student,Online,Debit Card,28,Anil,Completed
+ORD0426,2025-11-29,Smartwatch,Apple Watch,Wearables,TN,Chennai,2,45000,10,81000.0,89,Business,Dealer,Debit Card,24,Anil,Completed
+ORD0427,2025-08-23,Monitor,LG UltraGear,Displays,TN,Chennai,15,25000,5,356250.0,67,Student,Dealer,UPI,29,Sneha,Cancelled
+ORD0428,2025-11-17,Laptop,ASUS VivoBook,Computers,TS,Nizamabad,6,55000,10,297000.0,55,Student,Online,UPI,40,Divya,Completed
+ORD0429,2025-07-21,Smartwatch,Galaxy Watch,Wearables,KA,Bangalore,11,30000,5,313500.0,54,Individual,Dealer,Debit Card,32,Rahul,Completed
+ORD0430,2025-10-05,Tablet,iPad Air,Tablets,TN,Coimbatore,7,60000,5,399000.0,78,Individual,Retail Store,Debit Card,56,Divya,Completed
+ORD0431,2025-12-02,Tablet,Galaxy Tab,Tablets,TS,Warangal,14,45000,5,598500.0,44,Student,Dealer,Net Banking,26,Arjun,Completed
+ORD0432,2025-08-15,Tablet,OnePlus Pad,Tablets,AP,Guntur,3,40000,5,114000.0,23,Student,Online,Debit Card,44,Arjun,Completed
+ORD0433,2025-04-29,Smartwatch,Galaxy Watch,Wearables,TS,Hyderabad,3,30000,5,85500.0,8,Student,Dealer,Debit Card,56,Sneha,Cancelled
+ORD0434,2025-07-18,Headphones,Sony WH-1000XM5,Audio,KA,Bangalore,12,30000,20,288000.0,66,Individual,Dealer,Net Banking,48,Divya,Completed
+ORD0435,2025-04-15,Mouse,ASUS TUF Mouse,Accessories,TS,Warangal,4,1800,5,6840.0,9,Business,Online,Debit Card,44,Sneha,Completed
+ORD0436,2025-07-21,Mobile,Samsung Galaxy S25,Smartphones,TN,Salem,12,70000,5,798000.0,63,Individual,Retail Store,Cash,20,Arjun,Completed
+ORD0437,2025-07-18,Laptop,Lenovo IdeaPad,Computers,AP,Rajahmundry,8,58000,20,371200.0,10,Individual,Dealer,Net Banking,43,Anil,Cancelled
+ORD0438,2025-03-14,Laptop,HP Pavilion,Computers,KA,Hubli,7,65000,5,432250.0,41,Business,Online,Cash,36,Anil,Cancelled
+ORD0439,2025-08-19,Mouse,ASUS TUF Mouse,Accessories,AP,Guntur,3,1800,20,4320.0,79,Student,Dealer,Credit Card,43,Arjun,Completed
+ORD0440,2025-12-28,Laptop,HP Pavilion,Computers,TN,Coimbatore,15,65000,10,877500.0,16,Business,Retail Store,Credit Card,25,Priya,Completed
+ORD0441,2025-03-29,Mouse,Dell WM126,Accessories,AP,Rajahmundry,12,1100,20,10560.0,70,Student,Online,Cash,53,Arjun,Completed
+ORD0442,2025-11-17,Keyboard,HP Wireless Keyboard,Accessories,TS,Warangal,3,2500,20,6000.0,96,Individual,Retail Store,Debit Card,37,Meena,Completed
+ORD0443,2025-09-10,Tablet,iPad Air,Tablets,TS,Warangal,1,60000,10,54000.0,37,Individual,Retail Store,Cash,49,Anil,Cancelled
+ORD0444,2025-11-18,Headphones,AirPods Pro,Audio,TN,Salem,7,25000,10,157500.0,15,Student,Dealer,UPI,33,Kiran,Cancelled
+ORD0445,2025-02-14,Headphones,Sony WH-1000XM5,Audio,TS,Warangal,1,30000,15,25500.0,49,Individual,Online,UPI,60,Kiran,Completed
+ORD0446,2025-10-24,Laptop,ASUS VivoBook,Computers,TN,Coimbatore,3,55000,15,140250.0,41,Student,Dealer,Net Banking,54,Rahul,Completed
+ORD0447,2025-03-10,Keyboard,Logitech K380,Accessories,AP,Visakhapatnam,6,3500,5,19950.0,53,Individual,Retail Store,Net Banking,22,Kiran,Completed
+ORD0448,2025-12-19,Mobile,OnePlus 13,Smartphones,KA,Hubli,9,60000,5,513000.0,94,Individual,Dealer,UPI,24,Priya,Completed
+ORD0449,2025-11-20,Smartwatch,OnePlus Watch,Wearables,KA,Mangalore,9,18000,10,145800.0,84,Business,Online,Net Banking,54,Meena,Cancelled
+ORD0450,2025-11-12,Mouse,ASUS TUF Mouse,Accessories,TS,Warangal,12,1800,5,20520.0,29,Individual,Online,UPI,47,Priya,Completed
+ORD0451,2025-06-07,Monitor,ASUS TUF,Displays,AP,Visakhapatnam,6,28000,10,151200.0,86,Individual,Online,Credit Card,36,Kiran,Completed
+ORD0452,2025-04-10,Smartwatch,Garmin,Wearables,AP,Guntur,11,35000,5,365750.0,48,Business,Dealer,Net Banking,57,Anil,Completed
+ORD0453,2025-06-21,Keyboard,Dell Keyboard,Accessories,TN,Salem,13,2200,0,28600.0,87,Individual,Retail Store,Credit Card,58,Meena,Cancelled
+ORD0454,2025-12-17,Mouse,ASUS TUF Mouse,Accessories,AP,Visakhapatnam,10,1800,15,15300.0,91,Business,Dealer,Net Banking,19,Sneha,Cancelled
+ORD0455,2025-11-01,Keyboard,Dell Keyboard,Accessories,AP,Vijayawada,5,2200,20,8800.0,8,Business,Retail Store,Net Banking,28,Arjun,Completed
+ORD0456,2025-09-26,Mobile,OnePlus 13,Smartphones,KA,Bangalore,5,60000,10,270000.0,16,Business,Online,Debit Card,46,Kiran,Completed
+ORD0457,2025-03-20,Smartwatch,Galaxy Watch,Wearables,AP,Visakhapatnam,13,30000,0,390000.0,30,Individual,Retail Store,Net Banking,19,Meena,Cancelled
+ORD0458,2025-07-18,Headphones,JBL Tune,Audio,TN,Madurai,13,8000,5,98800.0,23,Individual,Dealer,Credit Card,31,Anil,Completed
+ORD0459,2025-12-04,Mobile,iPhone 16,Smartphones,KA,Bangalore,11,75000,20,660000.0,81,Individual,Retail Store,Cash,20,Priya,Cancelled
+ORD0460,2025-05-20,Smartwatch,Apple Watch,Wearables,KA,Mysore,6,45000,5,256500.0,29,Business,Retail Store,Net Banking,38,Meena,Completed
+ORD0461,2025-06-13,Tablet,Galaxy Tab,Tablets,KA,Bangalore,1,45000,10,40500.0,76,Student,Online,Credit Card,52,Divya,Cancelled
+ORD0462,2025-01-15,Smartwatch,Galaxy Watch,Wearables,KA,Mysore,3,30000,0,90000.0,44,Student,Retail Store,Net Banking,46,Anil,Completed
+ORD0463,2025-07-02,Mouse,Logitech M331,Accessories,AP,Rajahmundry,1,1500,0,1500.0,59,Business,Online,Net Banking,55,Meena,Cancelled
+ORD0464,2025-06-08,Smartwatch,Garmin,Wearables,TS,Hyderabad,15,35000,20,420000.0,64,Student,Online,UPI,47,Priya,Completed
+ORD0465,2025-08-21,Mouse,ASUS TUF Mouse,Accessories,TS,Warangal,3,1800,20,4320.0,83,Business,Retail Store,Cash,29,Divya,Completed
+ORD0466,2025-02-22,Mouse,Logitech M331,Accessories,AP,Rajahmundry,2,1500,5,2850.0,66,Business,Online,Debit Card,40,Rahul,Cancelled
+ORD0467,2025-05-05,Monitor,Dell 24 Monitor,Displays,KA,Bangalore,13,15000,5,185250.0,73,Business,Retail Store,Net Banking,44,Sneha,Cancelled
+ORD0468,2025-12-22,Tablet,Lenovo Tab,Tablets,TN,Chennai,6,30000,5,171000.0,93,Student,Retail Store,Cash,54,Divya,Cancelled
+ORD0469,2025-06-07,Headphones,AirPods Pro,Audio,AP,Rajahmundry,2,25000,10,45000.0,81,Business,Retail Store,Net Banking,24,Meena,Completed
+ORD0470,2025-11-22,Monitor,Dell 24 Monitor,Displays,AP,Rajahmundry,6,15000,10,81000.0,87,Student,Online,UPI,31,Rahul,Cancelled
+ORD0471,2025-06-03,Laptop,HP Pavilion,Computers,TS,Karimnagar,9,65000,5,555750.0,54,Student,Dealer,Cash,30,Sneha,Completed
+ORD0472,2025-10-09,Smartwatch,OnePlus Watch,Wearables,KA,Bangalore,10,18000,0,180000.0,83,Student,Retail Store,Credit Card,36,Anil,Completed
+ORD0473,2025-07-27,Laptop,ASUS VivoBook,Computers,KA,Bangalore,14,55000,5,731500.0,8,Individual,Retail Store,Net Banking,43,Divya,Completed
+ORD0474,2025-12-10,Monitor,ASUS TUF,Displays,TS,Warangal,8,28000,5,212800.0,29,Student,Retail Store,Debit Card,44,Rahul,Completed
+ORD0475,2025-11-25,Tablet,Galaxy Tab,Tablets,AP,Guntur,11,45000,0,495000.0,23,Student,Retail Store,Cash,26,Priya,Completed
+ORD0476,2025-08-06,Monitor,ASUS TUF,Displays,TN,Coimbatore,8,28000,10,201600.0,59,Student,Retail Store,Cash,40,Sneha,Completed
+ORD0477,2025-10-18,Laptop,Lenovo IdeaPad,Computers,TN,Coimbatore,12,58000,10,626400.0,39,Business,Dealer,Net Banking,41,Anil,Completed
+ORD0478,2025-02-10,Mouse,Dell WM126,Accessories,AP,Rajahmundry,12,1100,0,13200.0,23,Student,Dealer,Net Banking,35,Meena,Cancelled
+ORD0479,2025-01-06,Mobile,Samsung Galaxy S25,Smartphones,TN,Chennai,11,70000,15,654500.0,74,Student,Retail Store,Net Banking,21,Divya,Cancelled
+ORD0480,2025-05-14,Mouse,ASUS TUF Mouse,Accessories,TN,Madurai,7,1800,5,11970.0,42,Business,Online,UPI,56,Kiran,Cancelled
+ORD0481,2025-09-16,Laptop,Dell Inspiron,Computers,TS,Hyderabad,11,60000,5,627000.0,99,Student,Online,Debit Card,49,Priya,Completed
+ORD0482,2025-03-19,Mobile,OnePlus 13,Smartphones,KA,Mysore,10,60000,5,570000.0,40,Business,Online,UPI,56,Rahul,Cancelled
+ORD0483,2025-03-16,Mouse,Dell WM126,Accessories,TS,Nizamabad,13,1100,15,12155.0,35,Business,Online,Net Banking,20,Divya,Completed
+ORD0484,2025-11-25,Tablet,Lenovo Tab,Tablets,TN,Salem,4,30000,15,102000.0,61,Student,Dealer,Credit Card,31,Divya,Completed
+ORD0485,2025-08-31,Smartwatch,Apple Watch,Wearables,AP,Vijayawada,8,45000,10,324000.0,65,Business,Retail Store,Net Banking,32,Arjun,Completed
+ORD0486,2025-09-30,Smartwatch,Galaxy Watch,Wearables,TN,Chennai,5,30000,20,120000.0,62,Business,Dealer,Debit Card,51,Anil,Completed
+ORD0487,2025-12-11,Keyboard,ASUS Keyboard,Accessories,KA,Mangalore,5,3000,5,14250.0,17,Business,Dealer,Net Banking,43,Meena,Completed
+ORD0488,2025-02-23,Headphones,JBL Tune,Audio,TS,Nizamabad,9,8000,0,72000.0,91,Individual,Online,UPI,44,Priya,Cancelled
+ORD0489,2025-11-23,Mouse,Dell WM126,Accessories,TS,Nizamabad,5,1100,5,5225.0,9,Individual,Dealer,UPI,21,Sneha,Cancelled
+ORD0490,2025-08-28,Mobile,iPhone 16,Smartphones,AP,Vijayawada,7,75000,15,446250.0,87,Student,Online,UPI,29,Kiran,Completed
+ORD0491,2025-07-18,Mobile,Google Pixel 9,Smartphones,KA,Hubli,12,65000,15,663000.0,46,Business,Online,UPI,35,Anil,Completed
+ORD0492,2025-02-25,Keyboard,Logitech K380,Accessories,KA,Mangalore,3,3500,10,9450.0,13,Business,Online,Net Banking,43,Rahul,Completed
+ORD0493,2025-05-09,Tablet,Lenovo Tab,Tablets,TS,Hyderabad,15,30000,10,405000.0,96,Business,Online,UPI,22,Priya,Cancelled
+ORD0494,2025-07-20,Mouse,Logitech M331,Accessories,TN,Coimbatore,11,1500,15,14025.0,5,Individual,Dealer,Cash,35,Rahul,Completed
+ORD0495,2025-03-04,Laptop,Lenovo IdeaPad,Computers,TN,Salem,7,58000,10,365400.0,98,Individual,Dealer,Credit Card,18,Arjun,Completed
+ORD0496,2025-05-29,Keyboard,Dell Keyboard,Accessories,KA,Hubli,1,2200,15,1870.0,87,Individual,Retail Store,Net Banking,39,Priya,Completed
+ORD0497,2025-02-13,Headphones,AirPods Pro,Audio,AP,Rajahmundry,11,25000,5,261250.0,43,Student,Retail Store,UPI,58,Divya,Completed
+ORD0498,2025-11-26,Mouse,HP Wireless Mouse,Accessories,TS,Hyderabad,4,1200,0,4800.0,97,Student,Online,Cash,42,Priya,Cancelled
+ORD0499,2025-12-01,Smartwatch,OnePlus Watch,Wearables,TN,Chennai,1,18000,5,17100.0,12,Business,Dealer,UPI,43,Priya,Completed
+ORD0500,2025-12-26,Mouse,HP Wireless Mouse,Accessories,TS,Hyderabad,1,1200,15,1020.0,23,Business,Dealer,UPI,48,Anil,Completed

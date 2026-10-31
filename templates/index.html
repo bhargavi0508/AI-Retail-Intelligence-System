@@ -1,0 +1,2720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Retail Intelligence Dashboard</title>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        /* ================================
+           HEADER
+        ================================= */
+
+        header {
+            background: linear-gradient(135deg, #111827, #2563eb);
+            color: white;
+            padding: 28px 40px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        header p {
+            color: #dbeafe;
+            font-size: 15px;
+        }
+
+        /* ================================
+           MAIN
+        ================================= */
+
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        /* ================================
+           SECTION TITLE
+        ================================= */
+
+        
+.section-title {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 26px 0 20px;
+    color: #0f172a;
+    padding-left: 12px;
+    border-left: 4px solid #2563eb;
+    line-height: 1.4;
+}
+        /* ================================
+           KPI CARDS
+        ================================= */
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+            margin-bottom: 35px;
+        }
+
+        .kpi-card {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+            border-left: 5px solid #2563eb;
+        }
+
+        .kpi-card h3 {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+
+        .kpi-card .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #111827;
+        }
+
+        /* ================================
+           ASK AI
+        ================================= */
+
+        .ai-box {
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+            margin-bottom: 35px;
+        }
+
+        .ai-box h2 {
+            margin-bottom: 15px;
+            color: #111827;
+        }
+
+        .ask-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        #question {
+            flex: 1;
+            padding: 13px 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        #question:focus {
+            border-color: #2563eb;
+        }
+
+        #askButton {
+            padding: 13px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        #askButton:hover {
+            background: #1d4ed8;
+        }
+
+        #answer {
+            margin-top: 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+            padding: 18px;
+            min-height: 60px;
+            white-space: pre-wrap;
+            line-height: 1.6;
+        }
+
+        /* ================================
+           CHART GRID
+        ================================= */
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-bottom: 35px;
+        }
+
+        .chart-card {
+    background: #ffffff;
+    padding: 22px;
+    border: 1px solid #e8edf5;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chart-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.10);
+}
+
+        
+.chart-card h3 {
+    margin: 0 0 16px 0;
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+}
+
+        .chart-container {
+            position: relative;
+            height: 280px;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        /* ================================
+           DYNAMIC INVENTORY
+        ================================= */
+
+        .inventory-summary {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .inventory-stat {
+            background: white;
+            padding: 22px;
+            border-radius: 15px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .inventory-stat h3 {
+            margin: 0 0 10px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        .inventory-stat .stat-value {
+            font-size: 30px;
+            font-weight: 700;
+            color: #1f4fd8;
+        }
+
+        .inventory-chart-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+        }
+
+        .inventory-chart-header {
+            margin-bottom: 20px;
+        }
+
+        .inventory-chart-header h3 {
+            margin: 0 0 6px;
+            font-size: 20px;
+        }
+
+        .inventory-chart-header p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .inventory-chart-container {
+            position: relative;
+            height: 280px;
+        }
+
+        .inventory-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+            margin-bottom: 35px;
+        }
+
+        .inventory-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .inventory-panel-header h3 {
+            margin: 0;
+        }
+
+        #refreshInventory,
+        #refreshForecast {
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            background: #1f4fd8;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        #refreshInventory:hover,
+        #refreshForecast:hover {
+            opacity: 0.9;
+        }
+
+        #refreshInventory:disabled,
+        #refreshForecast:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        
+.inventory-table-wrapper,
+.forecast-table-wrapper {
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.inventory-table,
+.forecast-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+        .inventory-table th,
+        .inventory-table td,
+        .forecast-table th,
+        .forecast-table td {
+            padding: 14px 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        
+.inventory-table th,
+.inventory-table td,
+.forecast-table th,
+.forecast-table td {
+    padding: 13px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5eaf2;
+}
+
+.inventory-table th,
+.forecast-table th {
+    background: #f1f5f9;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.inventory-table td,
+.forecast-table td {
+    font-size: 13px;
+    color: #334155;
+}
+
+.inventory-table tbody tr:hover,
+.forecast-table tbody tr:hover {
+    background: #f8fafc;
+}
+        .risk-badge,
+        .action-badge {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .risk-high {
+            background: #ffe1e1;
+            color: #c62828;
+        }
+
+        .risk-medium {
+            background: #fff0c2;
+            color: #9a6b00;
+        }
+
+        .action-high {
+            background: #ffe1e1;
+            color: #c62828;
+        }
+
+        .action-monitor {
+            background: #fff0c2;
+            color: #9a6b00;
+        }
+
+        .inventory-empty,
+        .forecast-empty {
+            text-align: center !important;
+            padding: 25px !important;
+            color: #555;
+        }
+
+        .inventory-error,
+        .forecast-error {
+            padding: 15px;
+            border-radius: 8px;
+            background: #ffe1e1;
+            color: #c62828;
+        }
+        
+
+        /* ================================
+           DEMAND FORECASTING
+        ================================= */
+
+        .forecast-section {
+            margin-top: 10px;
+            margin-bottom: 35px;
+        }
+
+        .forecast-summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .forecast-stat {
+            background: white;
+            padding: 22px;
+            border-radius: 15px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+            text-align: center;
+            border-top: 4px solid #2563eb;
+        }
+
+        .forecast-stat h3 {
+            font-size: 15px;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+
+        .forecast-stat .forecast-value {
+            font-size: 27px;
+            font-weight: 700;
+            color: #111827;
+        }
+
+        .forecast-stat .forecast-sub {
+            margin-top: 6px;
+            font-size: 13px;
+            color: #6b7280;
+        }
+
+        .forecast-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+        }
+
+        .forecast-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .forecast-panel-header h3 {
+            margin: 0;
+        }
+
+        .forecast-note {
+            background: #eff6ff;
+            color: #1e40af;
+            padding: 13px 15px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .forecast-high {
+            color: #c62828;
+            font-weight: 700;
+        }
+
+        .forecast-normal {
+            color: #1f4fd8;
+            font-weight: 700;
+        }
+
+        /* ================================
+           FOOTER
+        ================================= */
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #9ca3af;
+            margin-top: 30px;
+        }
+
+        .loading {
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        /* ================================
+           RESPONSIVE
+        ================================= */
+
+        @media (max-width: 1100px) {
+
+            .kpi-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .inventory-summary {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .forecast-summary {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media (max-width: 800px) {
+
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .full-width {
+                grid-column: auto;
+            }
+
+            .forecast-summary {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+        @media (max-width: 650px) {
+
+            header {
+                padding: 22px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .inventory-summary {
+                grid-template-columns: 1fr;
+            }
+
+            .ask-row {
+                flex-direction: column;
+            }
+
+            #askButton {
+                width: 100%;
+            }
+
+            .inventory-panel-header,
+            .forecast-panel-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            #refreshInventory,
+            #refreshForecast {
+                width: 100%;
+            }
+
+        }
+    /* Inventory cards layout */
+.inventory-summary {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.inventory-stat {
+    min-width: 0;
+}
+
+@media (max-width: 1200px) {
+    .inventory-summary {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .inventory-summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 450px) {
+    .inventory-summary {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Refresh Inventory button */
+#refreshInventory, 
+#refreshForecast {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.18);
+    transition: background 0.2s ease, transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+#refreshInventory:hover, 
+#refreshForecast:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(37, 99, 235, 0.25);
+}
+
+#refreshInventory:active,
+#refreshForecast:active{
+    transform: translateY(0);
+}
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+<header>
+
+    <h1>AI Retail Intelligence Dashboard</h1>
+
+    <p>
+        Electronics Sales, Demand & Inventory Intelligence System
+    </p>
+
+</header>
+
+
+<div class="container">
+
+
+    <!-- ================================
+         BUSINESS OVERVIEW
+    ================================= -->
+
+    <h2 class="section-title">
+        Business Overview
+    </h2>
+
+
+    <div class="kpi-grid">
+
+        <div class="kpi-card">
+
+            <h3>Total Revenue</h3>
+
+            <div
+                class="value"
+                id="totalRevenue">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card">
+
+            <h3>Total Units Sold</h3>
+
+            <div
+                class="value"
+                id="totalUnits">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card">
+
+            <h3>Top Product</h3>
+
+            <div
+                class="value"
+                id="topProduct">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card">
+
+            <h3>Top Demand Model</h3>
+
+            <div
+                class="value"
+                id="topModel">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card">
+
+            <h3>Top Region</h3>
+
+            <div
+                class="value"
+                id="topRegion">
+                Loading...
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================
+         ASK AI
+    ================================= -->
+
+    <div class="ai-box">
+
+        <h2>🤖 Ask AI</h2>
+
+        <div class="ask-row">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask something like: Which model has the highest demand?"
+            >
+
+            <button
+                id="askButton"
+                onclick="askAI()">
+                Ask AI
+            </button>
+
+        </div>
+
+        <div id="answer">
+
+            Ask a question to get verified business insights.
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================
+         BUSINESS ANALYTICS
+    ================================= -->
+
+    <h2 class="section-title">
+        📊 Business Analytics
+    </h2>
+
+
+    <div class="chart-grid">
+
+
+        <div class="chart-card">
+
+            <h3>Product Revenue</h3>
+
+            <div class="chart-container">
+
+                <canvas id="productRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Top 5 Models by Demand</h3>
+
+            <div class="chart-container">
+
+                <canvas id="modelDemandChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Revenue by Region</h3>
+
+            <div class="chart-container">
+
+                <canvas id="regionRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Top 5 Cities by Revenue</h3>
+
+            <div class="chart-container">
+
+                <canvas id="cityRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Sales Channel Performance</h3>
+
+            <div class="chart-container">
+
+                <canvas id="channelRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Customer Type Revenue</h3>
+
+            <div class="chart-container">
+
+                <canvas id="customerRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Revenue by Payment Method</h3>
+
+            <div class="chart-container">
+
+                <canvas id="paymentRevenueChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ================================
+         DYNAMIC INVENTORY INTELLIGENCE
+    ================================= -->
+
+    <h2 class="section-title">
+        📦 Dynamic Inventory Intelligence
+    </h2>
+
+
+    <div class="inventory-summary">
+
+    <div class="inventory-stat">
+        <h3>Total Models</h3>
+        <div class="stat-value" id="inventoryTotalModels">
+            Loading...
+        </div>
+    </div>
+
+    <div class="inventory-stat">
+        <h3>High Priority Reorder</h3>
+        <div class="stat-value" id="inventoryHighPriority">
+            Loading...
+        </div>
+    </div>
+
+    <div class="inventory-stat">
+        <h3>Monitor & Plan Reorder</h3>
+        <div class="stat-value" id="inventoryMonitorPlan">
+            Loading...
+        </div>
+    </div>
+
+    <div class="inventory-stat">
+        <h3>Monitor Stock</h3>
+        <div class="stat-value" id="inventoryMonitorStock">
+            Loading...
+        </div>
+    </div>
+
+    <div class="inventory-stat">
+        <h3>Healthy Stock</h3>
+        <div class="stat-value" id="inventoryHealthy">
+            Loading...
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div class="inventory-chart-card">
+
+        <div class="inventory-chart-header">
+
+            <h3>
+                📊 Inventory Risk Overview
+            </h3>
+
+            <p>
+                Current inventory risk distribution
+            </p>
+
+        </div>
+
+
+        <div class="inventory-chart-container">
+
+            <canvas id="inventoryRiskChart"></canvas>
+
+        </div>
+
+    </div>
+
+
+    <div class="inventory-panel">
+
+
+        <div class="inventory-panel-header">
+
+            <h3>
+                ⚠️ Inventory Action Required
+            </h3>
+
+            <button
+                id="refreshInventory"
+                onclick="loadInventory()">
+
+                Refresh Inventory
+
+            </button>
+
+        </div>
+
+
+        <div
+            id="inventoryStatus"
+            class="loading">
+
+            Loading verified inventory analysis...
+
+        </div>
+
+
+        <div class="inventory-table-wrapper">
+
+            <table class="inventory-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Model</th>
+                        <th>Demand</th>
+                        <th>Forecast</th>
+                        <th>Avg Stock</th>
+                        <th>Coverage</th>
+                        <th>Risk</th>
+                        <th>Action</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="inventoryTableBody">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================
+         DEMAND FORECASTING
+    ================================= -->
+
+    <section class="forecast-section">
+
+
+        <h2 class="section-title">
+            📈 Demand Forecasting
+        </h2>
+
+
+        <div class="forecast-summary">
+
+
+            <div class="forecast-stat">
+
+                <h3>
+                    Highest Forecast
+                </h3>
+
+                <div
+                    class="forecast-value"
+                    id="highestForecastModel">
+
+                    Loading...
+
+                </div>
+
+                <div
+                    class="forecast-sub">
+
+                    Model with highest predicted demand
+
+                </div>
+
+            </div>
+
+
+            <div class="forecast-stat">
+
+                <h3>
+                    Forecast Demand
+                </h3>
+
+                <div
+                    class="forecast-value"
+                    id="highestForecastValue">
+
+                    Loading...
+
+                </div>
+
+                <div
+                    class="forecast-sub">
+
+                    Expected units next month
+
+                </div>
+
+            </div>
+
+
+            <div class="forecast-stat">
+
+                <h3>
+                    Forecast Models
+                </h3>
+
+                <div
+                    class="forecast-value"
+                    id="forecastModelCount">
+
+                    Loading...
+
+                </div>
+
+                <div
+                    class="forecast-sub">
+
+                    Models included in forecast
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="forecast-panel">
+
+
+            <div class="forecast-panel-header">
+
+                <h3>
+                    🔮 Next Month Demand Forecast
+                </h3>
+
+                <button
+                    id="refreshForecast"
+                    onclick="loadForecast()">
+
+                    Refresh Forecast
+
+                </button>
+
+            </div>
+
+
+            <div class="forecast-note">
+
+                Forecast values are based on historical demand
+                signals calculated by the backend. They are
+                estimates for planning purposes and are not
+                guaranteed future sales.
+
+            </div>
+
+
+            <div
+                id="forecastStatus"
+                class="loading">
+
+                Loading demand forecast...
+
+            </div>
+
+
+            <div class="forecast-table-wrapper">
+
+                <table class="forecast-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Model</th>
+                            <th>Current Demand</th>
+                            <th>Forecast Demand</th>
+                            <th>Average Stock</th>
+                            <th>Stock Coverage</th>
+                            <th>Forecast Signal</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="forecastTableBody">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</div>
+
+
+<footer>
+
+    AI Retail Intelligence & Decision Support System
+
+</footer>
+
+
+<script>
+
+    /* ================================
+       GLOBAL CHART STORAGE
+    ================================= */
+
+    let charts = {};
+
+
+    /* ================================
+       FORMAT MONEY
+    ================================= */
+
+    function formatMoney(value) {
+
+        return "₹" +
+            Number(value).toLocaleString("en-IN", {
+                maximumFractionDigits: 0
+            });
+
+    }
+
+
+    /* ================================
+       LOAD KPI DATA
+    ================================= */
+
+    async function loadKPIs() {
+
+        try {
+
+            const response =
+                await fetch("/kpis");
+
+            const data =
+                await response.json();
+
+
+            document.getElementById(
+                "totalRevenue"
+            ).textContent =
+                formatMoney(data.total_revenue);
+
+
+            document.getElementById(
+                "totalUnits"
+            ).textContent =
+                Number(data.total_units)
+                    .toLocaleString("en-IN");
+
+
+            document.getElementById(
+                "topProduct"
+            ).textContent =
+                data.top_product;
+
+
+            document.getElementById(
+                "topModel"
+            ).textContent =
+                data.top_model;
+
+
+            document.getElementById(
+                "topRegion"
+            ).textContent =
+                data.top_region;
+
+        }
+
+        catch (error) {
+
+            console.error(
+                "KPI Error:",
+                error
+            );
+
+
+            [
+                "totalRevenue",
+                "totalUnits",
+                "topProduct",
+                "topModel",
+                "topRegion"
+            ].forEach(function(id) {
+
+                document.getElementById(id)
+                    .textContent = "Error";
+
+            });
+
+        }
+
+    }
+
+
+    /* ================================
+       COMMON CHART OPTIONS
+    ================================= */
+
+    function commonOptions(
+        isCurrency = false
+    ) {
+
+        return {
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            plugins: {
+
+                legend: {
+                    display: false
+                },
+
+                tooltip: {
+
+                    callbacks: {
+
+                        label: function(context) {
+
+                            const value =
+                                context.raw;
+
+
+                            if (isCurrency) {
+
+                                return " " +
+                                    formatMoney(value);
+
+                            }
+
+
+                            return " " +
+                                Number(value)
+                                    .toLocaleString("en-IN") +
+                                " units";
+
+                        }
+
+                    }
+
+                }
+
+            },
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true,
+
+                    ticks: {
+
+                        callback: function(value) {
+
+                            if (isCurrency) {
+
+                                return "₹" +
+                                    Number(value)
+                                        .toLocaleString("en-IN");
+
+                            }
+
+                            return value;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        };
+
+    }
+
+
+    /* ================================
+       CREATE BAR CHART
+    ================================= */
+
+    function createBarChart(
+        canvasId,
+        labels,
+        values,
+        title,
+        currency = false
+    ) {
+
+        const canvas =
+            document.getElementById(canvasId);
+
+
+        if (!canvas) {
+            return;
+        }
+
+
+        if (charts[canvasId]) {
+
+            charts[canvasId].destroy();
+
+        }
+
+
+        charts[canvasId] = new Chart(
+            canvas,
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels: labels,
+
+                    datasets: [
+
+                        {
+
+                            label: title,
+
+                            data: values,
+
+                            borderWidth: 1,
+
+                            borderRadius: 6
+
+                        }
+
+                    ]
+
+                },
+
+                options:
+                    commonOptions(currency)
+
+            }
+
+        );
+
+    }
+
+
+    /* ================================
+       CREATE DOUGHNUT CHART
+    ================================= */
+
+    function createDoughnutChart(
+        canvasId,
+        labels,
+        values,
+        title,
+        currency = false
+    ) {
+
+        const canvas =
+            document.getElementById(canvasId);
+
+
+        if (!canvas) {
+            return;
+        }
+
+
+        if (charts[canvasId]) {
+
+            charts[canvasId].destroy();
+
+        }
+
+
+        charts[canvasId] = new Chart(
+            canvas,
+            {
+
+                type: "doughnut",
+
+                data: {
+
+                    labels: labels,
+
+                    datasets: [
+
+                        {
+
+                            label: title,
+
+                            data: values,
+
+                            borderWidth: 2
+
+                        }
+
+                    ]
+
+                },
+
+                options: {
+
+                    responsive: true,
+
+                    maintainAspectRatio: false,
+
+                    plugins: {
+
+                        legend: {
+
+                            position: "right"
+
+                        },
+
+                        tooltip: {
+
+                            callbacks: {
+
+                                label:
+                                    function(context) {
+
+                                        const value =
+                                            context.raw;
+
+
+                                        if (currency) {
+
+                                            return " " +
+                                                context.label +
+                                                ": " +
+                                                formatMoney(value);
+
+                                        }
+
+
+                                        return " " +
+                                            context.label +
+                                            ": " +
+                                            Number(value)
+                                                .toLocaleString(
+                                                    "en-IN"
+                                                );
+
+                                    }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        );
+
+    }
+
+
+    /* ================================
+       LOAD ANALYTICS
+    ================================= */
+
+    async function loadAnalytics() {
+
+        try {
+
+            const response =
+                await fetch("/analytics");
+
+            const data =
+                await response.json();
+
+
+            createBarChart(
+
+                "productRevenueChart",
+
+                data.product_revenue.map(
+                    item => item.name
+                ),
+
+                data.product_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+
+            createBarChart(
+
+                "modelDemandChart",
+
+                data.model_demand.map(
+                    item => item.name
+                ),
+
+                data.model_demand.map(
+                    item => item.value
+                ),
+
+                "Units Sold",
+
+                false
+
+            );
+
+
+            createDoughnutChart(
+
+                "regionRevenueChart",
+
+                data.region_revenue.map(
+                    item => item.name
+                ),
+
+                data.region_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+
+            createBarChart(
+
+                "cityRevenueChart",
+
+                data.city_revenue.map(
+                    item => item.name
+                ),
+
+                data.city_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+
+            createDoughnutChart(
+
+                "channelRevenueChart",
+
+                data.channel_revenue.map(
+                    item => item.name
+                ),
+
+                data.channel_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+
+            createBarChart(
+
+                "customerRevenueChart",
+
+                data.customer_revenue.map(
+                    item => item.name
+                ),
+
+                data.customer_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+
+            createDoughnutChart(
+
+                "paymentRevenueChart",
+
+                data.payment_revenue.map(
+                    item => item.name
+                ),
+
+                data.payment_revenue.map(
+                    item => item.value
+                ),
+
+                "Revenue",
+
+                true
+
+            );
+
+        }
+
+        catch (error) {
+
+            console.error(
+                "Analytics Error:",
+                error
+            );
+
+        }
+
+    }
+
+
+    /* ================================
+       LOAD INVENTORY
+    ================================= */
+
+    async function loadInventory() {
+
+        const status =
+            document.getElementById(
+                "inventoryStatus"
+            );
+
+        const tableBody =
+            document.getElementById(
+                "inventoryTableBody"
+            );
+
+        const button =
+            document.getElementById(
+                "refreshInventory"
+            );
+
+
+        try {
+
+            status.textContent =
+                "Loading verified inventory analysis...";
+
+
+            button.disabled = true;
+
+            button.textContent =
+                "Refreshing...";
+
+
+            const response =
+                await fetch("/inventory");
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    "Inventory API returned " +
+                    response.status
+                );
+
+            }
+
+
+            const data =
+                await response.json();
+
+
+            if (data.error) {
+
+                throw new Error(
+                    data.error
+                );
+
+            }
+
+
+            const summary =
+                data.summary || {};
+
+
+            /* ================================
+               INVENTORY RISK CHART
+            ================================= */
+
+            const riskCanvas =
+                document.getElementById(
+                    "inventoryRiskChart"
+                );
+
+
+            if (riskCanvas) {
+
+                if (
+                    window.inventoryRiskChart &&
+                    typeof window.inventoryRiskChart.destroy ===
+                        "function"
+                ) {
+
+                    window.inventoryRiskChart.destroy();
+
+                }
+
+
+                window.inventoryRiskChart = null;
+
+
+                window.inventoryRiskChart =
+                    new Chart(
+                        riskCanvas,
+                        {
+
+                            type: "doughnut",
+
+                            data: {
+
+                                labels: [
+                                        "High Priority Reorder",
+                                        "Monitor & Plan Reorder",
+                                         "Monitor Stock",
+                                          "Healthy Stock"
+                                        ],
+
+                                datasets: [
+
+                                    {
+
+                                    data: [
+                                            Number(summary.high_priority_reorder || 0),
+                                            Number(summary.monitor_plan_reorder || 0),
+                                            Number(summary.monitor_stock || 0),
+                                            Number(summary.healthy_stock || 0)
+                                          ]
+
+                                    }
+
+                                ]
+
+                            },
+
+                            options: {
+
+                                responsive: true,
+
+                                maintainAspectRatio: false,
+
+                                plugins: {
+
+                                    legend: {
+
+                                        position:
+                                            "bottom"
+
+                                    },
+
+                                    tooltip: {
+
+                                        callbacks: {
+
+                                            label:
+                                                function(context) {
+
+                                                    return (
+                                                        context.label +
+                                                        ": " +
+                                                        context.raw +
+                                                        " models"
+                                                    );
+
+                                                }
+
+                                        }
+
+                                    }
+
+                                }
+
+                            }
+
+                        }
+                    );
+
+            }
+
+
+            /* ================================
+               INVENTORY SUMMARY
+            ================================= */
+
+            document.getElementById(
+                "inventoryTotalModels"
+            ).textContent =
+                Number(
+                    summary.total_models || 0
+                ).toLocaleString("en-IN");
+
+
+            document.getElementById(
+                "inventoryHighPriority"
+            ).textContent =
+                Number(
+                    summary.high_priority_reorder || 0
+                ).toLocaleString("en-IN");
+
+
+            document.getElementById("inventoryMonitorPlan").textContent =
+    Number(summary.monitor_plan_reorder || 0).toLocaleString("en-IN");
+
+document.getElementById("inventoryMonitorStock").textContent =
+    Number(summary.monitor_stock || 0).toLocaleString("en-IN");
+
+document.getElementById("inventoryHealthy").textContent =
+    Number(summary.healthy_stock || 0).toLocaleString("en-IN");
+
+
+            /* ================================
+               INVENTORY TABLE
+            ================================= */
+
+            const inventory =
+                Array.isArray(data.inventory)
+                    ? data.inventory
+                    : [];
+
+
+            const actionRows =
+                inventory.filter(
+                    item =>
+                        item.Action &&
+                        item.Action !==
+                            "HEALTHY STOCK"
+                );
+
+
+            tableBody.innerHTML = "";
+
+
+            if (actionRows.length === 0) {
+
+                tableBody.innerHTML = `
+
+                    <tr>
+
+                        <td
+                            colspan="7"
+                            class="inventory-empty">
+
+                            No immediate inventory
+                            action is required.
+
+                        </td>
+
+                    </tr>
+
+                `;
+
+            }
+
+            else {
+
+                actionRows.forEach(
+                    function(item) {
+
+                        const risk =
+                            String(
+                                item.Risk_Level || ""
+                            ).toUpperCase();
+
+
+                        const action =
+                            String(
+                                item.Action || ""
+                            );
+
+
+                        const row =
+                            document.createElement(
+                                "tr"
+                            );
+
+
+                        row.innerHTML = `
+
+                            <td>
+
+                                <strong>
+
+                                    ${escapeHtml(
+                                        item.Product_Model
+                                    )}
+
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                ${formatNumber(
+                                    item.Demand
+                                )}
+
+                            </td>
+
+
+                            <td>
+
+                                ${formatNumber(
+                                    item.Forecast_Demand
+                                )}
+
+                            </td>
+
+
+                            <td>
+
+                                ${formatDecimal(
+                                    item.Average_Stock
+                                )}
+
+                            </td>
+
+
+                            <td>
+
+                                ${formatDecimal(
+                                    item.Stock_Coverage
+                                )}
+                                months
+
+                            </td>
+
+
+                            <td>
+
+                                <span
+                                    class="risk-badge ${
+                                        risk === "HIGH"
+                                            ? "risk-high"
+                                            : "risk-medium"
+                                    }">
+
+                                    ${escapeHtml(
+                                        risk
+                                    )}
+
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <span
+                                    class="action-badge ${
+                                        action.includes(
+                                            "HIGH PRIORITY"
+                                        )
+                                            ? "action-high"
+                                            : "action-monitor"
+                                    }">
+
+                                    ${escapeHtml(
+                                        action
+                                    )}
+
+                                </span>
+
+                            </td>
+
+                        `;
+
+
+                        tableBody.appendChild(
+                            row
+                        );
+
+                    }
+                );
+
+            }
+
+
+            status.textContent =
+                `Showing ${actionRows.length} model(s) ` +
+                `requiring inventory attention. ` +
+                `Analysis is based on verified dataset ` +
+                `metrics and forecast signals.`;
+
+
+        }
+
+        catch (error) {
+
+            console.error(
+                "Inventory Error:",
+                error
+            );
+
+
+            [
+
+                "inventoryTotalModels",
+
+                "inventoryHighPriority",
+
+                "inventoryMonitor",
+
+                "inventoryHealthy"
+
+            ].forEach(
+                function(id) {
+
+                    document.getElementById(id)
+                        .textContent =
+                            "Error";
+
+                }
+            );
+
+
+            tableBody.innerHTML = "";
+
+
+            status.innerHTML = `
+
+                <div
+                    class="inventory-error">
+
+                    Unable to load inventory analysis:
+
+                    ${escapeHtml(
+                        error.message
+                    )}
+
+                </div>
+
+            `;
+
+        }
+
+        finally {
+
+            button.disabled = false;
+
+            button.textContent =
+                "Refresh Inventory";
+
+        }
+
+    }
+
+
+    /* ================================
+       DEMAND FORECASTING
+       
+       Uses verified Forecast_Demand
+       already returned by /inventory.
+    ================================= */
+
+    async function loadForecast() {
+
+    const status =
+        document.getElementById(
+            "forecastStatus"
+        );
+
+    const tableBody =
+        document.getElementById(
+            "forecastTableBody"
+        );
+
+    const button =
+        document.getElementById(
+            "refreshForecast"
+        );
+
+
+    try {
+
+        status.textContent =
+            "Loading verified demand forecast...";
+
+
+        button.disabled = true;
+
+        button.textContent =
+            "Refreshing...";
+
+
+        const response =
+            await fetch("/inventory");
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Forecast data returned " +
+                response.status
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        if (data.error) {
+
+            throw new Error(
+                data.error
+            );
+
+        }
+
+
+        const inventory =
+            Array.isArray(data.inventory)
+                ? data.inventory
+                : [];
+
+
+        /*
+         * Only models with a valid forecast
+         * are included.
+         */
+
+        const forecastRows =
+            inventory
+                .filter(
+                    item =>
+                        Number.isFinite(
+                            Number(
+                                item.Forecast_Demand
+                            )
+                        )
+                )
+                .sort(
+                    (
+                        a,
+                        b
+                    ) =>
+                        Number(
+                            b.Forecast_Demand
+                        ) -
+                        Number(
+                            a.Forecast_Demand
+                        )
+                );
+
+
+        /* ================================
+           SUMMARY
+        ================================= */
+
+        document.getElementById(
+            "forecastModelCount"
+        ).textContent =
+            forecastRows.length.toLocaleString(
+                "en-IN"
+            );
+
+
+        if (forecastRows.length === 0) {
+
+            throw new Error(
+                "No forecast data available."
+            );
+
+        }
+
+
+        const top =
+            forecastRows[0];
+
+
+        document.getElementById(
+            "highestForecastModel"
+        ).textContent =
+            top.Product_Model || "-";
+
+
+        document.getElementById(
+            "highestForecastValue"
+        ).textContent =
+            formatNumber(
+                top.Forecast_Demand
+            ) +
+            " units";
+
+
+        /* ================================
+           FORECAST TABLE
+        ================================= */
+
+        tableBody.innerHTML = "";
+
+
+        forecastRows.forEach(
+            function(item) {
+
+                const forecast =
+                    Number(
+                        item.Forecast_Demand
+                    );
+
+
+                /*
+                 * IMPORTANT:
+                 *
+                 * Demand = total historical demand
+                 * Average_Monthly_Demand =
+                 * average demand per month
+                 *
+                 * Forecast must be compared
+                 * with Average_Monthly_Demand.
+                 */
+
+                const averageMonthlyDemand =
+                    Number(
+                        item.Average_Monthly_Demand
+                    );
+
+
+                const stock =
+                    Number(
+                        item.Average_Stock
+                    );
+
+
+                const coverage =
+                    Number(
+                        item.Stock_Coverage
+                    );
+
+
+                let signal =
+                    "Stable";
+
+
+                let signalClass =
+                    "forecast-normal";
+
+
+                /*
+                 * Forecast Signal Logic
+                 *
+                 * Forecast > Average Monthly Demand
+                 *     → Increasing Demand
+                 *
+                 * Forecast < Average Monthly Demand
+                 *     → Lower Demand
+                 *
+                 * Otherwise
+                 *     → Stable
+                 */
+
+                if (
+                    Number.isFinite(
+                        averageMonthlyDemand
+                    )
+                ) {
+
+                    if (
+                        forecast >
+                        averageMonthlyDemand
+                    ) {
+
+                        signal =
+                            "Increasing Demand";
+
+                        signalClass =
+                            "forecast-high";
+
+                    }
+
+                    else if (
+                        forecast <
+                        averageMonthlyDemand
+                    ) {
+
+                        signal =
+                            "Lower Demand";
+
+                        signalClass =
+                            "forecast-normal";
+
+                    }
+
+                }
+
+
+                const row =
+                    document.createElement(
+                        "tr"
+                    );
+
+
+                row.innerHTML = `
+
+                    <td>
+
+                        <strong>
+
+                            ${escapeHtml(
+                                item.Product_Model
+                            )}
+
+                        </strong>
+
+                    </td>
+
+
+                    <td>
+
+                        ${formatNumber(
+                            item.Demand
+                        )}
+
+                    </td>
+
+
+                    <td>
+
+                        <strong>
+
+                            ${formatNumber(
+                                item.Forecast_Demand
+                            )}
+
+                        </strong>
+
+                        units
+
+                    </td>
+
+
+                    <td>
+
+                        ${formatDecimal(
+                            stock
+                        )}
+
+                    </td>
+
+
+                    <td>
+
+                        ${formatDecimal(
+                            coverage
+                        )}
+
+                        months
+
+                    </td>
+
+
+                    <td>
+
+                        <span
+                            class="${signalClass}">
+
+                            ${escapeHtml(
+                                signal
+                            )}
+
+                        </span>
+
+                    </td>
+
+                `;
+
+
+                tableBody.appendChild(
+                    row
+                );
+
+            }
+        );
+
+
+        status.textContent =
+            `Showing forecast data for ` +
+            `${forecastRows.length} product models. ` +
+            `Models are ranked by estimated next-month demand.`;
+
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Forecast Error:",
+            error
+        );
+
+
+        document.getElementById(
+            "highestForecastModel"
+        ).textContent =
+            "Error";
+
+
+        document.getElementById(
+            "highestForecastValue"
+        ).textContent =
+            "Error";
+
+
+        document.getElementById(
+            "forecastModelCount"
+        ).textContent =
+            "Error";
+
+
+        tableBody.innerHTML = "";
+
+
+        status.innerHTML = `
+
+            <div
+                class="forecast-error">
+
+                Unable to load demand forecast:
+
+                ${escapeHtml(
+                    error.message
+                )}
+
+            </div>
+
+        `;
+
+    }
+
+    finally {
+
+        button.disabled = false;
+
+        button.textContent =
+            "Refresh Forecast";
+
+    }
+
+}
+
+
+    /* ================================
+       FORMAT NUMBER
+    ================================= */
+
+    function formatNumber(value) {
+
+        const number =
+            Number(value);
+
+
+        return Number.isFinite(number)
+
+            ? number.toLocaleString(
+                "en-IN"
+            )
+
+            : "-";
+
+    }
+
+
+    /* ================================
+       FORMAT DECIMAL
+    ================================= */
+
+    function formatDecimal(value) {
+
+        const number =
+            Number(value);
+
+
+        return Number.isFinite(number)
+
+            ? number.toLocaleString(
+                "en-IN",
+                {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }
+            )
+
+            : "-";
+
+    }
+
+
+    /* ================================
+       ESCAPE HTML
+    ================================= */
+
+    function escapeHtml(value) {
+
+        return String(
+            value ?? ""
+        )
+
+            .replace(
+                /&/g,
+                "&amp;"
+            )
+
+            .replace(
+                /</g,
+                "&lt;"
+            )
+
+            .replace(
+                />/g,
+                "&gt;"
+            )
+
+            .replace(
+                /"/g,
+                "&quot;"
+            )
+
+            .replace(
+                /'/g,
+                "&#039;"
+            );
+
+    }
+
+
+    /* ================================
+       ASK AI
+    ================================= */
+
+    async function askAI() {
+    const question = document.getElementById("question").value.trim();
+    const answer = document.getElementById("answer");
+    const button = document.getElementById("askButton");
+
+    if (!question) {
+        answer.textContent = "Please enter a question.";
+        return;
+    }
+
+    answer.textContent = "🤖 AI is analyzing the verified business data...";
+    button.disabled = true;
+    button.textContent = "Analyzing...";
+
+    try {
+        const response = await fetch("/ask", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                question: question
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error("Server returned " + response.status);
+        }
+
+        const data = await response.json();
+
+        if (data.answer) {
+            const cleanAnswer = String(data.answer)
+                .replace(/\*\*(.*?)\*\*/g, "$1")
+                .replace(/\*/g, "");
+
+            answer.textContent = cleanAnswer;
+        } else {
+            answer.textContent = "Unable to generate an answer.";
+        }
+
+    } catch (error) {
+        console.error("AI Error:", error);
+        answer.textContent = "Error connecting to AI agent: " + error.message;
+
+    } finally {
+        button.disabled = false;
+        button.textContent = "Ask AI";
+    }
+}
+    /* ================================
+       ENTER KEY SUPPORT
+    ================================= */
+
+    document
+        .getElementById(
+            "question"
+        )
+        .addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key ===
+                    "Enter"
+                ) {
+
+                    askAI();
+
+                }
+
+            }
+        );
+
+
+    /* ================================
+       LOAD DASHBOARD
+    ================================= */
+
+    loadKPIs();
+
+    loadAnalytics();
+
+    loadInventory();
+
+    loadForecast();
+
+</script>
+
+
+</body>
+
+</html>
+

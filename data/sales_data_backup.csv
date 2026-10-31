@@ -1,0 +1,501 @@
+Order_ID,Date,Product,Category,Region,City,Units_Sold,Unit_Price,Discount_Percent,Revenue,Customer_Type,Sales_Channel,Payment_Method,Customer_Age,Salesperson,Order_Status
+ORD0001,2026-05-06,Mobile,Electronics,AP,Rajamahendravaram,16,20000,0,320000,Student,Online,Net Banking,23,Arjun,Completed
+ORD0002,2026-04-30,Laptop,Electronics,AP,Visakhapatnam,34,55000,10,1683000,Individual,Dealer,Credit Card,63,Arjun,Completed
+ORD0003,2026-03-23,Mouse,Accessories,KA,Bengaluru,46,900,5,39330,Business,Retail Store,Credit Card,31,Divya,Completed
+ORD0004,2026-07-03,Mobile,Electronics,TN,Chennai,56,20000,5,1064000,Student,Retail Store,UPI,64,Meena,Cancelled
+ORD0005,2026-05-31,Mobile,Electronics,TN,Chennai,55,20000,10,990000,Student,Retail Store,Net Banking,30,Priya,Completed
+ORD0006,2026-04-30,Headphones,Accessories,KA,Bengaluru,57,2500,0,142500,Business,Retail Store,Cash,58,Divya,Completed
+ORD0007,2026-05-17,Keyboard,Accessories,KA,Mysuru,46,1800,10,74520,Student,Online,Net Banking,58,Rahul,Cancelled
+ORD0008,2026-07-14,Headphones,Accessories,TS,Nizamabad,19,2500,10,42750,Student,Dealer,Credit Card,61,Divya,Completed
+ORD0009,2026-07-25,Headphones,Accessories,AP,Rajamahendravaram,19,2500,0,47500,Individual,Dealer,Debit Card,31,Meena,Completed
+ORD0010,2026-03-13,Mouse,Accessories,TS,Karimnagar,17,900,10,13770,Student,Dealer,Debit Card,65,Arjun,Cancelled
+ORD0011,2026-03-12,Monitor,Electronics,KA,Mysuru,34,15000,5,484500,Individual,Online,UPI,27,Rahul,Completed
+ORD0012,2026-08-28,Mobile,Electronics,TN,Salem,35,20000,5,665000,Student,Online,UPI,61,Kiran,Completed
+ORD0013,2026-03-22,Mobile,Electronics,KA,Hubballi,31,20000,0,620000,Student,Dealer,Debit Card,50,Rahul,Cancelled
+ORD0014,2026-03-20,Mobile,Electronics,KA,Mysuru,25,20000,15,425000,Individual,Dealer,Net Banking,18,Divya,Completed
+ORD0015,2026-06-07,Laptop,Electronics,AP,Rajamahendravaram,17,55000,0,935000,Individual,Dealer,UPI,23,Meena,Completed
+ORD0016,2026-03-26,Tablet,Electronics,TS,Nizamabad,18,30000,10,486000,Student,Retail Store,Credit Card,52,Sneha,Completed
+ORD0017,2026-09-22,Monitor,Electronics,KA,Hubballi,30,15000,0,450000,Individual,Online,UPI,39,Anil,Cancelled
+ORD0018,2026-02-06,Headphones,Accessories,TS,Hyderabad,47,2500,10,105750,Individual,Online,UPI,20,Divya,Completed
+ORD0019,2026-04-20,Headphones,Accessories,KA,Hubballi,36,2500,0,90000,Student,Dealer,Net Banking,48,Sneha,Completed
+ORD0020,2026-02-19,Monitor,Electronics,TS,Hyderabad,44,15000,5,627000,Business,Retail Store,Cash,47,Anil,Completed
+ORD0021,2026-02-25,Laptop,Electronics,TN,Madurai,17,55000,0,935000,Individual,Dealer,Cash,26,Arjun,Completed
+ORD0022,2026-02-08,Smartwatch,Accessories,TN,Coimbatore,30,7000,15,178500,Student,Online,UPI,59,Anil,Completed
+ORD0023,2026-09-06,Headphones,Accessories,TS,Nizamabad,32,2500,0,80000,Business,Online,Credit Card,42,Anil,Completed
+ORD0024,2026-08-05,Smartwatch,Accessories,TN,Madurai,46,7000,10,289800,Student,Dealer,Cash,27,Sneha,Completed
+ORD0025,2026-06-10,Headphones,Accessories,AP,Vijayawada,5,2500,0,12500,Student,Retail Store,Net Banking,51,Rahul,Completed
+ORD0026,2026-02-04,Mobile,Electronics,TS,Hyderabad,45,20000,15,765000,Individual,Retail Store,UPI,54,Sneha,Cancelled
+ORD0027,2026-09-25,Laptop,Electronics,AP,Guntur,22,55000,5,1149500,Individual,Dealer,Debit Card,33,Kiran,Completed
+ORD0028,2026-06-11,Tablet,Electronics,KA,Hubballi,50,30000,0,1500000,Individual,Retail Store,Net Banking,54,Priya,Completed
+ORD0029,2026-06-28,Headphones,Accessories,KA,Mysuru,58,2500,0,145000,Individual,Retail Store,Debit Card,28,Meena,Cancelled
+ORD0030,2026-02-23,Smartwatch,Accessories,AP,Rajamahendravaram,58,7000,0,406000,Business,Online,UPI,65,Rahul,Completed
+ORD0031,2026-04-15,Smartwatch,Accessories,TS,Karimnagar,45,7000,10,283500,Business,Dealer,Cash,34,Anil,Completed
+ORD0032,2026-01-02,Monitor,Electronics,KA,Bengaluru,23,15000,15,293250,Individual,Dealer,Debit Card,28,Meena,Cancelled
+ORD0033,2026-02-08,Monitor,Electronics,AP,Vijayawada,58,15000,10,783000,Individual,Dealer,UPI,41,Rahul,Completed
+ORD0034,2026-07-06,Tablet,Electronics,AP,Rajamahendravaram,59,30000,15,1504500,Individual,Retail Store,Credit Card,61,Sneha,Completed
+ORD0035,2026-05-02,Keyboard,Accessories,TN,Coimbatore,57,1800,0,102600,Individual,Retail Store,UPI,29,Divya,Completed
+ORD0036,2026-02-25,Headphones,Accessories,KA,Mysuru,26,2500,15,55250,Individual,Retail Store,Credit Card,30,Meena,Completed
+ORD0037,2026-01-13,Smartwatch,Accessories,TS,Warangal,44,7000,0,308000,Business,Retail Store,Debit Card,22,Kiran,Completed
+ORD0038,2026-03-01,Monitor,Electronics,KA,Bengaluru,58,15000,5,826500,Individual,Dealer,Debit Card,20,Priya,Cancelled
+ORD0039,2026-08-12,Monitor,Electronics,KA,Mangaluru,40,15000,10,540000,Individual,Retail Store,Net Banking,30,Kiran,Completed
+ORD0040,2026-07-06,Monitor,Electronics,AP,Visakhapatnam,29,15000,0,435000,Student,Retail Store,Net Banking,38,Priya,Completed
+ORD0041,2026-07-26,Smartwatch,Accessories,TN,Madurai,46,7000,5,305900,Student,Online,Credit Card,44,Arjun,Completed
+ORD0042,2026-06-05,Smartwatch,Accessories,TN,Chennai,20,7000,0,140000,Business,Dealer,Net Banking,59,Divya,Completed
+ORD0043,2026-09-19,Mouse,Accessories,TN,Coimbatore,32,900,15,24480,Student,Online,UPI,36,Divya,Completed
+ORD0044,2026-04-12,Headphones,Accessories,KA,Mysuru,11,2500,0,27500,Individual,Online,Cash,57,Priya,Completed
+ORD0045,2026-09-11,Monitor,Electronics,TS,Nizamabad,27,15000,0,405000,Individual,Dealer,UPI,24,Arjun,Completed
+ORD0046,2026-05-08,Tablet,Electronics,TN,Chennai,60,30000,15,1530000,Individual,Retail Store,Credit Card,47,Divya,Completed
+ORD0047,2026-09-01,Monitor,Electronics,TN,Coimbatore,30,15000,5,427500,Individual,Dealer,Debit Card,51,Meena,Completed
+ORD0048,2026-05-27,Smartwatch,Accessories,TN,Chennai,17,7000,5,113050,Business,Retail Store,Net Banking,23,Rahul,Completed
+ORD0049,2026-04-20,Headphones,Accessories,TN,Coimbatore,6,2500,5,14250,Business,Retail Store,Net Banking,47,Arjun,Completed
+ORD0050,2026-01-11,Headphones,Accessories,TN,Salem,56,2500,15,119000,Student,Retail Store,Cash,18,Divya,Completed
+ORD0051,2026-09-07,Monitor,Electronics,TN,Coimbatore,16,15000,5,228000,Business,Retail Store,UPI,42,Divya,Completed
+ORD0052,2026-01-14,Tablet,Electronics,TN,Coimbatore,60,30000,5,1710000,Student,Dealer,UPI,23,Arjun,Completed
+ORD0053,2026-05-14,Mouse,Accessories,TS,Hyderabad,26,900,5,22230,Individual,Retail Store,Debit Card,39,Arjun,Completed
+ORD0054,2026-08-29,Monitor,Electronics,KA,Bengaluru,3,15000,10,40500,Student,Online,Debit Card,32,Priya,Completed
+ORD0055,2026-01-11,Laptop,Electronics,TS,Warangal,41,55000,0,2255000,Individual,Online,Cash,60,Priya,Cancelled
+ORD0056,2026-07-08,Headphones,Accessories,TN,Madurai,12,2500,10,27000,Student,Dealer,UPI,28,Kiran,Completed
+ORD0057,2026-07-23,Laptop,Electronics,KA,Hubballi,47,55000,0,2585000,Individual,Dealer,Credit Card,24,Kiran,Cancelled
+ORD0058,2026-09-30,Mobile,Electronics,AP,Rajamahendravaram,29,20000,10,522000,Business,Online,Net Banking,59,Divya,Completed
+ORD0059,2026-08-10,Monitor,Electronics,TN,Chennai,25,15000,10,337500,Business,Dealer,Credit Card,45,Rahul,Cancelled
+ORD0060,2026-08-12,Smartwatch,Accessories,TN,Salem,54,7000,10,340200,Student,Retail Store,Debit Card,33,Priya,Completed
+ORD0061,2026-07-14,Mouse,Accessories,TS,Nizamabad,23,900,0,20700,Business,Retail Store,Credit Card,49,Sneha,Completed
+ORD0062,2026-05-22,Smartwatch,Accessories,KA,Mangaluru,37,7000,0,259000,Student,Online,UPI,33,Arjun,Completed
+ORD0063,2026-08-18,Headphones,Accessories,TN,Salem,52,2500,0,130000,Individual,Retail Store,Credit Card,43,Sneha,Completed
+ORD0064,2026-08-06,Keyboard,Accessories,TN,Madurai,49,1800,10,79380,Business,Retail Store,Cash,35,Kiran,Completed
+ORD0065,2026-06-11,Headphones,Accessories,AP,Visakhapatnam,9,2500,10,20250,Student,Dealer,Credit Card,30,Sneha,Completed
+ORD0066,2026-04-10,Smartwatch,Accessories,KA,Bengaluru,20,7000,0,140000,Business,Online,Debit Card,18,Rahul,Completed
+ORD0067,2026-03-06,Laptop,Electronics,AP,Rajamahendravaram,42,55000,15,1963500,Business,Online,UPI,54,Kiran,Completed
+ORD0068,2026-04-05,Mouse,Accessories,TN,Madurai,5,900,5,4275,Business,Online,UPI,43,Meena,Completed
+ORD0069,2026-06-05,Laptop,Electronics,TS,Warangal,7,55000,0,385000,Individual,Dealer,Cash,56,Sneha,Cancelled
+ORD0070,2026-06-02,Monitor,Electronics,TN,Salem,57,15000,10,769500,Business,Retail Store,Net Banking,57,Anil,Cancelled
+ORD0071,2026-05-16,Mobile,Electronics,TS,Warangal,44,20000,0,880000,Individual,Online,Credit Card,53,Priya,Completed
+ORD0072,2026-08-29,Laptop,Electronics,TN,Salem,20,55000,0,1100000,Individual,Retail Store,Debit Card,62,Meena,Completed
+ORD0073,2026-08-06,Headphones,Accessories,KA,Mysuru,9,2500,10,20250,Individual,Dealer,Credit Card,35,Rahul,Completed
+ORD0074,2026-05-28,Laptop,Electronics,TS,Karimnagar,30,55000,0,1650000,Business,Dealer,Debit Card,62,Arjun,Completed
+ORD0075,2026-01-21,Mouse,Accessories,TN,Chennai,58,900,5,49590,Student,Retail Store,Net Banking,34,Anil,Completed
+ORD0076,2026-01-21,Headphones,Accessories,AP,Rajamahendravaram,50,2500,15,106250,Individual,Retail Store,Net Banking,59,Meena,Completed
+ORD0077,2026-02-16,Tablet,Electronics,TN,Salem,32,30000,5,912000,Business,Retail Store,Debit Card,60,Priya,Completed
+ORD0078,2026-05-28,Keyboard,Accessories,TN,Salem,44,1800,5,75240,Student,Online,Cash,23,Divya,Completed
+ORD0079,2026-09-21,Keyboard,Accessories,AP,Guntur,54,1800,0,97200,Student,Dealer,Cash,44,Anil,Completed
+ORD0080,2026-01-27,Keyboard,Accessories,TN,Salem,15,1800,5,25650,Student,Online,Debit Card,46,Meena,Completed
+ORD0081,2026-06-09,Laptop,Electronics,TS,Warangal,37,55000,0,2035000,Student,Retail Store,UPI,32,Priya,Completed
+ORD0082,2026-05-30,Mobile,Electronics,TS,Nizamabad,34,20000,10,612000,Business,Retail Store,Cash,48,Sneha,Completed
+ORD0083,2026-09-18,Tablet,Electronics,TN,Coimbatore,49,30000,0,1470000,Individual,Retail Store,Cash,39,Kiran,Completed
+ORD0084,2026-03-18,Smartwatch,Accessories,KA,Hubballi,30,7000,10,189000,Business,Retail Store,Debit Card,53,Arjun,Completed
+ORD0085,2026-07-16,Keyboard,Accessories,TS,Warangal,16,1800,15,24480,Business,Online,Debit Card,65,Meena,Completed
+ORD0086,2026-01-19,Monitor,Electronics,TS,Nizamabad,10,15000,10,135000,Student,Retail Store,UPI,46,Priya,Cancelled
+ORD0087,2026-07-29,Mouse,Accessories,AP,Visakhapatnam,57,900,10,46170,Individual,Online,Cash,34,Divya,Cancelled
+ORD0088,2026-07-14,Monitor,Electronics,AP,Rajamahendravaram,22,15000,10,297000,Student,Retail Store,Net Banking,20,Priya,Completed
+ORD0089,2026-08-11,Smartwatch,Accessories,TS,Hyderabad,8,7000,15,47600,Student,Dealer,UPI,46,Rahul,Completed
+ORD0090,2026-01-29,Laptop,Electronics,AP,Rajamahendravaram,20,55000,5,1045000,Business,Retail Store,Credit Card,33,Arjun,Cancelled
+ORD0091,2026-02-10,Tablet,Electronics,TS,Warangal,41,30000,15,1045500,Business,Dealer,Credit Card,49,Rahul,Completed
+ORD0092,2026-05-11,Mouse,Accessories,KA,Hubballi,44,900,0,39600,Business,Retail Store,Net Banking,28,Priya,Completed
+ORD0093,2026-05-09,Keyboard,Accessories,KA,Hubballi,31,1800,15,47430,Business,Online,Cash,48,Priya,Completed
+ORD0094,2026-06-01,Monitor,Electronics,KA,Mangaluru,3,15000,15,38250,Student,Retail Store,Debit Card,18,Anil,Cancelled
+ORD0095,2026-06-30,Mouse,Accessories,KA,Mysuru,16,900,10,12960,Individual,Dealer,Debit Card,61,Rahul,Completed
+ORD0096,2026-01-18,Laptop,Electronics,KA,Hubballi,39,55000,5,2037750,Student,Online,UPI,36,Divya,Completed
+ORD0097,2026-07-07,Tablet,Electronics,TS,Warangal,35,30000,10,945000,Business,Online,Debit Card,48,Kiran,Completed
+ORD0098,2026-03-14,Mobile,Electronics,TN,Chennai,50,20000,0,1000000,Student,Dealer,Cash,53,Divya,Completed
+ORD0099,2026-03-05,Monitor,Electronics,AP,Rajamahendravaram,31,15000,5,441750,Student,Dealer,Debit Card,55,Arjun,Completed
+ORD0100,2026-01-13,Mobile,Electronics,TS,Nizamabad,41,20000,10,738000,Business,Dealer,Credit Card,59,Priya,Completed
+ORD0101,2026-03-13,Smartwatch,Accessories,TN,Chennai,4,7000,0,28000,Business,Retail Store,UPI,24,Sneha,Cancelled
+ORD0102,2026-07-09,Tablet,Electronics,TN,Salem,44,30000,10,1188000,Student,Dealer,Cash,55,Rahul,Completed
+ORD0103,2026-05-24,Mobile,Electronics,TN,Salem,4,20000,10,72000,Business,Online,Cash,46,Sneha,Completed
+ORD0104,2026-02-01,Mobile,Electronics,KA,Mangaluru,27,20000,5,513000,Individual,Online,Cash,23,Sneha,Cancelled
+ORD0105,2026-05-05,Laptop,Electronics,AP,Rajamahendravaram,10,55000,15,467500,Student,Online,UPI,53,Sneha,Cancelled
+ORD0106,2026-03-17,Headphones,Accessories,TS,Karimnagar,52,2500,10,117000,Individual,Retail Store,Credit Card,26,Kiran,Completed
+ORD0107,2026-01-08,Mobile,Electronics,AP,Visakhapatnam,24,20000,15,408000,Individual,Dealer,Debit Card,19,Rahul,Completed
+ORD0108,2026-09-27,Laptop,Electronics,TS,Nizamabad,9,55000,10,445500,Individual,Retail Store,Cash,41,Priya,Completed
+ORD0109,2026-08-23,Headphones,Accessories,AP,Rajamahendravaram,43,2500,0,107500,Individual,Retail Store,Cash,45,Priya,Completed
+ORD0110,2026-06-14,Mouse,Accessories,AP,Vijayawada,40,900,0,36000,Individual,Online,Debit Card,57,Divya,Completed
+ORD0111,2026-02-20,Smartwatch,Accessories,TN,Salem,52,7000,10,327600,Individual,Dealer,Net Banking,64,Sneha,Completed
+ORD0112,2026-06-23,Mouse,Accessories,TS,Nizamabad,54,900,5,46170,Business,Retail Store,UPI,38,Arjun,Completed
+ORD0113,2026-08-31,Smartwatch,Accessories,KA,Mysuru,6,7000,0,42000,Individual,Online,Cash,24,Divya,Completed
+ORD0114,2026-07-30,Laptop,Electronics,KA,Bengaluru,24,55000,15,1122000,Student,Retail Store,UPI,36,Kiran,Completed
+ORD0115,2026-09-04,Mobile,Electronics,TS,Warangal,16,20000,15,272000,Individual,Retail Store,Net Banking,41,Priya,Completed
+ORD0116,2026-05-17,Headphones,Accessories,TN,Chennai,3,2500,0,7500,Business,Dealer,Debit Card,39,Divya,Completed
+ORD0117,2026-02-05,Tablet,Electronics,TS,Nizamabad,11,30000,10,297000,Student,Online,UPI,65,Sneha,Completed
+ORD0118,2026-03-22,Monitor,Electronics,TN,Madurai,25,15000,5,356250,Student,Retail Store,Net Banking,56,Priya,Completed
+ORD0119,2026-02-11,Tablet,Electronics,TS,Hyderabad,19,30000,5,541500,Student,Retail Store,Cash,56,Meena,Completed
+ORD0120,2026-06-26,Smartwatch,Accessories,TS,Hyderabad,29,7000,0,203000,Business,Dealer,Net Banking,49,Kiran,Completed
+ORD0121,2026-01-04,Headphones,Accessories,TN,Chennai,15,2500,5,35625,Individual,Online,Debit Card,36,Divya,Completed
+ORD0122,2026-03-31,Laptop,Electronics,TN,Salem,10,55000,5,522500,Student,Dealer,Credit Card,50,Divya,Completed
+ORD0123,2026-01-10,Monitor,Electronics,AP,Guntur,31,15000,0,465000,Business,Dealer,Cash,54,Arjun,Completed
+ORD0124,2026-01-11,Smartwatch,Accessories,AP,Guntur,22,7000,0,154000,Student,Retail Store,Debit Card,23,Arjun,Completed
+ORD0125,2026-09-26,Headphones,Accessories,TN,Salem,7,2500,5,16625,Business,Dealer,Debit Card,32,Divya,Completed
+ORD0126,2026-06-28,Mobile,Electronics,AP,Visakhapatnam,24,20000,10,432000,Student,Online,Credit Card,24,Rahul,Completed
+ORD0127,2026-02-08,Headphones,Accessories,TS,Warangal,13,2500,15,27625,Student,Retail Store,Cash,54,Meena,Cancelled
+ORD0128,2026-08-14,Keyboard,Accessories,KA,Mysuru,6,1800,5,10260,Business,Dealer,Debit Card,35,Anil,Completed
+ORD0129,2026-08-20,Mobile,Electronics,KA,Hubballi,4,20000,0,80000,Business,Retail Store,UPI,59,Priya,Cancelled
+ORD0130,2026-08-19,Monitor,Electronics,TN,Chennai,60,15000,15,765000,Student,Dealer,Credit Card,38,Meena,Cancelled
+ORD0131,2026-02-22,Tablet,Electronics,AP,Guntur,53,30000,15,1351500,Business,Dealer,UPI,50,Rahul,Completed
+ORD0132,2026-09-26,Headphones,Accessories,TN,Salem,35,2500,10,78750,Individual,Retail Store,Debit Card,36,Arjun,Completed
+ORD0133,2026-02-03,Keyboard,Accessories,AP,Rajamahendravaram,23,1800,0,41400,Student,Dealer,Cash,36,Kiran,Cancelled
+ORD0134,2026-03-14,Tablet,Electronics,KA,Bengaluru,60,30000,5,1710000,Business,Dealer,Cash,26,Priya,Completed
+ORD0135,2026-09-27,Monitor,Electronics,KA,Mysuru,7,15000,10,94500,Student,Retail Store,Net Banking,41,Anil,Completed
+ORD0136,2026-06-24,Smartwatch,Accessories,TS,Warangal,51,7000,5,339150,Individual,Online,Credit Card,27,Priya,Completed
+ORD0137,2026-03-09,Mobile,Electronics,AP,Rajamahendravaram,40,20000,5,760000,Individual,Online,Credit Card,62,Rahul,Completed
+ORD0138,2026-05-02,Laptop,Electronics,TN,Madurai,30,55000,10,1485000,Business,Dealer,Cash,32,Sneha,Completed
+ORD0139,2026-08-14,Mouse,Accessories,TS,Karimnagar,31,900,15,23715,Business,Retail Store,Net Banking,51,Arjun,Completed
+ORD0140,2026-01-27,Headphones,Accessories,TS,Karimnagar,43,2500,5,102125,Business,Dealer,UPI,63,Priya,Completed
+ORD0141,2026-08-19,Mobile,Electronics,TS,Karimnagar,59,20000,10,1062000,Individual,Retail Store,UPI,32,Meena,Completed
+ORD0142,2026-07-22,Laptop,Electronics,TN,Chennai,34,55000,5,1776500,Individual,Retail Store,UPI,41,Sneha,Completed
+ORD0143,2026-03-16,Keyboard,Accessories,AP,Rajamahendravaram,10,1800,0,18000,Business,Retail Store,Credit Card,63,Meena,Completed
+ORD0144,2026-05-12,Laptop,Electronics,AP,Vijayawada,15,55000,15,701250,Individual,Dealer,Net Banking,51,Arjun,Completed
+ORD0145,2026-03-04,Smartwatch,Accessories,TS,Karimnagar,5,7000,0,35000,Business,Dealer,Net Banking,47,Priya,Completed
+ORD0146,2026-03-15,Mouse,Accessories,AP,Visakhapatnam,20,900,5,17100,Individual,Dealer,Debit Card,33,Arjun,Completed
+ORD0147,2026-09-27,Mobile,Electronics,KA,Bengaluru,36,20000,10,648000,Student,Dealer,UPI,42,Meena,Completed
+ORD0148,2026-01-09,Monitor,Electronics,KA,Mangaluru,24,15000,15,306000,Individual,Retail Store,Credit Card,64,Priya,Cancelled
+ORD0149,2026-06-30,Keyboard,Accessories,TS,Hyderabad,36,1800,5,61560,Student,Online,Cash,62,Meena,Completed
+ORD0150,2026-01-19,Tablet,Electronics,AP,Guntur,20,30000,0,600000,Individual,Online,UPI,38,Kiran,Cancelled
+ORD0151,2026-01-19,Monitor,Electronics,TN,Madurai,50,15000,10,675000,Individual,Retail Store,Debit Card,21,Divya,Completed
+ORD0152,2026-07-24,Mobile,Electronics,KA,Hubballi,49,20000,5,931000,Business,Retail Store,Credit Card,49,Meena,Completed
+ORD0153,2026-02-10,Smartwatch,Accessories,AP,Guntur,29,7000,10,182700,Individual,Dealer,Debit Card,38,Priya,Completed
+ORD0154,2026-08-17,Keyboard,Accessories,KA,Mangaluru,40,1800,10,64800,Business,Online,Cash,40,Meena,Completed
+ORD0155,2026-01-30,Keyboard,Accessories,TN,Madurai,6,1800,10,9720,Student,Retail Store,Debit Card,50,Rahul,Completed
+ORD0156,2026-03-06,Tablet,Electronics,TN,Chennai,6,30000,0,180000,Student,Retail Store,Debit Card,42,Anil,Cancelled
+ORD0157,2026-07-10,Tablet,Electronics,TN,Madurai,30,30000,15,765000,Individual,Dealer,Credit Card,51,Divya,Completed
+ORD0158,2026-02-28,Keyboard,Accessories,KA,Mysuru,3,1800,10,4860,Individual,Retail Store,Net Banking,42,Priya,Completed
+ORD0159,2026-05-27,Smartwatch,Accessories,TN,Coimbatore,46,7000,5,305900,Individual,Online,Credit Card,22,Meena,Completed
+ORD0160,2026-06-27,Mouse,Accessories,AP,Rajamahendravaram,47,900,0,42300,Student,Dealer,Debit Card,37,Rahul,Completed
+ORD0161,2026-04-13,Keyboard,Accessories,TS,Hyderabad,52,1800,0,93600,Individual,Retail Store,UPI,41,Divya,Completed
+ORD0162,2026-06-08,Tablet,Electronics,AP,Vijayawada,27,30000,10,729000,Student,Retail Store,Net Banking,44,Arjun,Cancelled
+ORD0163,2026-02-07,Mobile,Electronics,TS,Karimnagar,30,20000,5,570000,Student,Dealer,Debit Card,26,Rahul,Completed
+ORD0164,2026-09-23,Monitor,Electronics,AP,Vijayawada,11,15000,5,156750,Individual,Online,Debit Card,63,Sneha,Completed
+ORD0165,2026-04-11,Smartwatch,Accessories,AP,Rajamahendravaram,42,7000,10,264600,Business,Online,Debit Card,57,Priya,Cancelled
+ORD0166,2026-06-22,Tablet,Electronics,TS,Warangal,55,30000,10,1485000,Individual,Online,UPI,20,Kiran,Completed
+ORD0167,2026-05-29,Monitor,Electronics,AP,Guntur,43,15000,5,612750,Business,Online,Cash,37,Meena,Completed
+ORD0168,2026-08-01,Laptop,Electronics,TS,Nizamabad,32,55000,5,1672000,Individual,Retail Store,Net Banking,27,Divya,Completed
+ORD0169,2026-07-09,Keyboard,Accessories,TN,Coimbatore,34,1800,10,55080,Individual,Retail Store,Credit Card,47,Priya,Completed
+ORD0170,2026-02-19,Mouse,Accessories,TS,Warangal,5,900,5,4275,Business,Dealer,Cash,33,Rahul,Completed
+ORD0171,2026-09-13,Keyboard,Accessories,TS,Warangal,34,1800,5,58140,Business,Retail Store,Cash,19,Priya,Completed
+ORD0172,2026-06-30,Mouse,Accessories,TS,Warangal,5,900,0,4500,Business,Retail Store,Net Banking,59,Meena,Completed
+ORD0173,2026-03-10,Laptop,Electronics,AP,Guntur,58,55000,5,3030500,Student,Retail Store,Cash,41,Anil,Completed
+ORD0174,2026-05-28,Laptop,Electronics,TS,Karimnagar,6,55000,5,313500,Student,Retail Store,Net Banking,35,Priya,Completed
+ORD0175,2026-06-23,Mobile,Electronics,TN,Madurai,37,20000,5,703000,Individual,Online,Net Banking,50,Arjun,Cancelled
+ORD0176,2026-03-12,Laptop,Electronics,AP,Vijayawada,47,55000,5,2455750,Business,Dealer,Cash,27,Rahul,Completed
+ORD0177,2026-06-03,Keyboard,Accessories,TS,Nizamabad,39,1800,5,66690,Student,Dealer,Net Banking,49,Kiran,Completed
+ORD0178,2026-02-26,Laptop,Electronics,KA,Mangaluru,28,55000,10,1386000,Business,Dealer,UPI,56,Meena,Completed
+ORD0179,2026-03-29,Headphones,Accessories,AP,Guntur,35,2500,10,78750,Student,Dealer,Cash,27,Sneha,Completed
+ORD0180,2026-08-14,Mobile,Electronics,TS,Hyderabad,22,20000,5,418000,Individual,Retail Store,Credit Card,44,Meena,Completed
+ORD0181,2026-09-02,Tablet,Electronics,TS,Karimnagar,35,30000,5,997500,Business,Online,Cash,52,Divya,Cancelled
+ORD0182,2026-04-09,Keyboard,Accessories,KA,Hubballi,17,1800,5,29070,Student,Retail Store,Credit Card,37,Kiran,Completed
+ORD0183,2026-06-28,Mouse,Accessories,KA,Hubballi,37,900,15,28305,Student,Retail Store,Debit Card,25,Arjun,Completed
+ORD0184,2026-01-22,Keyboard,Accessories,TS,Karimnagar,20,1800,10,32400,Individual,Retail Store,Cash,59,Kiran,Completed
+ORD0185,2026-05-20,Headphones,Accessories,TS,Karimnagar,10,2500,0,25000,Student,Dealer,Net Banking,33,Sneha,Completed
+ORD0186,2026-02-21,Headphones,Accessories,TS,Hyderabad,28,2500,5,66500,Student,Retail Store,UPI,61,Rahul,Completed
+ORD0187,2026-09-02,Tablet,Electronics,TN,Salem,43,30000,0,1290000,Business,Retail Store,Debit Card,59,Anil,Completed
+ORD0188,2026-08-02,Headphones,Accessories,AP,Visakhapatnam,58,2500,15,123250,Individual,Online,Cash,49,Rahul,Completed
+ORD0189,2026-02-24,Laptop,Electronics,AP,Rajamahendravaram,23,55000,5,1201750,Business,Dealer,Net Banking,51,Meena,Completed
+ORD0190,2026-02-27,Mouse,Accessories,KA,Mysuru,23,900,0,20700,Student,Retail Store,Debit Card,63,Rahul,Completed
+ORD0191,2026-03-31,Keyboard,Accessories,KA,Mysuru,41,1800,15,62730,Student,Retail Store,Cash,50,Divya,Completed
+ORD0192,2026-03-13,Monitor,Electronics,AP,Visakhapatnam,32,15000,5,456000,Individual,Online,Debit Card,42,Sneha,Completed
+ORD0193,2026-01-06,Smartwatch,Accessories,KA,Mangaluru,18,7000,10,113400,Business,Dealer,Credit Card,21,Priya,Completed
+ORD0194,2026-09-15,Smartwatch,Accessories,TS,Nizamabad,59,7000,10,371700,Business,Dealer,UPI,58,Kiran,Completed
+ORD0195,2026-09-02,Headphones,Accessories,TS,Warangal,11,2500,5,26125,Student,Dealer,Debit Card,44,Meena,Cancelled
+ORD0196,2026-09-27,Headphones,Accessories,TS,Hyderabad,30,2500,10,67500,Student,Retail Store,UPI,54,Priya,Completed
+ORD0197,2026-06-17,Headphones,Accessories,TS,Warangal,56,2500,10,126000,Business,Online,Credit Card,63,Meena,Completed
+ORD0198,2026-03-09,Mouse,Accessories,AP,Guntur,34,900,5,29070,Business,Dealer,UPI,53,Meena,Completed
+ORD0199,2026-01-02,Laptop,Electronics,TN,Madurai,49,55000,0,2695000,Student,Online,UPI,45,Divya,Completed
+ORD0200,2026-01-17,Laptop,Electronics,AP,Guntur,20,55000,5,1045000,Individual,Online,Cash,41,Arjun,Completed
+ORD0201,2026-03-10,Monitor,Electronics,TN,Chennai,43,15000,15,548250,Business,Online,Credit Card,52,Arjun,Cancelled
+ORD0202,2026-01-12,Tablet,Electronics,TS,Hyderabad,21,30000,5,598500,Student,Dealer,Net Banking,45,Arjun,Completed
+ORD0203,2026-03-21,Headphones,Accessories,TN,Madurai,19,2500,0,47500,Student,Online,UPI,60,Arjun,Cancelled
+ORD0204,2026-02-04,Laptop,Electronics,TS,Warangal,8,55000,10,396000,Individual,Retail Store,Net Banking,61,Anil,Completed
+ORD0205,2026-04-30,Laptop,Electronics,TN,Salem,36,55000,0,1980000,Individual,Online,Net Banking,36,Sneha,Cancelled
+ORD0206,2026-06-04,Keyboard,Accessories,KA,Mysuru,58,1800,0,104400,Student,Dealer,Credit Card,44,Kiran,Completed
+ORD0207,2026-09-11,Laptop,Electronics,TS,Nizamabad,5,55000,5,261250,Student,Dealer,Cash,51,Divya,Completed
+ORD0208,2026-07-12,Monitor,Electronics,TS,Karimnagar,13,15000,15,165750,Student,Retail Store,Credit Card,32,Kiran,Completed
+ORD0209,2026-08-02,Mouse,Accessories,AP,Guntur,37,900,10,29970,Individual,Retail Store,Credit Card,34,Sneha,Completed
+ORD0210,2026-02-17,Mobile,Electronics,TN,Madurai,36,20000,10,648000,Individual,Online,Debit Card,42,Anil,Completed
+ORD0211,2026-04-17,Headphones,Accessories,TS,Nizamabad,57,2500,5,135375,Business,Online,Credit Card,30,Priya,Completed
+ORD0212,2026-05-03,Headphones,Accessories,TS,Nizamabad,37,2500,5,87875,Business,Retail Store,Cash,52,Divya,Completed
+ORD0213,2026-08-27,Smartwatch,Accessories,KA,Hubballi,8,7000,15,47600,Student,Retail Store,Debit Card,31,Divya,Completed
+ORD0214,2026-03-16,Monitor,Electronics,AP,Visakhapatnam,3,15000,5,42750,Student,Dealer,Net Banking,64,Arjun,Completed
+ORD0215,2026-04-28,Tablet,Electronics,TS,Karimnagar,26,30000,10,702000,Individual,Retail Store,Net Banking,59,Divya,Completed
+ORD0216,2026-03-28,Mouse,Accessories,TN,Salem,48,900,15,36720,Business,Online,Credit Card,64,Meena,Completed
+ORD0217,2026-01-25,Laptop,Electronics,AP,Vijayawada,50,55000,0,2750000,Business,Online,Credit Card,22,Rahul,Completed
+ORD0218,2026-01-31,Headphones,Accessories,TN,Madurai,41,2500,10,92250,Student,Dealer,Cash,60,Meena,Completed
+ORD0219,2026-01-09,Laptop,Electronics,TN,Chennai,35,55000,10,1732500,Business,Dealer,Debit Card,19,Arjun,Completed
+ORD0220,2026-05-04,Mobile,Electronics,AP,Visakhapatnam,14,20000,10,252000,Student,Retail Store,Debit Card,35,Arjun,Completed
+ORD0221,2026-05-05,Keyboard,Accessories,TN,Salem,46,1800,0,82800,Business,Dealer,UPI,59,Anil,Completed
+ORD0222,2026-09-01,Monitor,Electronics,TN,Salem,5,15000,10,67500,Individual,Dealer,Credit Card,23,Meena,Completed
+ORD0223,2026-04-28,Keyboard,Accessories,AP,Vijayawada,15,1800,15,22950,Student,Dealer,Cash,35,Anil,Completed
+ORD0224,2026-06-11,Smartwatch,Accessories,AP,Visakhapatnam,3,7000,0,21000,Student,Online,Cash,22,Kiran,Completed
+ORD0225,2026-07-16,Headphones,Accessories,TN,Madurai,50,2500,10,112500,Individual,Dealer,UPI,50,Divya,Completed
+ORD0226,2026-02-08,Mobile,Electronics,TN,Coimbatore,23,20000,10,414000,Student,Dealer,Cash,38,Anil,Completed
+ORD0227,2026-07-02,Mouse,Accessories,TN,Coimbatore,37,900,5,31635,Business,Online,Net Banking,60,Arjun,Completed
+ORD0228,2026-02-12,Smartwatch,Accessories,TS,Hyderabad,19,7000,0,133000,Business,Dealer,Credit Card,65,Arjun,Completed
+ORD0229,2026-01-03,Keyboard,Accessories,AP,Vijayawada,21,1800,5,35910,Business,Retail Store,UPI,26,Priya,Completed
+ORD0230,2026-02-22,Monitor,Electronics,TN,Salem,3,15000,0,45000,Business,Dealer,UPI,56,Divya,Completed
+ORD0231,2026-07-18,Laptop,Electronics,KA,Hubballi,51,55000,0,2805000,Student,Dealer,Credit Card,54,Rahul,Completed
+ORD0232,2026-06-04,Tablet,Electronics,TS,Karimnagar,19,30000,5,541500,Individual,Online,Credit Card,45,Kiran,Completed
+ORD0233,2026-07-04,Smartwatch,Accessories,TN,Chennai,18,7000,0,126000,Student,Dealer,Cash,56,Sneha,Completed
+ORD0234,2026-01-04,Mobile,Electronics,TS,Karimnagar,27,20000,5,513000,Student,Retail Store,Debit Card,46,Divya,Completed
+ORD0235,2026-04-13,Tablet,Electronics,KA,Mangaluru,32,30000,5,912000,Individual,Retail Store,Debit Card,36,Meena,Cancelled
+ORD0236,2026-05-24,Headphones,Accessories,KA,Hubballi,54,2500,15,114750,Business,Retail Store,UPI,54,Sneha,Cancelled
+ORD0237,2026-04-18,Tablet,Electronics,AP,Guntur,30,30000,15,765000,Business,Dealer,UPI,44,Meena,Completed
+ORD0238,2026-03-20,Smartwatch,Accessories,TS,Karimnagar,47,7000,5,312550,Business,Online,Cash,56,Meena,Cancelled
+ORD0239,2026-07-04,Monitor,Electronics,TN,Chennai,46,15000,15,586500,Student,Dealer,UPI,24,Sneha,Completed
+ORD0240,2026-06-19,Tablet,Electronics,AP,Guntur,52,30000,5,1482000,Individual,Online,UPI,34,Sneha,Cancelled
+ORD0241,2026-07-20,Headphones,Accessories,TN,Madurai,31,2500,15,65875,Student,Dealer,Net Banking,27,Divya,Completed
+ORD0242,2026-08-01,Mouse,Accessories,AP,Rajamahendravaram,60,900,0,54000,Individual,Dealer,Credit Card,40,Kiran,Completed
+ORD0243,2026-06-28,Mouse,Accessories,TS,Nizamabad,32,900,0,28800,Business,Dealer,Cash,38,Priya,Completed
+ORD0244,2026-06-25,Laptop,Electronics,AP,Vijayawada,43,55000,0,2365000,Student,Online,Credit Card,51,Rahul,Cancelled
+ORD0245,2026-08-25,Tablet,Electronics,KA,Hubballi,16,30000,15,408000,Business,Dealer,Credit Card,29,Arjun,Completed
+ORD0246,2026-08-08,Laptop,Electronics,TS,Nizamabad,26,55000,0,1430000,Student,Online,Credit Card,35,Priya,Cancelled
+ORD0247,2026-06-16,Mobile,Electronics,TS,Karimnagar,14,20000,5,266000,Individual,Retail Store,Cash,51,Divya,Cancelled
+ORD0248,2026-06-28,Monitor,Electronics,TN,Chennai,24,15000,15,306000,Business,Dealer,Credit Card,61,Kiran,Cancelled
+ORD0249,2026-03-02,Mobile,Electronics,TS,Karimnagar,17,20000,5,323000,Individual,Online,Debit Card,62,Rahul,Cancelled
+ORD0250,2026-07-16,Monitor,Electronics,TN,Coimbatore,29,15000,0,435000,Business,Dealer,Net Banking,62,Rahul,Cancelled
+ORD0251,2026-03-13,Tablet,Electronics,TN,Madurai,13,30000,5,370500,Business,Dealer,UPI,40,Anil,Completed
+ORD0252,2026-09-16,Tablet,Electronics,TS,Nizamabad,43,30000,5,1225500,Business,Dealer,Cash,44,Meena,Completed
+ORD0253,2026-04-23,Tablet,Electronics,AP,Vijayawada,20,30000,0,600000,Business,Online,Net Banking,36,Rahul,Completed
+ORD0254,2026-05-18,Mouse,Accessories,AP,Vijayawada,51,900,10,41310,Business,Dealer,UPI,64,Meena,Cancelled
+ORD0255,2026-05-07,Headphones,Accessories,TN,Chennai,21,2500,15,44625,Individual,Retail Store,Debit Card,40,Priya,Completed
+ORD0256,2026-06-29,Mobile,Electronics,TS,Warangal,57,20000,10,1026000,Student,Dealer,Cash,28,Rahul,Completed
+ORD0257,2026-09-30,Headphones,Accessories,AP,Rajamahendravaram,19,2500,10,42750,Student,Online,Debit Card,63,Kiran,Completed
+ORD0258,2026-07-30,Smartwatch,Accessories,AP,Visakhapatnam,60,7000,0,420000,Business,Dealer,Credit Card,62,Rahul,Completed
+ORD0259,2026-07-21,Tablet,Electronics,KA,Mysuru,33,30000,0,990000,Student,Dealer,Debit Card,58,Arjun,Completed
+ORD0260,2026-07-26,Mouse,Accessories,AP,Vijayawada,34,900,10,27540,Business,Dealer,Debit Card,47,Meena,Completed
+ORD0261,2026-07-03,Laptop,Electronics,AP,Guntur,56,55000,0,3080000,Student,Retail Store,Credit Card,45,Sneha,Completed
+ORD0262,2026-06-22,Smartwatch,Accessories,KA,Mangaluru,37,7000,10,233100,Individual,Dealer,Cash,39,Anil,Completed
+ORD0263,2026-03-05,Mobile,Electronics,TN,Chennai,56,20000,0,1120000,Business,Retail Store,UPI,45,Sneha,Completed
+ORD0264,2026-02-17,Smartwatch,Accessories,TS,Karimnagar,43,7000,5,285950,Business,Online,Debit Card,60,Rahul,Completed
+ORD0265,2026-08-08,Monitor,Electronics,KA,Mysuru,43,15000,0,645000,Student,Online,UPI,31,Meena,Completed
+ORD0266,2026-01-05,Tablet,Electronics,TS,Nizamabad,2,30000,10,54000,Business,Online,Cash,62,Rahul,Completed
+ORD0267,2026-02-15,Mobile,Electronics,TS,Nizamabad,48,20000,15,816000,Individual,Online,Debit Card,41,Kiran,Completed
+ORD0268,2026-02-05,Monitor,Electronics,TS,Warangal,35,15000,10,472500,Individual,Dealer,Credit Card,46,Divya,Completed
+ORD0269,2026-04-22,Tablet,Electronics,TN,Salem,7,30000,0,210000,Individual,Online,Net Banking,64,Arjun,Completed
+ORD0270,2026-05-07,Monitor,Electronics,KA,Mysuru,19,15000,10,256500,Individual,Online,Net Banking,56,Kiran,Completed
+ORD0271,2026-07-20,Smartwatch,Accessories,TS,Warangal,20,7000,10,126000,Individual,Online,Cash,42,Priya,Completed
+ORD0272,2026-07-04,Mouse,Accessories,AP,Vijayawada,22,900,0,19800,Business,Dealer,Cash,41,Rahul,Completed
+ORD0273,2026-01-08,Mobile,Electronics,AP,Vijayawada,18,20000,0,360000,Individual,Online,Cash,50,Kiran,Cancelled
+ORD0274,2026-02-12,Monitor,Electronics,TN,Salem,42,15000,10,567000,Student,Dealer,Credit Card,35,Priya,Completed
+ORD0275,2026-06-17,Mobile,Electronics,TS,Warangal,27,20000,10,486000,Student,Dealer,UPI,37,Arjun,Completed
+ORD0276,2026-08-11,Laptop,Electronics,TS,Hyderabad,9,55000,5,470250,Student,Dealer,UPI,37,Rahul,Completed
+ORD0277,2026-03-25,Laptop,Electronics,TS,Hyderabad,33,55000,5,1724250,Student,Dealer,Debit Card,28,Divya,Completed
+ORD0278,2026-06-21,Smartwatch,Accessories,AP,Vijayawada,53,7000,5,352450,Business,Dealer,UPI,34,Priya,Completed
+ORD0279,2026-09-13,Mouse,Accessories,KA,Bengaluru,56,900,10,45360,Individual,Retail Store,Credit Card,34,Priya,Cancelled
+ORD0280,2026-01-23,Mobile,Electronics,TS,Hyderabad,56,20000,15,952000,Individual,Online,UPI,48,Divya,Completed
+ORD0281,2026-08-03,Tablet,Electronics,TS,Hyderabad,16,30000,5,456000,Individual,Retail Store,Debit Card,35,Priya,Cancelled
+ORD0282,2026-04-02,Keyboard,Accessories,AP,Vijayawada,16,1800,15,24480,Student,Online,Cash,22,Meena,Completed
+ORD0283,2026-08-22,Smartwatch,Accessories,KA,Bengaluru,2,7000,5,13300,Individual,Retail Store,Net Banking,37,Sneha,Completed
+ORD0284,2026-05-06,Keyboard,Accessories,TN,Coimbatore,11,1800,0,19800,Business,Online,Credit Card,52,Divya,Completed
+ORD0285,2026-06-07,Keyboard,Accessories,AP,Guntur,8,1800,0,14400,Student,Online,Cash,49,Anil,Completed
+ORD0286,2026-04-29,Smartwatch,Accessories,AP,Vijayawada,59,7000,15,351050,Student,Retail Store,Debit Card,47,Priya,Cancelled
+ORD0287,2026-02-08,Mobile,Electronics,TS,Nizamabad,39,20000,10,702000,Individual,Retail Store,Credit Card,33,Kiran,Completed
+ORD0288,2026-06-12,Keyboard,Accessories,TN,Madurai,30,1800,5,51300,Individual,Online,Credit Card,26,Priya,Completed
+ORD0289,2026-08-27,Mobile,Electronics,TS,Nizamabad,22,20000,5,418000,Individual,Dealer,Debit Card,31,Meena,Completed
+ORD0290,2026-02-16,Mouse,Accessories,KA,Bengaluru,12,900,15,9180,Student,Retail Store,Net Banking,20,Sneha,Completed
+ORD0291,2026-07-02,Tablet,Electronics,AP,Visakhapatnam,27,30000,10,729000,Individual,Dealer,Debit Card,34,Rahul,Completed
+ORD0292,2026-02-18,Monitor,Electronics,TN,Coimbatore,31,15000,0,465000,Individual,Online,UPI,21,Sneha,Completed
+ORD0293,2026-02-13,Headphones,Accessories,TN,Madurai,39,2500,10,87750,Business,Online,UPI,22,Sneha,Completed
+ORD0294,2026-03-04,Tablet,Electronics,AP,Rajamahendravaram,4,30000,5,114000,Individual,Online,Net Banking,45,Arjun,Completed
+ORD0295,2026-03-30,Laptop,Electronics,TN,Salem,24,55000,0,1320000,Individual,Retail Store,Debit Card,46,Rahul,Completed
+ORD0296,2026-07-30,Headphones,Accessories,KA,Hubballi,58,2500,10,130500,Business,Online,UPI,35,Arjun,Completed
+ORD0297,2026-01-10,Monitor,Electronics,TS,Warangal,26,15000,15,331500,Student,Retail Store,Cash,52,Meena,Completed
+ORD0298,2026-04-03,Keyboard,Accessories,TN,Madurai,3,1800,5,5130,Student,Online,UPI,35,Anil,Completed
+ORD0299,2026-02-21,Keyboard,Accessories,TS,Warangal,17,1800,10,27540,Individual,Retail Store,Net Banking,65,Anil,Completed
+ORD0300,2026-04-01,Monitor,Electronics,KA,Mysuru,17,15000,10,229500,Business,Dealer,Debit Card,55,Anil,Completed
+ORD0301,2026-06-08,Tablet,Electronics,TS,Nizamabad,13,30000,5,370500,Individual,Online,UPI,32,Sneha,Completed
+ORD0302,2026-04-14,Mouse,Accessories,AP,Rajamahendravaram,53,900,0,47700,Business,Dealer,Credit Card,38,Anil,Completed
+ORD0303,2026-09-27,Tablet,Electronics,TS,Hyderabad,57,30000,5,1624500,Individual,Retail Store,Cash,55,Priya,Completed
+ORD0304,2026-03-22,Smartwatch,Accessories,KA,Mysuru,48,7000,5,319200,Student,Retail Store,Debit Card,29,Divya,Completed
+ORD0305,2026-05-31,Tablet,Electronics,TN,Madurai,10,30000,0,300000,Student,Online,Net Banking,43,Anil,Completed
+ORD0306,2026-09-12,Keyboard,Accessories,TS,Hyderabad,11,1800,5,18810,Student,Online,Credit Card,40,Divya,Completed
+ORD0307,2026-01-06,Mobile,Electronics,KA,Hubballi,18,20000,0,360000,Individual,Dealer,UPI,40,Kiran,Completed
+ORD0308,2026-08-13,Laptop,Electronics,AP,Guntur,48,55000,5,2508000,Individual,Retail Store,Cash,42,Divya,Cancelled
+ORD0309,2026-04-26,Monitor,Electronics,AP,Guntur,12,15000,5,171000,Individual,Online,Debit Card,19,Divya,Completed
+ORD0310,2026-03-29,Mobile,Electronics,AP,Rajamahendravaram,58,20000,5,1102000,Individual,Dealer,UPI,53,Priya,Completed
+ORD0311,2026-03-26,Mouse,Accessories,AP,Guntur,40,900,5,34200,Individual,Online,UPI,39,Sneha,Completed
+ORD0312,2026-06-02,Monitor,Electronics,KA,Mangaluru,17,15000,0,255000,Individual,Retail Store,Net Banking,53,Meena,Completed
+ORD0313,2026-08-07,Laptop,Electronics,KA,Bengaluru,7,55000,5,365750,Student,Dealer,Net Banking,48,Sneha,Completed
+ORD0314,2026-05-30,Laptop,Electronics,TS,Warangal,7,55000,5,365750,Individual,Retail Store,Cash,48,Meena,Completed
+ORD0315,2026-07-09,Mobile,Electronics,TN,Coimbatore,58,20000,5,1102000,Business,Online,Cash,20,Kiran,Completed
+ORD0316,2026-05-18,Mouse,Accessories,KA,Mysuru,38,900,0,34200,Individual,Dealer,UPI,23,Divya,Cancelled
+ORD0317,2026-07-18,Monitor,Electronics,TS,Hyderabad,54,15000,10,729000,Business,Dealer,Cash,54,Sneha,Completed
+ORD0318,2026-01-18,Smartwatch,Accessories,AP,Guntur,34,7000,10,214200,Student,Dealer,Net Banking,27,Priya,Completed
+ORD0319,2026-04-09,Tablet,Electronics,TS,Warangal,10,30000,0,300000,Business,Online,Cash,30,Rahul,Cancelled
+ORD0320,2026-02-14,Smartwatch,Accessories,KA,Bengaluru,26,7000,10,163800,Business,Dealer,Debit Card,35,Meena,Completed
+ORD0321,2026-03-18,Monitor,Electronics,AP,Guntur,11,15000,10,148500,Student,Dealer,UPI,24,Priya,Completed
+ORD0322,2026-07-16,Keyboard,Accessories,TN,Madurai,43,1800,5,73530,Student,Dealer,Cash,20,Rahul,Completed
+ORD0323,2026-01-20,Monitor,Electronics,TS,Nizamabad,27,15000,5,384750,Student,Online,UPI,65,Meena,Completed
+ORD0324,2026-06-05,Keyboard,Accessories,AP,Rajamahendravaram,21,1800,5,35910,Business,Dealer,UPI,32,Rahul,Completed
+ORD0325,2026-08-02,Mouse,Accessories,KA,Mangaluru,40,900,10,32400,Individual,Online,Cash,31,Arjun,Completed
+ORD0326,2026-02-03,Keyboard,Accessories,AP,Visakhapatnam,21,1800,10,34020,Student,Retail Store,Credit Card,51,Anil,Completed
+ORD0327,2026-05-08,Headphones,Accessories,TS,Hyderabad,4,2500,5,9500,Individual,Retail Store,Credit Card,35,Divya,Completed
+ORD0328,2026-05-04,Monitor,Electronics,AP,Vijayawada,25,15000,5,356250,Student,Retail Store,Credit Card,48,Divya,Completed
+ORD0329,2026-05-26,Tablet,Electronics,KA,Bengaluru,3,30000,5,85500,Individual,Online,Net Banking,31,Sneha,Completed
+ORD0330,2026-09-20,Headphones,Accessories,KA,Hubballi,3,2500,15,6375,Student,Online,Cash,26,Rahul,Cancelled
+ORD0331,2026-06-06,Laptop,Electronics,TS,Karimnagar,47,55000,10,2326500,Student,Retail Store,Cash,42,Divya,Completed
+ORD0332,2026-06-04,Smartwatch,Accessories,TS,Nizamabad,45,7000,10,283500,Student,Retail Store,Net Banking,24,Anil,Cancelled
+ORD0333,2026-02-25,Keyboard,Accessories,KA,Mangaluru,32,1800,0,57600,Business,Retail Store,Debit Card,35,Kiran,Completed
+ORD0334,2026-01-30,Headphones,Accessories,TS,Warangal,53,2500,15,112625,Student,Retail Store,Debit Card,61,Rahul,Completed
+ORD0335,2026-08-03,Mouse,Accessories,KA,Mangaluru,27,900,5,23085,Student,Online,Net Banking,63,Sneha,Completed
+ORD0336,2026-09-17,Headphones,Accessories,TN,Madurai,21,2500,15,44625,Individual,Dealer,Net Banking,29,Kiran,Completed
+ORD0337,2026-04-04,Mouse,Accessories,TS,Karimnagar,45,900,5,38475,Student,Online,Credit Card,40,Sneha,Completed
+ORD0338,2026-05-14,Monitor,Electronics,KA,Mangaluru,39,15000,5,555750,Business,Online,Cash,21,Priya,Completed
+ORD0339,2026-09-29,Headphones,Accessories,AP,Guntur,21,2500,5,49875,Individual,Online,Credit Card,30,Divya,Completed
+ORD0340,2026-04-03,Mouse,Accessories,TS,Karimnagar,51,900,0,45900,Business,Retail Store,Credit Card,38,Anil,Completed
+ORD0341,2026-03-28,Mouse,Accessories,KA,Mysuru,38,900,15,29070,Individual,Retail Store,UPI,26,Arjun,Completed
+ORD0342,2026-07-16,Monitor,Electronics,TN,Salem,2,15000,0,30000,Student,Online,Debit Card,18,Divya,Cancelled
+ORD0343,2026-05-08,Headphones,Accessories,AP,Vijayawada,16,2500,10,36000,Business,Retail Store,Credit Card,24,Arjun,Cancelled
+ORD0344,2026-01-24,Smartwatch,Accessories,TS,Hyderabad,21,7000,5,139650,Business,Dealer,Net Banking,56,Divya,Completed
+ORD0345,2026-07-03,Tablet,Electronics,KA,Hubballi,50,30000,0,1500000,Individual,Retail Store,UPI,32,Sneha,Completed
+ORD0346,2026-03-05,Headphones,Accessories,AP,Visakhapatnam,25,2500,10,56250,Student,Online,Cash,58,Kiran,Cancelled
+ORD0347,2026-01-11,Laptop,Electronics,AP,Vijayawada,5,55000,10,247500,Individual,Retail Store,Cash,42,Priya,Cancelled
+ORD0348,2026-04-16,Smartwatch,Accessories,TN,Coimbatore,46,7000,10,289800,Student,Online,Debit Card,44,Priya,Cancelled
+ORD0349,2026-02-23,Smartwatch,Accessories,TS,Nizamabad,34,7000,10,214200,Student,Online,Debit Card,25,Priya,Completed
+ORD0350,2026-09-25,Headphones,Accessories,TS,Karimnagar,14,2500,5,33250,Student,Retail Store,Debit Card,28,Anil,Cancelled
+ORD0351,2026-06-19,Mouse,Accessories,TS,Nizamabad,17,900,0,15300,Individual,Dealer,UPI,25,Meena,Completed
+ORD0352,2026-05-12,Mobile,Electronics,AP,Vijayawada,43,20000,0,860000,Business,Retail Store,Debit Card,47,Anil,Completed
+ORD0353,2026-07-04,Tablet,Electronics,AP,Rajamahendravaram,53,30000,10,1431000,Business,Retail Store,UPI,24,Anil,Completed
+ORD0354,2026-07-03,Tablet,Electronics,TS,Karimnagar,59,30000,5,1681500,Student,Retail Store,UPI,41,Divya,Completed
+ORD0355,2026-08-22,Mobile,Electronics,TN,Salem,19,20000,15,323000,Business,Dealer,Cash,44,Rahul,Completed
+ORD0356,2026-02-23,Tablet,Electronics,AP,Visakhapatnam,28,30000,10,756000,Business,Dealer,Cash,29,Arjun,Completed
+ORD0357,2026-09-07,Laptop,Electronics,TS,Nizamabad,9,55000,5,470250,Business,Online,UPI,34,Divya,Completed
+ORD0358,2026-08-10,Headphones,Accessories,KA,Bengaluru,44,2500,10,99000,Individual,Retail Store,Debit Card,60,Arjun,Completed
+ORD0359,2026-09-16,Laptop,Electronics,AP,Visakhapatnam,56,55000,5,2926000,Business,Online,UPI,49,Divya,Completed
+ORD0360,2026-09-17,Keyboard,Accessories,KA,Bengaluru,16,1800,10,25920,Student,Retail Store,Cash,33,Priya,Completed
+ORD0361,2026-09-13,Mouse,Accessories,TN,Chennai,30,900,5,25650,Individual,Retail Store,UPI,24,Arjun,Completed
+ORD0362,2026-06-05,Laptop,Electronics,AP,Vijayawada,58,55000,10,2871000,Student,Online,Cash,39,Divya,Completed
+ORD0363,2026-08-31,Headphones,Accessories,TN,Madurai,47,2500,10,105750,Business,Dealer,Cash,25,Priya,Completed
+ORD0364,2026-05-30,Laptop,Electronics,KA,Mangaluru,37,55000,10,1831500,Business,Dealer,UPI,20,Rahul,Completed
+ORD0365,2026-05-11,Tablet,Electronics,TN,Chennai,41,30000,0,1230000,Individual,Online,Cash,31,Meena,Completed
+ORD0366,2026-01-24,Keyboard,Accessories,AP,Guntur,42,1800,15,64260,Student,Dealer,UPI,46,Meena,Cancelled
+ORD0367,2026-09-29,Tablet,Electronics,TN,Chennai,49,30000,0,1470000,Student,Retail Store,Net Banking,48,Rahul,Cancelled
+ORD0368,2026-07-18,Tablet,Electronics,TS,Hyderabad,44,30000,10,1188000,Student,Retail Store,Net Banking,42,Arjun,Cancelled
+ORD0369,2026-06-25,Headphones,Accessories,KA,Hubballi,20,2500,5,47500,Individual,Online,Cash,56,Kiran,Cancelled
+ORD0370,2026-04-18,Keyboard,Accessories,TS,Warangal,41,1800,10,66420,Business,Dealer,Debit Card,61,Rahul,Completed
+ORD0371,2026-09-03,Keyboard,Accessories,AP,Rajamahendravaram,39,1800,10,63180,Student,Dealer,Cash,61,Kiran,Completed
+ORD0372,2026-07-15,Laptop,Electronics,AP,Vijayawada,11,55000,0,605000,Student,Online,Credit Card,35,Rahul,Completed
+ORD0373,2026-06-01,Smartwatch,Accessories,TS,Hyderabad,15,7000,15,89250,Student,Online,Debit Card,46,Priya,Cancelled
+ORD0374,2026-09-19,Headphones,Accessories,TN,Coimbatore,52,2500,15,110500,Student,Retail Store,UPI,42,Arjun,Completed
+ORD0375,2026-05-09,Keyboard,Accessories,AP,Vijayawada,14,1800,10,22680,Business,Online,Debit Card,55,Sneha,Completed
+ORD0376,2026-02-08,Smartwatch,Accessories,TN,Coimbatore,13,7000,0,91000,Student,Dealer,UPI,42,Anil,Completed
+ORD0377,2026-03-24,Smartwatch,Accessories,KA,Mysuru,39,7000,15,232050,Business,Online,Debit Card,47,Rahul,Completed
+ORD0378,2026-06-04,Tablet,Electronics,KA,Bengaluru,33,30000,15,841500,Student,Dealer,Debit Card,22,Divya,Cancelled
+ORD0379,2026-09-16,Headphones,Accessories,TS,Hyderabad,12,2500,5,28500,Student,Dealer,Cash,23,Divya,Completed
+ORD0380,2026-07-04,Headphones,Accessories,KA,Mangaluru,20,2500,0,50000,Student,Dealer,Cash,53,Anil,Completed
+ORD0381,2026-05-05,Keyboard,Accessories,TN,Coimbatore,4,1800,10,6480,Business,Retail Store,UPI,42,Kiran,Cancelled
+ORD0382,2026-09-21,Smartwatch,Accessories,AP,Rajamahendravaram,53,7000,10,333900,Business,Retail Store,UPI,36,Sneha,Completed
+ORD0383,2026-01-04,Mobile,Electronics,AP,Visakhapatnam,42,20000,0,840000,Individual,Dealer,Credit Card,61,Arjun,Completed
+ORD0384,2026-03-20,Headphones,Accessories,TN,Chennai,3,2500,5,7125,Student,Retail Store,UPI,23,Priya,Completed
+ORD0385,2026-04-27,Tablet,Electronics,KA,Bengaluru,60,30000,5,1710000,Business,Retail Store,Cash,58,Arjun,Completed
+ORD0386,2026-03-02,Keyboard,Accessories,AP,Guntur,36,1800,0,64800,Student,Dealer,Net Banking,22,Anil,Completed
+ORD0387,2026-06-04,Keyboard,Accessories,AP,Rajamahendravaram,40,1800,0,72000,Business,Retail Store,Cash,43,Anil,Completed
+ORD0388,2026-07-20,Tablet,Electronics,TS,Warangal,52,30000,15,1326000,Student,Retail Store,Credit Card,37,Divya,Completed
+ORD0389,2026-01-03,Tablet,Electronics,AP,Vijayawada,38,30000,10,1026000,Business,Dealer,Net Banking,23,Kiran,Completed
+ORD0390,2026-09-20,Keyboard,Accessories,TS,Nizamabad,11,1800,0,19800,Individual,Online,Net Banking,34,Sneha,Completed
+ORD0391,2026-02-07,Tablet,Electronics,AP,Guntur,20,30000,10,540000,Individual,Retail Store,UPI,30,Meena,Completed
+ORD0392,2026-02-21,Keyboard,Accessories,TS,Warangal,20,1800,10,32400,Individual,Online,Debit Card,49,Meena,Completed
+ORD0393,2026-06-11,Smartwatch,Accessories,TS,Karimnagar,29,7000,0,203000,Individual,Retail Store,Credit Card,32,Arjun,Completed
+ORD0394,2026-09-03,Keyboard,Accessories,TS,Karimnagar,31,1800,5,53010,Business,Retail Store,Cash,53,Priya,Completed
+ORD0395,2026-04-11,Mobile,Electronics,KA,Mysuru,18,20000,10,324000,Student,Online,UPI,19,Anil,Cancelled
+ORD0396,2026-05-14,Monitor,Electronics,TS,Hyderabad,36,15000,10,486000,Business,Dealer,Credit Card,41,Arjun,Completed
+ORD0397,2026-09-14,Smartwatch,Accessories,TS,Nizamabad,34,7000,0,238000,Business,Retail Store,Net Banking,18,Sneha,Cancelled
+ORD0398,2026-03-23,Tablet,Electronics,TS,Nizamabad,13,30000,10,351000,Student,Dealer,Credit Card,65,Meena,Completed
+ORD0399,2026-04-29,Laptop,Electronics,TS,Nizamabad,6,55000,5,313500,Business,Online,UPI,60,Sneha,Cancelled
+ORD0400,2026-08-21,Keyboard,Accessories,TN,Salem,58,1800,0,104400,Individual,Dealer,Debit Card,24,Kiran,Completed
+ORD0401,2026-07-07,Tablet,Electronics,TN,Salem,39,30000,10,1053000,Individual,Dealer,Debit Card,42,Sneha,Cancelled
+ORD0402,2026-09-07,Monitor,Electronics,KA,Mangaluru,52,15000,5,741000,Student,Online,Net Banking,26,Meena,Completed
+ORD0403,2026-04-19,Headphones,Accessories,AP,Rajamahendravaram,11,2500,0,27500,Individual,Retail Store,Net Banking,63,Priya,Completed
+ORD0404,2026-09-04,Monitor,Electronics,KA,Bengaluru,45,15000,5,641250,Business,Online,Net Banking,28,Arjun,Completed
+ORD0405,2026-03-24,Headphones,Accessories,AP,Visakhapatnam,10,2500,10,22500,Student,Online,Net Banking,27,Anil,Completed
+ORD0406,2026-01-10,Smartwatch,Accessories,TS,Nizamabad,58,7000,10,365400,Student,Dealer,Debit Card,23,Sneha,Completed
+ORD0407,2026-04-23,Mouse,Accessories,TN,Coimbatore,55,900,5,47025,Student,Online,Net Banking,29,Kiran,Completed
+ORD0408,2026-04-28,Keyboard,Accessories,TN,Chennai,26,1800,5,44460,Individual,Online,UPI,30,Arjun,Completed
+ORD0409,2026-01-20,Mobile,Electronics,TS,Nizamabad,58,20000,15,986000,Student,Dealer,UPI,23,Meena,Completed
+ORD0410,2026-07-09,Laptop,Electronics,TN,Salem,57,55000,0,3135000,Student,Dealer,Cash,32,Meena,Completed
+ORD0411,2026-03-10,Keyboard,Accessories,AP,Guntur,18,1800,5,30780,Individual,Online,Debit Card,56,Arjun,Completed
+ORD0412,2026-09-25,Headphones,Accessories,AP,Vijayawada,9,2500,10,20250,Individual,Retail Store,Credit Card,62,Divya,Completed
+ORD0413,2026-08-07,Keyboard,Accessories,AP,Visakhapatnam,43,1800,10,69660,Business,Retail Store,Net Banking,45,Divya,Cancelled
+ORD0414,2026-07-31,Smartwatch,Accessories,TN,Coimbatore,37,7000,15,220150,Student,Retail Store,Credit Card,41,Meena,Completed
+ORD0415,2026-03-12,Smartwatch,Accessories,KA,Hubballi,56,7000,15,333200,Student,Online,Credit Card,46,Rahul,Completed
+ORD0416,2026-01-27,Headphones,Accessories,TN,Madurai,12,2500,5,28500,Student,Online,UPI,27,Meena,Cancelled
+ORD0417,2026-05-15,Monitor,Electronics,AP,Vijayawada,16,15000,5,228000,Individual,Dealer,UPI,64,Arjun,Completed
+ORD0418,2026-09-11,Smartwatch,Accessories,AP,Visakhapatnam,30,7000,0,210000,Individual,Dealer,Net Banking,36,Sneha,Completed
+ORD0419,2026-07-04,Headphones,Accessories,TS,Hyderabad,17,2500,10,38250,Individual,Online,UPI,35,Arjun,Completed
+ORD0420,2026-09-23,Monitor,Electronics,TN,Coimbatore,2,15000,10,27000,Student,Online,UPI,53,Kiran,Cancelled
+ORD0421,2026-04-26,Keyboard,Accessories,KA,Mangaluru,40,1800,0,72000,Business,Retail Store,Net Banking,18,Kiran,Completed
+ORD0422,2026-09-15,Monitor,Electronics,AP,Vijayawada,20,15000,5,285000,Individual,Dealer,Debit Card,52,Kiran,Completed
+ORD0423,2026-06-23,Monitor,Electronics,TN,Coimbatore,51,15000,5,726750,Student,Retail Store,Net Banking,19,Meena,Completed
+ORD0424,2026-04-23,Smartwatch,Accessories,AP,Guntur,45,7000,10,283500,Individual,Retail Store,Cash,40,Anil,Completed
+ORD0425,2026-07-24,Headphones,Accessories,KA,Bengaluru,45,2500,10,101250,Business,Online,Net Banking,29,Meena,Completed
+ORD0426,2026-04-04,Keyboard,Accessories,TS,Karimnagar,49,1800,10,79380,Individual,Retail Store,Credit Card,33,Sneha,Completed
+ORD0427,2026-05-08,Headphones,Accessories,TS,Warangal,55,2500,10,123750,Business,Online,UPI,25,Priya,Completed
+ORD0428,2026-07-10,Laptop,Electronics,AP,Guntur,41,55000,5,2142250,Business,Dealer,Debit Card,49,Rahul,Cancelled
+ORD0429,2026-03-07,Smartwatch,Accessories,TN,Coimbatore,5,7000,10,31500,Business,Retail Store,Net Banking,20,Divya,Completed
+ORD0430,2026-09-23,Tablet,Electronics,TN,Chennai,31,30000,5,883500,Student,Online,UPI,61,Sneha,Completed
+ORD0431,2026-05-13,Mobile,Electronics,KA,Mangaluru,13,20000,10,234000,Business,Online,Debit Card,48,Divya,Completed
+ORD0432,2026-04-18,Tablet,Electronics,TN,Salem,28,30000,10,756000,Business,Retail Store,Cash,35,Meena,Completed
+ORD0433,2026-05-19,Tablet,Electronics,TS,Hyderabad,53,30000,0,1590000,Student,Retail Store,Cash,30,Rahul,Completed
+ORD0434,2026-08-04,Mouse,Accessories,AP,Visakhapatnam,33,900,0,29700,Student,Dealer,Net Banking,64,Divya,Completed
+ORD0435,2026-07-23,Smartwatch,Accessories,KA,Bengaluru,8,7000,10,50400,Individual,Online,Credit Card,34,Meena,Completed
+ORD0436,2026-07-04,Mouse,Accessories,KA,Mangaluru,25,900,10,20250,Student,Retail Store,Debit Card,19,Arjun,Completed
+ORD0437,2026-05-26,Keyboard,Accessories,TS,Warangal,24,1800,5,41040,Student,Dealer,Cash,65,Meena,Completed
+ORD0438,2026-03-16,Monitor,Electronics,KA,Hubballi,57,15000,0,855000,Student,Retail Store,Cash,58,Arjun,Completed
+ORD0439,2026-04-27,Mobile,Electronics,TS,Karimnagar,22,20000,5,418000,Student,Retail Store,Debit Card,56,Arjun,Completed
+ORD0440,2026-07-31,Mouse,Accessories,KA,Hubballi,12,900,0,10800,Individual,Online,Credit Card,60,Kiran,Completed
+ORD0441,2026-02-22,Headphones,Accessories,TS,Nizamabad,8,2500,0,20000,Business,Dealer,UPI,19,Arjun,Cancelled
+ORD0442,2026-03-21,Mobile,Electronics,AP,Rajamahendravaram,7,20000,10,126000,Business,Retail Store,Credit Card,33,Kiran,Completed
+ORD0443,2026-01-15,Tablet,Electronics,TS,Warangal,4,30000,10,108000,Business,Retail Store,Cash,47,Kiran,Cancelled
+ORD0444,2026-08-22,Mouse,Accessories,TS,Warangal,42,900,10,34020,Student,Dealer,Cash,51,Kiran,Completed
+ORD0445,2026-08-15,Mouse,Accessories,TS,Hyderabad,21,900,5,17955,Business,Retail Store,Credit Card,37,Anil,Completed
+ORD0446,2026-08-29,Tablet,Electronics,KA,Mangaluru,36,30000,0,1080000,Student,Retail Store,Cash,37,Anil,Completed
+ORD0447,2026-07-11,Smartwatch,Accessories,TS,Hyderabad,14,7000,5,93100,Student,Retail Store,Cash,33,Rahul,Completed
+ORD0448,2026-02-10,Monitor,Electronics,TS,Karimnagar,29,15000,10,391500,Individual,Dealer,Net Banking,62,Kiran,Completed
+ORD0449,2026-02-05,Smartwatch,Accessories,TN,Coimbatore,13,7000,0,91000,Business,Online,Cash,57,Meena,Completed
+ORD0450,2026-01-10,Mouse,Accessories,TS,Karimnagar,11,900,0,9900,Student,Online,Credit Card,24,Kiran,Completed
+ORD0451,2026-04-30,Tablet,Electronics,TN,Chennai,7,30000,0,210000,Individual,Retail Store,Credit Card,39,Arjun,Completed
+ORD0452,2026-01-17,Mouse,Accessories,KA,Hubballi,23,900,0,20700,Individual,Online,Debit Card,43,Priya,Cancelled
+ORD0453,2026-05-09,Mouse,Accessories,TS,Warangal,54,900,5,46170,Individual,Online,Credit Card,42,Meena,Completed
+ORD0454,2026-02-18,Laptop,Electronics,TS,Nizamabad,35,55000,10,1732500,Individual,Retail Store,Cash,61,Kiran,Completed
+ORD0455,2026-05-10,Tablet,Electronics,AP,Vijayawada,32,30000,10,864000,Business,Online,Debit Card,21,Sneha,Completed
+ORD0456,2026-01-08,Headphones,Accessories,TN,Madurai,12,2500,15,25500,Business,Dealer,UPI,43,Sneha,Completed
+ORD0457,2026-07-10,Laptop,Electronics,TN,Coimbatore,51,55000,0,2805000,Individual,Online,Cash,23,Divya,Completed
+ORD0458,2026-02-24,Laptop,Electronics,KA,Mysuru,10,55000,5,522500,Individual,Retail Store,Net Banking,59,Divya,Completed
+ORD0459,2026-07-03,Headphones,Accessories,AP,Guntur,48,2500,0,120000,Business,Online,Cash,63,Meena,Cancelled
+ORD0460,2026-04-06,Smartwatch,Accessories,TN,Coimbatore,36,7000,5,239400,Business,Dealer,Cash,35,Rahul,Completed
+ORD0461,2026-05-15,Tablet,Electronics,TN,Madurai,36,30000,5,1026000,Business,Online,Net Banking,42,Rahul,Completed
+ORD0462,2026-02-02,Keyboard,Accessories,TS,Karimnagar,44,1800,10,71280,Business,Online,Net Banking,61,Meena,Cancelled
+ORD0463,2026-07-29,Tablet,Electronics,KA,Mangaluru,43,30000,5,1225500,Individual,Online,Net Banking,60,Priya,Completed
+ORD0464,2026-04-14,Tablet,Electronics,TS,Hyderabad,8,30000,5,228000,Individual,Online,UPI,54,Arjun,Completed
+ORD0465,2026-04-24,Smartwatch,Accessories,AP,Rajamahendravaram,40,7000,10,252000,Individual,Online,Credit Card,59,Meena,Completed
+ORD0466,2026-08-01,Mouse,Accessories,AP,Rajamahendravaram,54,900,5,46170,Student,Online,Net Banking,35,Anil,Completed
+ORD0467,2026-09-23,Smartwatch,Accessories,AP,Visakhapatnam,8,7000,0,56000,Student,Online,Net Banking,42,Sneha,Completed
+ORD0468,2026-02-24,Headphones,Accessories,TS,Nizamabad,51,2500,10,114750,Student,Retail Store,Cash,62,Arjun,Completed
+ORD0469,2026-09-16,Tablet,Electronics,TS,Nizamabad,23,30000,10,621000,Individual,Dealer,Net Banking,46,Divya,Completed
+ORD0470,2026-08-09,Keyboard,Accessories,KA,Hubballi,54,1800,10,87480,Business,Dealer,Credit Card,54,Sneha,Completed
+ORD0471,2026-08-18,Smartwatch,Accessories,KA,Hubballi,27,7000,0,189000,Student,Online,Debit Card,56,Anil,Cancelled
+ORD0472,2026-06-03,Tablet,Electronics,KA,Bengaluru,16,30000,0,480000,Business,Online,Debit Card,53,Rahul,Completed
+ORD0473,2026-03-21,Laptop,Electronics,TN,Madurai,10,55000,5,522500,Business,Dealer,Credit Card,32,Kiran,Completed
+ORD0474,2026-02-09,Mobile,Electronics,TN,Coimbatore,48,20000,5,912000,Business,Online,Cash,62,Priya,Cancelled
+ORD0475,2026-02-10,Smartwatch,Accessories,AP,Guntur,51,7000,0,357000,Business,Retail Store,Cash,44,Priya,Completed
+ORD0476,2026-06-06,Laptop,Electronics,TN,Chennai,35,55000,0,1925000,Business,Dealer,Net Banking,27,Divya,Cancelled
+ORD0477,2026-07-21,Headphones,Accessories,TS,Hyderabad,30,2500,15,63750,Student,Dealer,Net Banking,23,Sneha,Completed
+ORD0478,2026-03-09,Smartwatch,Accessories,TN,Coimbatore,23,7000,0,161000,Business,Dealer,UPI,53,Arjun,Completed
+ORD0479,2026-03-08,Mobile,Electronics,TN,Salem,50,20000,0,1000000,Business,Dealer,Credit Card,49,Arjun,Cancelled
+ORD0480,2026-02-06,Headphones,Accessories,TS,Warangal,19,2500,15,40375,Business,Retail Store,Net Banking,23,Priya,Completed
+ORD0481,2026-04-08,Monitor,Electronics,KA,Mangaluru,22,15000,5,313500,Student,Dealer,UPI,37,Rahul,Completed
+ORD0482,2026-01-23,Mouse,Accessories,TS,Nizamabad,54,900,0,48600,Individual,Dealer,Debit Card,27,Priya,Completed
+ORD0483,2026-05-28,Laptop,Electronics,TS,Warangal,2,55000,5,104500,Student,Online,Debit Card,46,Meena,Completed
+ORD0484,2026-04-15,Keyboard,Accessories,TS,Warangal,36,1800,10,58320,Business,Dealer,Cash,57,Rahul,Completed
+ORD0485,2026-03-29,Monitor,Electronics,AP,Rajamahendravaram,5,15000,5,71250,Individual,Dealer,Net Banking,35,Anil,Completed
+ORD0486,2026-05-19,Laptop,Electronics,AP,Guntur,44,55000,15,2057000,Student,Retail Store,UPI,19,Kiran,Completed
+ORD0487,2026-06-11,Headphones,Accessories,TN,Chennai,33,2500,15,70125,Student,Dealer,UPI,29,Sneha,Cancelled
+ORD0488,2026-05-07,Mouse,Accessories,AP,Vijayawada,35,900,5,29925,Business,Retail Store,Cash,65,Rahul,Completed
+ORD0489,2026-06-04,Keyboard,Accessories,KA,Mangaluru,17,1800,10,27540,Business,Online,Debit Card,42,Anil,Cancelled
+ORD0490,2026-06-24,Smartwatch,Accessories,TS,Warangal,59,7000,5,392350,Student,Online,UPI,64,Arjun,Cancelled
+ORD0491,2026-03-20,Headphones,Accessories,TN,Coimbatore,29,2500,5,68875,Student,Retail Store,Cash,52,Rahul,Completed
+ORD0492,2026-06-08,Tablet,Electronics,TS,Warangal,46,30000,10,1242000,Student,Online,Cash,27,Rahul,Completed
+ORD0493,2026-06-12,Mobile,Electronics,AP,Visakhapatnam,55,20000,0,1100000,Student,Online,Debit Card,44,Arjun,Completed
+ORD0494,2026-04-07,Mouse,Accessories,KA,Mysuru,8,900,0,7200,Individual,Online,Net Banking,57,Kiran,Cancelled
+ORD0495,2026-01-14,Headphones,Accessories,TS,Warangal,24,2500,0,60000,Student,Retail Store,Credit Card,50,Meena,Completed
+ORD0496,2026-08-31,Tablet,Electronics,TN,Salem,10,30000,0,300000,Individual,Online,UPI,44,Anil,Completed
+ORD0497,2026-04-15,Monitor,Electronics,TS,Warangal,6,15000,0,90000,Business,Dealer,Cash,62,Divya,Completed
+ORD0498,2026-01-22,Headphones,Accessories,TN,Salem,40,2500,10,90000,Business,Dealer,Debit Card,43,Anil,Cancelled
+ORD0499,2026-01-22,Mobile,Electronics,TN,Salem,58,20000,0,1160000,Student,Dealer,Cash,65,Anil,Cancelled
+ORD0500,2026-05-30,Monitor,Electronics,AP,Visakhapatnam,30,15000,5,427500,Business,Retail Store,Cash,28,Arjun,Completed
