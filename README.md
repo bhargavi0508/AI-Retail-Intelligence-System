@@ -1,5 +1,9 @@
 # AI Retail Intelligence & Decision Support System
 
+## 🚀 Live Demo
+
+[Click here to view the AI Retail Intelligence System](https://ai-retail-intelligence-system.onrender.com)
+
 An AI-powered retail analytics system designed to analyze electronics sales, understand inventory levels, and estimate next-month product demand.
 
 ## Project Overview
