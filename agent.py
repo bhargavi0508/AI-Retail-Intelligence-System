@@ -4,6 +4,7 @@
 
 import numpy as np
 import pandas as pd
+import os
 
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
@@ -22,6 +23,7 @@ except ImportError:
 
 DEFAULT_DATASET = "data/electronics_sales_data.csv"
 OLLAMA_MODEL = "llama3.2"
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 
 df = None
 current_dataset_path = DEFAULT_DATASET
@@ -3430,9 +3432,8 @@ Manager Question:
 
 {facts}
 """
-
     try:
-
+        client = ollama.Client(host=OLLAMA_HOST)
         response = ollama.chat(
 
             model=OLLAMA_MODEL,

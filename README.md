@@ -73,8 +73,8 @@ It includes information such as:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd AI_Data_Analyst_Agent
+git clone https://github.com/bhargavi0508/AI-Retail-Intelligence-System.git
+cd AI-Retail-Intelligence-System
 ```
 
 ### 2. Create a virtual environment
