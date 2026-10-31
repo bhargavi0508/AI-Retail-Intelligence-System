@@ -19,6 +19,19 @@ This project helps users explore electronics sales data through an interactive d
 - **Demand Forecasting:** Estimates next-month product demand.
 - **Interactive Dashboard:** Presents business information through charts, KPI cards, and tables.
 
+## 📸 Project Screenshots
+
+### Business Overview
+![Business Overview](screenshots/business-overview.png)
+
+### Business Analytics
+![Business Analytics - Part 1](screenshots/business-analytics-1.png)
+
+![Business Analytics - Part 2](screenshots/business-analytics-2.png)
+
+### Dynamic Inventory Intelligence
+![Dynamic Inventory Intelligence](screenshots/dynamic-inventory.png)
+
 ## Technologies Used
 
 - Python
